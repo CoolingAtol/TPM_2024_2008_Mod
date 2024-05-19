@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<StateInfo>
+	<UID>5</UID>
+	<Name>Colorado</Name>
+	<ShortName>CO</ShortName>
+	<StrategyDefaultLeft>0</StrategyDefaultLeft>
+	<StrategyDefaultRight>1</StrategyDefaultRight>
+	<VotingPop>2308</VotingPop>
+	<Wealth>484372</Wealth>
+	<ElecVotes>10</ElecVotes>
+  <DemocratDelegates>87</DemocratDelegates>
+  <RepublicanDelegates>37</RepublicanDelegates>
+	<GenderData Count="2">
+		<Gender ID="Male">44</Gender>
+		<Gender ID="Female">56</Gender>
+	</GenderData>
+	<RaceData Count="5">
+		<Race ID="White">86</Race>
+		<Race ID="Black">4</Race>
+		<Race ID="Hispanic">8</Race>
+		<Race ID="Asian">1</Race>
+		<Race ID="Other">2</Race>
+	</RaceData>
+	<AgeData Count="4">
+		<Age ID="18to29">15</Age>
+		<Age ID="30to44">31</Age>
+		<Age ID="45to59">29</Age>
+		<Age ID="60plus">24</Age>
+	</AgeData>
+	<IncomeData Count="6">
+		<Income ID="Under15">9</Income>
+		<Income ID="15to30">12</Income>
+		<Income ID="30to50">21</Income>
+		<Income ID="50to75">22</Income>
+		<Income ID="75to100">16</Income>
+		<Income ID="100plus">20</Income>
+	</IncomeData>
+	<PartyData Count="3">
+		<Party ID="Left">27</Party>
+		<Party ID="Right">27</Party>
+		<Party ID="Independent">46</Party>
+	</PartyData>
+	<ViewData Count="3">
+		<View ID="Lib">22</View>
+		<View ID="Mod">43</View>
+		<View ID="Con">35</View>
+	</ViewData>
+	<AdjacentStates Count="7">
+		<AdjState>3</AdjState>
+		<AdjState>15</AdjState>
+		<AdjState>28</AdjState>
+		<AdjState>31</AdjState>
+		<AdjState>35</AdjState>
+		<AdjState>43</AdjState>
+		<AdjState>49</AdjState>
+	</AdjacentStates>
+</StateInfo>

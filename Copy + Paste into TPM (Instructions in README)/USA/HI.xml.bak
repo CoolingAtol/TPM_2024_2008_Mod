@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<StateInfo>
+	<UID>10</UID>
+	<Name>Hawaii</Name>
+	<ShortName>HI</ShortName>
+	<StrategyDefaultLeft>1</StrategyDefaultLeft>
+	<StrategyDefaultRight>0</StrategyDefaultRight>
+	<VotingPop>909</VotingPop>
+	<Wealth>98219</Wealth>
+	<ElecVotes>4</ElecVotes>
+  <DemocratDelegates>31</DemocratDelegates>
+  <RepublicanDelegates>19</RepublicanDelegates>
+	<GenderData Count="2">
+		<Gender ID="Male">47</Gender>
+		<Gender ID="Female">53</Gender>
+	</GenderData>
+	<RaceData Count="5">
+		<Race ID="White">32</Race>
+		<Race ID="Black">2</Race>
+		<Race ID="Hispanic">9</Race>
+		<Race ID="Asian">32</Race>
+		<Race ID="Other">25</Race>
+	</RaceData>
+	<AgeData Count="4">
+		<Age ID="18to29">10</Age>
+		<Age ID="30to44">24</Age>
+		<Age ID="45to59">38</Age>
+		<Age ID="60plus">28</Age>
+	</AgeData>
+	<IncomeData Count="6">
+		<Income ID="Under15">6</Income>
+		<Income ID="15to30">8</Income>
+		<Income ID="30to50">19</Income>
+		<Income ID="50to75">27</Income>
+		<Income ID="75to100">19</Income>
+		<Income ID="100plus">22</Income>
+	</IncomeData>
+	<PartyData Count="3">
+		<Party ID="Left">48</Party>
+		<Party ID="Right">33</Party>
+		<Party ID="Independent">19</Party>
+	</PartyData>
+	<ViewData Count="3">
+		<View ID="Lib">24</View>
+		<View ID="Mod">52</View>
+		<View ID="Con">24</View>
+	</ViewData>
+	<AdjacentStates Count="1">
+		<AdjState>4</AdjState>
+	</AdjacentStates>
+</StateInfo>

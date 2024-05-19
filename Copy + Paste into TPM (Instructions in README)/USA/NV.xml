@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<StateInfo>
+	<UID>32</UID>
+	<Name>Nevada</Name>
+	<ShortName>NV</ShortName>
+	<StrategyDefaultLeft>0</StrategyDefaultLeft>
+	<StrategyDefaultRight>0</StrategyDefaultRight>
+	<VotingPop>1027</VotingPop>
+	<Wealth>215918</Wealth>
+	<ElecVotes>5</ElecVotes>
+  <DemocratDelegates>49</DemocratDelegates>
+  <RepublicanDelegates>26</RepublicanDelegates>
+	<GenderData Count="2">
+		<Gender ID="Male">50</Gender>
+		<Gender ID="Female">50</Gender>
+	</GenderData>
+	<RaceData Count="5">
+		<Race ID="White">77</Race>
+		<Race ID="Black">6</Race>
+		<Race ID="Hispanic">13</Race>
+		<Race ID="Asian">2</Race>
+		<Race ID="Other">2</Race>
+	</RaceData>
+	<AgeData Count="4">
+		<Age ID="18to29">11</Age>
+		<Age ID="30to44">27</Age>
+		<Age ID="45to59">34</Age>
+		<Age ID="60plus">27</Age>
+	</AgeData>
+	<IncomeData Count="6">
+		<Income ID="Under15">7</Income>
+		<Income ID="15to30">10</Income>
+		<Income ID="30to50">16</Income>
+		<Income ID="50to75">23</Income>
+		<Income ID="75to100">17</Income>
+		<Income ID="100plus">27</Income>
+	</IncomeData>
+	<PartyData Count="3">
+		<Party ID="Left">33</Party>
+		<Party ID="Right">29</Party>
+		<Party ID="Independent">38</Party>
+	</PartyData>
+	<ViewData Count="3">
+		<View ID="Lib">21</View>
+		<View ID="Mod">43</View>
+		<View ID="Con">36</View>
+	</ViewData>
+	<AdjacentStates Count="5">
+		<AdjState>3</AdjState>
+		<AdjState>4</AdjState>
+		<AdjState>12</AdjState>
+		<AdjState>36</AdjState>
+		<AdjState>43</AdjState>
+	</AdjacentStates>
+</StateInfo>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<StateInfo>
+	<UID>37</UID>
+	<Name>Pennsylvania</Name>
+	<ShortName>PA</ShortName>
+	<StrategyDefaultLeft>1</StrategyDefaultLeft>
+	<StrategyDefaultRight>1</StrategyDefaultRight>
+	<VotingPop>5747</VotingPop>
+	<Wealth>923088</Wealth>
+	<ElecVotes>19</ElecVotes>
+  <DemocratDelegates>185</DemocratDelegates>
+  <RepublicanDelegates>67</RepublicanDelegates>
+	<GenderData Count="2">
+		<Gender ID="Male">49</Gender>
+		<Gender ID="Female">51</Gender>
+	</GenderData>
+	<RaceData Count="5">
+		<Race ID="White">86</Race>
+		<Race ID="Black">10</Race>
+		<Race ID="Hispanic">2</Race>
+		<Race ID="Asian">1</Race>
+		<Race ID="Other">1</Race>
+	</RaceData>
+	<AgeData Count="4">
+		<Age ID="18to29">11</Age>
+		<Age ID="30to44">24</Age>
+		<Age ID="45to59">37</Age>
+		<Age ID="60plus">29</Age>
+	</AgeData>
+	<IncomeData Count="6">
+		<Income ID="Under15">6</Income>
+		<Income ID="15to30">13</Income>
+		<Income ID="30to50">20</Income>
+		<Income ID="50to75">21</Income>
+		<Income ID="75to100">15</Income>
+		<Income ID="100plus">26</Income>
+	</IncomeData>
+	<PartyData Count="3">
+		<Party ID="Left">43</Party>
+		<Party ID="Right">37</Party>
+		<Party ID="Independent">20</Party>
+	</PartyData>
+	<ViewData Count="3">
+		<View ID="Lib">25</View>
+		<View ID="Mod">46</View>
+		<View ID="Con">29</View>
+	</ViewData>
+	<AdjacentStates Count="6">
+		<AdjState>7</AdjState>
+		<AdjState>19</AdjState>
+		<AdjState>30</AdjState>
+		<AdjState>33</AdjState>
+		<AdjState>34</AdjState>
+		<AdjState>48</AdjState>
+	</AdjacentStates>
+</StateInfo>

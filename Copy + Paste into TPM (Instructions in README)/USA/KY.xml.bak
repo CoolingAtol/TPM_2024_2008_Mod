@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<StateInfo>
+	<UID>16</UID>
+	<Name>Kentucky</Name>
+	<ShortName>KY</ShortName>
+	<StrategyDefaultLeft>0</StrategyDefaultLeft>
+	<StrategyDefaultRight>1</StrategyDefaultRight>
+	<VotingPop>2993</VotingPop>
+	<Wealth>260233</Wealth>
+	<ElecVotes>8</ElecVotes>
+  <DemocratDelegates>59</DemocratDelegates>
+  <RepublicanDelegates>46</RepublicanDelegates>
+	<GenderData Count="2">
+		<Gender ID="Male">46</Gender>
+		<Gender ID="Female">54</Gender>
+	</GenderData>
+	<RaceData Count="5">
+		<Race ID="White">90</Race>
+		<Race ID="Black">8</Race>
+		<Race ID="Hispanic">1</Race>
+		<Race ID="Asian">0</Race>
+		<Race ID="Other">1</Race>
+	</RaceData>
+	<AgeData Count="4">
+		<Age ID="18to29">19</Age>
+		<Age ID="30to44">28</Age>
+		<Age ID="45to59">31</Age>
+		<Age ID="60plus">22</Age>
+	</AgeData>
+	<IncomeData Count="6">
+		<Income ID="Under15">13</Income>
+		<Income ID="15to30">19</Income>
+		<Income ID="30to50">26</Income>
+		<Income ID="50to75">21</Income>
+		<Income ID="75to100">11</Income>
+		<Income ID="100plus">9</Income>
+	</IncomeData>
+	<PartyData Count="3">
+		<Party ID="Left">45</Party>
+		<Party ID="Right">45</Party>
+		<Party ID="Independent">10</Party>
+	</PartyData>
+	<ViewData Count="3">
+		<View ID="Lib">15</View>
+		<View ID="Mod">46</View>
+		<View ID="Con">39</View>
+	</ViewData>
+	<AdjacentStates Count="7">
+		<AdjState>13</AdjState>
+		<AdjState>14</AdjState>
+		<AdjState>23</AdjState>
+		<AdjState>34</AdjState>
+		<AdjState>41</AdjState>
+		<AdjState>44</AdjState>
+		<AdjState>48</AdjState>
+	</AdjacentStates>
+</StateInfo>

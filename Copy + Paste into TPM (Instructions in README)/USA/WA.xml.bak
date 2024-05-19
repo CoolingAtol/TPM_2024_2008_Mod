@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<StateInfo>
+	<UID>46</UID>
+	<Name>Washington</Name>
+	<ShortName>WA</ShortName>
+	<StrategyDefaultLeft>1</StrategyDefaultLeft>
+	<StrategyDefaultRight>0</StrategyDefaultRight>
+	<VotingPop>3073</VotingPop>
+	<Wealth>754095</Wealth>
+	<ElecVotes>12</ElecVotes>
+  <DemocratDelegates>111</DemocratDelegates>
+  <RepublicanDelegates>43</RepublicanDelegates>
+	<GenderData Count="2">
+		<Gender ID="Male">49</Gender>
+		<Gender ID="Female">51</Gender>
+	</GenderData>
+	<RaceData Count="5">
+		<Race ID="White">84</Race>
+		<Race ID="Black">2</Race>
+		<Race ID="Hispanic">9</Race>
+		<Race ID="Asian">2</Race>
+		<Race ID="Other">3</Race>
+	</RaceData>
+	<AgeData Count="4">
+		<Age ID="18to29">9</Age>
+		<Age ID="30to44">19</Age>
+		<Age ID="45to59">40</Age>
+		<Age ID="60plus">32</Age>
+	</AgeData>
+	<IncomeData Count="6">
+		<Income ID="Under15">7</Income>
+		<Income ID="15to30">8</Income>
+		<Income ID="30to50">19</Income>
+		<Income ID="50to75">23</Income>
+		<Income ID="75to100">18</Income>
+		<Income ID="100plus">24</Income>
+	</IncomeData>
+	<PartyData Count="3">
+		<Party ID="Left">46</Party>
+		<Party ID="Right">36</Party>
+		<Party ID="Independent">18</Party>
+	</PartyData>
+	<ViewData Count="3">
+		<View ID="Lib">29</View>
+		<View ID="Mod">41</View>
+		<View ID="Con">30</View>
+	</ViewData>
+	<AdjacentStates Count="3">
+		<AdjState>0</AdjState>
+		<AdjState>12</AdjState>
+		<AdjState>36</AdjState>
+	</AdjacentStates>
+</StateInfo>

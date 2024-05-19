@@ -1,0 +1,528 @@
+<IssueList>
+    <Issues>
+
+        <!--2008 Financial Crisis-->
+		<Issue> <!--IGNORE ISSUE-->
+                <Display>(Ignore) SET 0</Display>
+                <Tag>IGNORE</Tag>
+                <Description>WIP</Description>
+                <Default_Party_Importance PartyID="PARTY_LEFT">0</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_LEFT">0</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_RIGHT">0</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_RIGHT">0</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_INDY">0</Default_Party_Importance>   
+				
+            </Issue>
+			
+            <Issue>
+                <Display>Dealing with the 2008 Financial Crisis</Display>
+                <Tag>FINANCIALCRISIS</Tag>
+                <Description>WIP</Description>
+                <Default_Party_Importance PartyID="PARTY_LEFT">7</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_LEFT">5</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_RIGHT">7</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_RIGHT">1</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_INDY">7</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_INDY">3</Default_Party_Position>
+                    <Party_Importance PartyID='PARTY_LEFT' StateID='34'>6</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='34'>5</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='34'>5</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='34'>2</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='34'>8</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='34'>5</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='4'>8</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='4'>5</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='4'>5</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='4'>3</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='4'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='4'>4</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='33'>10</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='33'>4</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='33'>6</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='33'>4</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='33'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='33'>5</Party_Position>
+                    
+            </Issue>
+			
+			<Issue>
+                <Display>Fixing Government Financial Services</Display>
+                <Tag>REFORMFINANCIALCRISIS</Tag>
+                <Description>WIP</Description>
+                <Default_Party_Importance PartyID="PARTY_LEFT">3</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_LEFT">-8</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_RIGHT">6</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_RIGHT">8</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_INDY">2</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_INDY">-6</Default_Party_Position>
+                    <Party_Importance PartyID='PARTY_LEFT' StateID='34'>4</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='34'>-8</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='34'>5</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='34'>8</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='34'>4</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='34'>-3</Party_Position>
+                    
+            </Issue>
+			
+			<Issue>
+                <Display>Fixing the Housing Market</Display>
+                <Tag>HOUSEFINANCIALCRISIS</Tag>
+                <Description>WIP</Description>
+                <Default_Party_Importance PartyID="PARTY_LEFT">5</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_LEFT">5</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_RIGHT">5</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_RIGHT">3</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_INDY">5</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_INDY">6</Default_Party_Position>
+                    <Party_Importance PartyID='PARTY_LEFT' StateID='34'>6</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='34'>6</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='34'>4</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='34'>5</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='34'>4</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='34'>6</Party_Position>
+                    
+            </Issue>
+			
+			<Issue>
+                <Display>Economic Stimulus Packages</Display>
+                <Tag>STIMULUSFINANCIALCRISIS</Tag>
+                <Description>WIP</Description>
+                <Default_Party_Importance PartyID="PARTY_LEFT">6</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_LEFT">6</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_RIGHT">2</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_RIGHT">5</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_INDY">4</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_INDY">5</Default_Party_Position>
+                    <Party_Importance PartyID='PARTY_LEFT' StateID='34'>4</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='34'>7</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='34'>3</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='34'>3</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='34'>5</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='34'>5</Party_Position>
+                    
+            </Issue>
+			
+			<Issue>
+                <Display>Supporting Homeowners</Display>
+                <Tag>SUPPORTHOMEOWNERSFINANCIALCRISIS</Tag>
+                <Description>WIP</Description>
+                <Default_Party_Importance PartyID="PARTY_LEFT">3</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_LEFT">5</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_RIGHT">6</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_RIGHT">10</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_INDY">5</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_INDY">7</Default_Party_Position>
+                    <Party_Importance PartyID='PARTY_LEFT' StateID='34'>4</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='34'>5</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='34'>8</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='34'>8</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='34'>5</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='34'>8</Party_Position>
+                    
+            </Issue>
+			
+			<!--End 2008 Financial Crisis-->
+			
+			<!--Healthcare-->
+			<Issue>
+                <Display>Creating "Obamacare"</Display>
+                <Tag>OBAMACARE</Tag>
+                <Description>WIP</Description>
+                <Default_Party_Importance PartyID="PARTY_LEFT">6</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_LEFT">5</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_RIGHT">5</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_RIGHT">-8</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_INDY">4</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_INDY">3</Default_Party_Position>
+                    <Party_Importance PartyID='PARTY_LEFT' StateID='34'>5</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='34'>7</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='34'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='34'>-6</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='34'>6</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='34'>-3</Party_Position>
+                    
+            </Issue>
+			
+			<Issue>
+                <Display>Reducing Regulation in Healthcare</Display>
+                <Tag>REFORMHEALTHCARE</Tag>
+                <Description>Republicans for; Democrats Against</Description>
+                <Default_Party_Importance PartyID="PARTY_LEFT">5</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_LEFT">-6</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_RIGHT">6</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_RIGHT">8</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_INDY">6</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_INDY">-1</Default_Party_Position>
+                    <Party_Importance PartyID='PARTY_LEFT' StateID='34'>6</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='34'>-7</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='34'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='34'>7</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='34'>6</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='34'>2</Party_Position>
+                    
+            </Issue>
+			
+			<Issue>
+                <Display>Controlled Prices for Prescription Drugs</Display>
+                <Tag>GOVERNMENTCONTROLLEDDRUGPRICES</Tag>
+                <Description>WIP</Description>
+                <Default_Party_Importance PartyID="PARTY_LEFT">6</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_LEFT">5</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_RIGHT">9</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_RIGHT">-6</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_INDY">5</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_INDY">3</Default_Party_Position>
+                    <Party_Importance PartyID='PARTY_LEFT' StateID='34'>5</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='34'>5</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='34'>6</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='34'>-8</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='34'>4</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='34'>2</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='32'>8</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='32'>4</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='32'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='32'>-2</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='32'>6</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='32'>4</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='48'>6</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='48'>4</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='48'>9</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='48'>-6</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='48'>8</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='48'>-3</Party_Position>
+                    
+            </Issue>
+			<!--End Healthcare-->
+			
+			<!--Foreign Policy-->
+			<Issue>
+                <Display>Maintaining Iraq</Display>
+                <Tag>LONGTERMIRAQ</Tag>
+                <Description>WIP</Description>
+                <Default_Party_Importance PartyID="PARTY_LEFT">4</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_LEFT">-5</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_RIGHT">8</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_RIGHT">7</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_INDY">5</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_INDY">-3</Default_Party_Position>
+                    <Party_Importance PartyID='PARTY_LEFT' StateID='34'>5</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='34'>-5</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='34'>6</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='34'>4</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='34'>5</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='34'>2</Party_Position>
+                    
+            </Issue>
+			
+			<Issue>
+                <Display>Withdrawing from Iraq</Display>
+                <Tag>WITHDRAWINGIRAQ</Tag>
+                <Description>WIP</Description>
+                <Default_Party_Importance PartyID="PARTY_LEFT">7</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_LEFT">5</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_RIGHT">6</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_RIGHT">-6</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_INDY">4</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_INDY">3</Default_Party_Position>
+                    <Party_Importance PartyID='PARTY_LEFT' StateID='34'>5</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='34'>6</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='34'>6</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='34'>-7</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='34'>3</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='34'>-2</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='32'>6</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='32'>5</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='32'>5</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='32'>-4</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='32'>4</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='32'>5</Party_Position>
+                    
+            </Issue>
+			
+			<Issue>
+                <Display>Support for Bush</Display>
+                <Tag>BUSHSUPPORT</Tag>
+                <Description>WIP</Description>
+                <Default_Party_Importance PartyID="PARTY_LEFT">3</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_LEFT">-8</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_RIGHT">6</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_RIGHT">6</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_INDY">4</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_INDY">-3</Default_Party_Position>
+                    <Party_Importance PartyID='PARTY_LEFT' StateID='34'>5</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='34'>-6</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='34'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='34'>8</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='34'>5</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='34'>-2</Party_Position>
+                    
+            </Issue>
+			
+			<!--End Foreign Policy-->
+			
+			<!--Other-->
+			<Issue>
+                <Display>Lowering Taxes</Display>
+                <Tag>LOWERTAXES</Tag>
+                <Description>WIP</Description>
+                <Default_Party_Importance PartyID="PARTY_LEFT">5</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_LEFT">1</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_RIGHT">10</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_RIGHT">5</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_INDY">6</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_INDY">5</Default_Party_Position>
+                    <Party_Importance PartyID='PARTY_LEFT' StateID='34'>6</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='34'>-2</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='34'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='34'>5</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='34'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='34'>3</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='4'>5</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='4'>-8</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='4'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='4'>5</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='4'>5</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='4'>-2</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='33'>6</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='33'>-10</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='33'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='33'>4</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='33'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='33'>2</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='32'>5</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='32'>-5</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='32'>6</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='32'>4</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='32'>8</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='32'>2</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='46'>6</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='46'>-5</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='46'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='46'>5</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='46'>4</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='46'>2</Party_Position>
+                    
+					<Party_Importance PartyID='PARTY_LEFT' StateID='48'>5</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='48'>4</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='48'>10</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='48'>6</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='48'>9</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='48'>5</Party_Position>
+					
+            </Issue>
+			
+			<Issue>
+                <Display>Campaign Fundraising Limits</Display>
+                <Tag>FUNDRAISINGTRANSPARENCY</Tag>
+                <Description>WIP</Description>
+                <Default_Party_Importance PartyID="PARTY_LEFT">4</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_LEFT">-4</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_RIGHT">7</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_RIGHT">5</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_INDY">6</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_INDY">2</Default_Party_Position>
+                    <Party_Importance PartyID='PARTY_LEFT' StateID='34'>4</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='34'>-5</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='34'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='34'>5</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='34'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='34'>-2</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='32'>3</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='32'>-5</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='32'>5</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='32'>3</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='32'>4</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='32'>-3</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='48'>4</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='48'>-5</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='48'>6</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='48'>3</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='48'>5</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='48'>-3</Party_Position>
+                    
+            </Issue>
+			
+			<Issue>
+                <Display>Agriculture Support</Display>
+                <Tag>AGRICULTURESUPPORT</Tag>
+                <Description>WIP</Description>
+                <Default_Party_Importance PartyID="PARTY_LEFT">2</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_LEFT">3</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_RIGHT">6</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_RIGHT">6</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_INDY">6</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_INDY">3</Default_Party_Position>
+                    <Party_Importance PartyID='PARTY_LEFT' StateID='34'>4</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='34'>5</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='34'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='34'>6</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='34'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='34'>5</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='4'>2</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='4'>3</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='4'>8</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='4'>5</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='4'>4</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='4'>3</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='5'>4</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='5'>5</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='5'>5</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='5'>8</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='5'>3</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='5'>5</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='11'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='11'>4</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='11'>9</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='11'>6</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='11'>8</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='11'>5</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='12'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='12'>5</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='12'>8</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='12'>8</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='12'>8</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='12'>6</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='15'>6</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='15'>3</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='15'>9</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='15'>5</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='15'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='15'>6</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='23'>4</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='23'>1</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='23'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='23'>6</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='23'>8</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='23'>5</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='25'>6</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='25'>4</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='25'>8</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='25'>5</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='25'>8</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='25'>6</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='27'>5</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='27'>0</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='27'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='27'>7</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='27'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='27'>5</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='26'>3</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='26'>2</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='26'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='26'>5</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='26'>5</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='26'>3</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='32'>3</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='32'>1</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='32'>8</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='32'>3</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='32'>5</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='32'>2</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='33'>3</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='33'>0</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='33'>6</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='33'>5</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='33'>5</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='33'>5</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='35'>6</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='35'>4</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='35'>8</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='35'>7</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='35'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='35'>6</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='40'>5</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='40'>2</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='40'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='40'>7</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='40'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='40'>5</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='43'>6</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='43'>3</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='43'>10</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='43'>6</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='43'>8</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='43'>3</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='49'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='49'>4</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='49'>9</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='49'>6</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='49'>9</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='49'>5</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='28'>4</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='28'>3</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='28'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='28'>7</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='28'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='28'>5</Party_Position>
+
+            </Issue>
+			
+			<Issue>
+                <Display>Expanding Social Security</Display>
+                <Tag>EXPANDSOCIALSECURITY</Tag>
+                <Description>WIP</Description>
+                <Default_Party_Importance PartyID="PARTY_LEFT">6</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_LEFT">5</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_RIGHT">7</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_RIGHT">-6</Default_Party_Position>
+                <Default_Party_Importance PartyID="PARTY_INDY">5</Default_Party_Importance>
+                <Default_Party_Position PartyID="PARTY_INDY">1</Default_Party_Position>
+                    <Party_Importance PartyID='PARTY_LEFT' StateID='34'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='34'>5</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='34'>6</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='34'>-6</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='34'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='34'>2</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='8'>5</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='8'>5</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='8'>6</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='8'>-7</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='8'>5</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='8'>-3</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='4'>8</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='4'>5</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='4'>5</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='4'>-3</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='4'>6</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='4'>5</Party_Position>
+					
+					<Party_Importance PartyID='PARTY_LEFT' StateID='33'>7</Party_Importance>
+                    <Party_Position PartyID='PARTY_LEFT' StateID='33'>5</Party_Position>
+                    <Party_Importance PartyID='PARTY_RIGHT' StateID='33'>5</Party_Importance>
+                    <Party_Position PartyID='PARTY_RIGHT' StateID='33'>-4</Party_Position>
+                    <Party_Importance PartyID='PARTY_INDY' StateID='33'>6</Party_Importance>
+                    <Party_Position PartyID='PARTY_INDY' StateID='33'>4</Party_Position>
+                    
+            </Issue>
+    </Issues>    
+
+</IssueList>

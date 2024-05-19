@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<StateInfo>
+	<UID>47</UID>
+	<Name>Wisconsin</Name>
+	<ShortName>WI</ShortName>
+	<StrategyDefaultLeft>1</StrategyDefaultLeft>
+	<StrategyDefaultRight>0</StrategyDefaultRight>
+	<VotingPop>2887</VotingPop>
+	<Wealth>401792</Wealth>
+	<ElecVotes>10</ElecVotes>
+  <DemocratDelegates>95</DemocratDelegates>
+  <RepublicanDelegates>41</RepublicanDelegates>
+	<GenderData Count="2">
+		<Gender ID="Male">47</Gender>
+		<Gender ID="Female">53</Gender>
+	</GenderData>
+	<RaceData Count="5">
+		<Race ID="White">92</Race>
+		<Race ID="Black">5</Race>
+		<Race ID="Hispanic">2</Race>
+		<Race ID="Asian">1</Race>
+		<Race ID="Other">1</Race>
+	</RaceData>
+	<AgeData Count="4">
+		<Age ID="18to29">17</Age>
+		<Age ID="30to44">23</Age>
+		<Age ID="45to59">32</Age>
+		<Age ID="60plus">28</Age>
+	</AgeData>
+	<IncomeData Count="6">
+		<Income ID="Under15">7</Income>
+		<Income ID="15to30">13</Income>
+		<Income ID="30to50">20</Income>
+		<Income ID="50to75">25</Income>
+		<Income ID="75to100">18</Income>
+		<Income ID="100plus">16</Income>
+	</IncomeData>
+	<PartyData Count="3">
+		<Party ID="Left">41</Party>
+		<Party ID="Right">39</Party>
+		<Party ID="Independent">20</Party>
+	</PartyData>
+	<ViewData Count="3">
+		<View ID="Lib">24</View>
+		<View ID="Mod">49</View>
+		<View ID="Con">27</View>
+	</ViewData>
+	<AdjacentStates Count="4">
+		<AdjState>11</AdjState>
+		<AdjState>13</AdjState>
+		<AdjState>21</AdjState>
+		<AdjState>22</AdjState>
+	</AdjacentStates>
+</StateInfo>

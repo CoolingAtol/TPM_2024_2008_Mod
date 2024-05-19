@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<StateInfo>
+	<UID>18</UID>
+	<Name>Massachusetts</Name>
+	<ShortName>MA</ShortName>
+	<StrategyDefaultLeft>1</StrategyDefaultLeft>
+	<StrategyDefaultRight>0</StrategyDefaultRight>
+	<VotingPop>3044</VotingPop>
+	<Wealth>688022</Wealth>
+	<ElecVotes>11</ElecVotes>
+  <DemocratDelegates>116</DemocratDelegates>
+  <RepublicanDelegates>40</RepublicanDelegates>
+	<GenderData Count="2">
+		<Gender ID="Male">46</Gender>
+		<Gender ID="Female">54</Gender>
+	</GenderData>
+	<RaceData Count="5">
+		<Race ID="White">83</Race>
+		<Race ID="Black">9</Race>
+		<Race ID="Hispanic">6</Race>
+		<Race ID="Asian">0</Race>
+		<Race ID="Other">2</Race>
+	</RaceData>
+	<AgeData Count="4">
+		<Age ID="18to29">11</Age>
+		<Age ID="30to44">23</Age>
+		<Age ID="45to59">35</Age>
+		<Age ID="60plus">32</Age>
+	</AgeData>
+	<IncomeData Count="6">
+		<Income ID="Under15">3</Income>
+		<Income ID="15to30">9</Income>
+		<Income ID="30to50">20</Income>
+		<Income ID="50to75">20</Income>
+		<Income ID="75to100">20</Income>
+		<Income ID="100plus">28</Income>
+	</IncomeData>
+	<PartyData Count="3">
+		<Party ID="Left">30</Party>
+		<Party ID="Right">10</Party>
+		<Party ID="Independent">60</Party>
+	</PartyData>
+	<ViewData Count="3">
+		<View ID="Lib">36</View>
+		<View ID="Mod">41</View>
+		<View ID="Con">23</View>
+	</ViewData>
+	<AdjacentStates Count="6">
+		<AdjState>6</AdjState>
+		<AdjState>29</AdjState>
+		<AdjState>33</AdjState>
+		<AdjState>38</AdjState>
+		<AdjState>45</AdjState>
+	</AdjacentStates>
+</StateInfo>

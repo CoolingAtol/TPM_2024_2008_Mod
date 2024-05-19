@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<StateInfo>
+	<UID>39</UID>
+	<Name>South Carolina</Name>
+	<ShortName>SC</ShortName>
+	<StrategyDefaultLeft>0</StrategyDefaultLeft>
+	<StrategyDefaultRight>1</StrategyDefaultRight>
+	<VotingPop>2100</VotingPop>
+	<Wealth>295880</Wealth>
+	<ElecVotes>8</ElecVotes>
+  <DemocratDelegates>65</DemocratDelegates>
+  <RepublicanDelegates>50</RepublicanDelegates>
+	<GenderData Count="2">
+		<Gender ID="Male">43</Gender>
+		<Gender ID="Female">57</Gender>
+	</GenderData>
+	<RaceData Count="5">
+		<Race ID="White">67</Race>
+		<Race ID="Black">30</Race>
+		<Race ID="Hispanic">1</Race>
+		<Race ID="Asian">1</Race>
+		<Race ID="Other">2</Race>
+	</RaceData>
+	<AgeData Count="4">
+		<Age ID="18to29">18</Age>
+		<Age ID="30to44">29</Age>
+		<Age ID="45to59">33</Age>
+		<Age ID="60plus">20</Age>
+	</AgeData>
+	<IncomeData Count="6">
+		<Income ID="Under15">8</Income>
+		<Income ID="15to30">16</Income>
+		<Income ID="30to50">23</Income>
+		<Income ID="50to75">25</Income>
+		<Income ID="75to100">13</Income>
+		<Income ID="100plus">14</Income>
+	</IncomeData>
+	<PartyData Count="3">
+		<Party ID="Left">38</Party>
+		<Party ID="Right">42</Party>
+		<Party ID="Independent">20</Party>
+	</PartyData>
+	<ViewData Count="3">
+		<View ID="Lib">15</View>
+		<View ID="Mod">46</View>
+		<View ID="Con">39</View>
+	</ViewData>
+	<AdjacentStates Count="2">
+		<AdjState>9</AdjState>
+		<AdjState>26</AdjState>
+	</AdjacentStates>
+</StateInfo>

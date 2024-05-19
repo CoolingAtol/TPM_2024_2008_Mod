@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<StateInfo>
+	<UID>25</UID>
+	<Name>Montana</Name>
+	<ShortName>MT</ShortName>
+	<StrategyDefaultLeft>0</StrategyDefaultLeft>
+	<StrategyDefaultRight>1</StrategyDefaultRight>
+	<VotingPop>473</VotingPop>
+	<Wealth>65015</Wealth>
+	<ElecVotes>4</ElecVotes>
+  <DemocratDelegates>25</DemocratDelegates>
+  <RepublicanDelegates>31</RepublicanDelegates>
+	<GenderData Count="2">
+		<Gender ID="Male">49</Gender>
+		<Gender ID="Female">51</Gender>
+	</GenderData>
+	<RaceData Count="5">
+		<Race ID="White">92</Race>
+		<Race ID="Black">1</Race>
+		<Race ID="Hispanic">1</Race>
+		<Race ID="Asian">0</Race>
+		<Race ID="Other">5</Race>
+	</RaceData>
+	<AgeData Count="4">
+		<Age ID="18to29">17</Age>
+		<Age ID="30to44">25</Age>
+		<Age ID="45to59">34</Age>
+		<Age ID="60plus">24</Age>
+	</AgeData>
+	<IncomeData Count="6">
+		<Income ID="Under15">10</Income>
+		<Income ID="15to30">20</Income>
+		<Income ID="30to50">26</Income>
+		<Income ID="50to75">24</Income>
+		<Income ID="75to100">10</Income>
+		<Income ID="100plus">11</Income>
+	</IncomeData>
+	<PartyData Count="3">
+		<Party ID="Left">31</Party>
+		<Party ID="Right">38</Party>
+		<Party ID="Independent">31</Party>
+	</PartyData>
+	<ViewData Count="3">
+		<View ID="Lib">19</View>
+		<View ID="Mod">47</View>
+		<View ID="Con">34</View>
+	</ViewData>
+	<AdjacentStates Count="4">
+		<AdjState>12</AdjState>
+		<AdjState>27</AdjState>
+		<AdjState>40</AdjState>
+		<AdjState>49</AdjState>
+	</AdjacentStates>
+</StateInfo>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<StateInfo>
+	<UID>31</UID>
+	<Name>New Mexico</Name>
+	<ShortName>NM</ShortName>
+	<StrategyDefaultLeft>1</StrategyDefaultLeft>
+	<StrategyDefaultRight>0</StrategyDefaultRight>
+	<VotingPop>846</VotingPop>
+	<Wealth>122592</Wealth>
+	<ElecVotes>5</ElecVotes>
+  <DemocratDelegates>45</DemocratDelegates>
+  <RepublicanDelegates>22</RepublicanDelegates>
+	<GenderData Count="2">
+		<Gender ID="Male">48</Gender>
+		<Gender ID="Female">52</Gender>
+	</GenderData>
+	<RaceData Count="5">
+		<Race ID="White">62</Race>
+		<Race ID="Black">2</Race>
+		<Race ID="Hispanic">31</Race>
+		<Race ID="Asian">2</Race>
+		<Race ID="Other">4</Race>
+	</RaceData>
+	<AgeData Count="4">
+		<Age ID="18to29">12</Age>
+		<Age ID="30to44">21</Age>
+		<Age ID="45to59">34</Age>
+		<Age ID="60plus">34</Age>
+	</AgeData>
+	<IncomeData Count="6">
+		<Income ID="Under15">10</Income>
+		<Income ID="15to30">16</Income>
+		<Income ID="30to50">21</Income>
+		<Income ID="50to75">24</Income>
+		<Income ID="75to100">13</Income>
+		<Income ID="100plus">16</Income>
+	</IncomeData>
+	<PartyData Count="3">
+		<Party ID="Left">46</Party>
+		<Party ID="Right">29</Party>
+		<Party ID="Independent">25</Party>
+	</PartyData>
+	<ViewData Count="3">
+		<View ID="Lib">30</View>
+		<View ID="Mod">45</View>
+		<View ID="Con">25</View>
+	</ViewData>
+	<AdjacentStates Count="5">
+		<AdjState>3</AdjState>
+		<AdjState>5</AdjState>
+		<AdjState>35</AdjState>
+		<AdjState>42</AdjState>
+		<AdjState>43</AdjState>
+	</AdjacentStates>
+</StateInfo>

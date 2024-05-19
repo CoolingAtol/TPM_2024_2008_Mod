@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<StateInfo>
+	<UID>30</UID>
+	<Name>New Jersey</Name>
+	<ShortName>NJ</ShortName>
+	<StrategyDefaultLeft>1</StrategyDefaultLeft>
+	<StrategyDefaultRight>0</StrategyDefaultRight>
+	<VotingPop>3637</VotingPop>
+	<Wealth>745453</Wealth>
+	<ElecVotes>14</ElecVotes>
+  <DemocratDelegates>146</DemocratDelegates>
+  <RepublicanDelegates>12</RepublicanDelegates>
+	<GenderData Count="2">
+		<Gender ID="Male">48</Gender>
+		<Gender ID="Female">52</Gender>
+	</GenderData>
+	<RaceData Count="5">
+		<Race ID="White">77</Race>
+		<Race ID="Black">10</Race>
+		<Race ID="Hispanic">9</Race>
+		<Race ID="Asian">3</Race>
+		<Race ID="Other">1</Race>
+	</RaceData>
+	<AgeData Count="4">
+		<Age ID="18to29">10</Age>
+		<Age ID="30to44">25</Age>
+		<Age ID="45to59">33</Age>
+		<Age ID="60plus">31</Age>
+	</AgeData>
+	<IncomeData Count="6">
+		<Income ID="Under15">4</Income>
+		<Income ID="15to30">6</Income>
+		<Income ID="30to50">16</Income>
+		<Income ID="50to75">18</Income>
+		<Income ID="75to100">19</Income>
+		<Income ID="100plus">38</Income>
+	</IncomeData>
+	<PartyData Count="3">
+		<Party ID="Left">39</Party>
+		<Party ID="Right">23</Party>
+		<Party ID="Independent">38</Party>
+	</PartyData>
+	<ViewData Count="3">
+		<View ID="Lib">26</View>
+		<View ID="Mod">50</View>
+		<View ID="Con">24</View>
+	</ViewData>
+	<AdjacentStates Count="3">
+		<AdjState>7</AdjState>
+		<AdjState>33</AdjState>
+		<AdjState>37</AdjState>
+	</AdjacentStates>
+</StateInfo>

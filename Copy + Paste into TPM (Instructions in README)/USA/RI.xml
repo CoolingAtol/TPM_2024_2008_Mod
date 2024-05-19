@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<StateInfo>
+	<UID>38</UID>
+	<Name>Rhode Island</Name>
+	<ShortName>RI</ShortName>
+	<StrategyDefaultLeft>1</StrategyDefaultLeft>
+	<StrategyDefaultRight>0</StrategyDefaultRight>
+	<VotingPop>507</VotingPop>
+	<Wealth>71402</Wealth>
+	<ElecVotes>4</ElecVotes>
+  <DemocratDelegates>34</DemocratDelegates>
+  <RepublicanDelegates>19</RepublicanDelegates>
+	<GenderData Count="2">
+		<Gender ID="Male">46</Gender>
+		<Gender ID="Female">54</Gender>
+	</GenderData>
+	<RaceData Count="5">
+		<Race ID="White">87</Race>
+		<Race ID="Black">5</Race>
+		<Race ID="Hispanic">4</Race>
+		<Race ID="Asian">1</Race>
+		<Race ID="Other">2</Race>
+	</RaceData>
+	<AgeData Count="4">
+		<Age ID="18to29">13</Age>
+		<Age ID="30to44">26</Age>
+		<Age ID="45to59">36</Age>
+		<Age ID="60plus">25</Age>
+	</AgeData>
+	<IncomeData Count="6">
+		<Income ID="Under15">6</Income>
+		<Income ID="15to30">8</Income>
+		<Income ID="30to50">17</Income>
+		<Income ID="50to75">22</Income>
+		<Income ID="75to100">15</Income>
+		<Income ID="100plus">31</Income>
+	</IncomeData>
+	<PartyData Count="3">
+		<Party ID="Left">40</Party>
+		<Party ID="Right">13</Party>
+		<Party ID="Independent">47</Party>
+	</PartyData>
+	<ViewData Count="3">
+		<View ID="Lib">25</View>
+		<View ID="Mod">56</View>
+		<View ID="Con">19</View>
+	</ViewData>
+	<AdjacentStates Count="2">
+		<AdjState>6</AdjState>
+		<AdjState>18</AdjState>
+	</AdjacentStates>
+</StateInfo>

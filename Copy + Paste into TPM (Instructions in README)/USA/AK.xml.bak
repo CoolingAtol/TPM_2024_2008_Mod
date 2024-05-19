@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<StateInfo>
+	<UID>0</UID>
+	<Name>Alaska</Name>
+	<ShortName>AK</ShortName>
+	<StrategyDefaultLeft>0</StrategyDefaultLeft>
+	<StrategyDefaultRight>1</StrategyDefaultRight>
+	<VotingPop>304</VotingPop>
+	<Wealth>63618</Wealth>
+	<ElecVotes>3</ElecVotes>
+  <DemocratDelegates>20</DemocratDelegates>
+  <RepublicanDelegates>29</RepublicanDelegates>
+	<GenderData Count="2">
+		<Gender ID="Male">49</Gender>
+		<Gender ID="Female">51</Gender>
+	</GenderData>
+	<RaceData Count="5">
+		<Race ID="White">83</Race>
+		<Race ID="Black">4</Race>
+		<Race ID="Hispanic">3</Race>
+		<Race ID="Asian">2</Race>
+		<Race ID="Other">8</Race>
+	</RaceData>
+	<AgeData Count="4">
+		<Age ID="18to29">21</Age>
+		<Age ID="30to44">33</Age>
+		<Age ID="45to59">32</Age>
+		<Age ID="60plus">14</Age>
+	</AgeData>
+	<IncomeData Count="6">
+		<Income ID="Under15">7</Income>
+		<Income ID="15to30">11</Income>
+		<Income ID="30to50">19</Income>
+		<Income ID="50to75">24</Income>
+		<Income ID="75to100">19</Income>
+		<Income ID="100plus">20</Income>
+	</IncomeData>
+	<PartyData Count="3">
+		<Party ID="Left">13</Party>
+		<Party ID="Right">24</Party>
+		<Party ID="Independent">63</Party>
+	</PartyData>
+	<ViewData Count="3">
+		<View ID="Lib">18</View>
+		<View ID="Mod">45</View>
+		<View ID="Con">38</View>
+	</ViewData>
+	<AdjacentStates Count="1">
+		<AdjState>46</AdjState>
+	</AdjacentStates>
+</StateInfo>
+		

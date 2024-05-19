@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<StateInfo>
+	<UID>28</UID>
+	<Name>Nebraska</Name>
+	<ShortName>NE</ShortName>
+	<StrategyDefaultLeft>0</StrategyDefaultLeft>
+	<StrategyDefaultRight>1</StrategyDefaultRight>
+	<VotingPop>844</VotingPop>
+	<Wealth>161702</Wealth>
+	<ElecVotes>5</ElecVotes>
+  <DemocratDelegates>34</DemocratDelegates>
+  <RepublicanDelegates>36</RepublicanDelegates>
+	<GenderData Count="2">
+		<Gender ID="Male">52</Gender>
+		<Gender ID="Female">48</Gender>
+	</GenderData>
+	<RaceData Count="5">
+		<Race ID="White">96</Race>
+		<Race ID="Black">1</Race>
+		<Race ID="Hispanic">2</Race>
+		<Race ID="Asian">1</Race>
+		<Race ID="Other">0</Race>
+	</RaceData>
+	<AgeData Count="4">
+		<Age ID="18to29">11</Age>
+		<Age ID="30to44">24</Age>
+		<Age ID="45to59">31</Age>
+		<Age ID="60plus">34</Age>
+	</AgeData>
+	<IncomeData Count="6">
+		<Income ID="Under15">5</Income>
+		<Income ID="15to30">13</Income>
+		<Income ID="30to50">26</Income>
+		<Income ID="50to75">27</Income>
+		<Income ID="75to100">15</Income>
+		<Income ID="100plus">13</Income>
+	</IncomeData>
+	<PartyData Count="3">
+		<Party ID="Left">28</Party>
+		<Party ID="Right">49</Party>
+		<Party ID="Independent">23</Party>
+	</PartyData>
+	<ViewData Count="3">
+		<View ID="Lib">14</View>
+		<View ID="Mod">49</View>
+		<View ID="Con">36</View>
+	</ViewData>
+	<AdjacentStates Count="6">
+		<AdjState>5</AdjState>
+		<AdjState>11</AdjState>
+		<AdjState>15</AdjState>
+		<AdjState>23</AdjState>
+		<AdjState>40</AdjState>
+		<AdjState>49</AdjState>
+	</AdjacentStates>
+</StateInfo>

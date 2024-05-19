@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<StateInfo>
+	<UID>49</UID>
+	<Name>Wyoming</Name>
+	<ShortName>WY</ShortName>
+	<StrategyDefaultLeft>0</StrategyDefaultLeft>
+	<StrategyDefaultRight>1</StrategyDefaultRight>
+	<VotingPop>358</VotingPop>
+	<Wealth>47433</Wealth>
+	<ElecVotes>3</ElecVotes>
+  <DemocratDelegates>17</DemocratDelegates>
+  <RepublicanDelegates>29</RepublicanDelegates>
+	<GenderData Count="2">
+		<Gender ID="Male">50</Gender>
+		<Gender ID="Female">50</Gender>
+	</GenderData>
+	<RaceData Count="5">
+		<Race ID="White">94</Race>
+		<Race ID="Black">1</Race>
+		<Race ID="Hispanic">5</Race>
+		<Race ID="Asian">0</Race>
+		<Race ID="Other">1</Race>
+	</RaceData>
+	<AgeData Count="4">
+		<Age ID="18to29">12</Age>
+		<Age ID="30to44">24</Age>
+		<Age ID="45to59">39</Age>
+		<Age ID="60plus">25</Age>
+	</AgeData>
+	<IncomeData Count="6">
+		<Income ID="Under15">6</Income>
+		<Income ID="15to30">12</Income>
+		<Income ID="30to50">22</Income>
+		<Income ID="50to75">28</Income>
+		<Income ID="75to100">15</Income>
+		<Income ID="100plus">17</Income>
+	</IncomeData>
+	<PartyData Count="3">
+		<Party ID="Left">10</Party>
+		<Party ID="Right">80</Party>
+		<Party ID="Independent">10</Party>
+	</PartyData>
+	<ViewData Count="3">
+		<View ID="Lib">14</View>
+		<View ID="Mod">48</View>
+		<View ID="Con">38</View>
+	</ViewData>
+	<AdjacentStates Count="6">
+		<AdjState>5</AdjState>
+		<AdjState>12</AdjState>
+		<AdjState>25</AdjState>
+		<AdjState>28</AdjState>
+		<AdjState>40</AdjState>
+		<AdjState>43</AdjState>
+	</AdjacentStates>
+</StateInfo>

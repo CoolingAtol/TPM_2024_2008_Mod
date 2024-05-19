@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<StateInfo>
+	<UID>3</UID>
+	<Name>Arizona</Name>
+	<ShortName>AZ</ShortName>
+	<StrategyDefaultLeft>0</StrategyDefaultLeft>
+	<StrategyDefaultRight>1</StrategyDefaultRight>
+	<VotingPop>2497</VotingPop>
+	<Wealth>458950</Wealth>
+	<ElecVotes>11</ElecVotes>
+  <DemocratDelegates>85</DemocratDelegates>
+  <RepublicanDelegates>43</RepublicanDelegates>
+	<GenderData Count="2">
+		<Gender ID="Male">49</Gender>
+		<Gender ID="Female">51</Gender>
+	</GenderData>
+	<RaceData Count="5">
+		<Race ID="White">80</Race>
+		<Race ID="Black">4</Race>
+		<Race ID="Hispanic">11</Race>
+		<Race ID="Asian">1</Race>
+		<Race ID="Other">4</Race>
+	</RaceData>
+	<AgeData Count="4">
+		<Age ID="18to29">11</Age>
+		<Age ID="30to44">23</Age>
+		<Age ID="45to59">34</Age>
+		<Age ID="60plus">32</Age>
+	</AgeData>
+	<IncomeData Count="6">
+		<Income ID="Under15">8</Income>
+		<Income ID="15to30">13</Income>
+		<Income ID="30to50">18</Income>
+		<Income ID="50to75">21</Income>
+		<Income ID="75to100">14</Income>
+		<Income ID="100plus">26</Income>
+	</IncomeData>
+	<PartyData Count="3">
+		<Party ID="Left">29</Party>
+		<Party ID="Right">37</Party>
+		<Party ID="Independent">34</Party>
+	</PartyData>
+	<ViewData Count="3">
+		<View ID="Lib">0</View>
+		<View ID="Mod">0</View>
+		<View ID="Con">0</View>
+	</ViewData>
+	<AdjacentStates Count="5">
+		<AdjState>4</AdjState>
+		<AdjState>5</AdjState>
+		<AdjState>31</AdjState>
+		<AdjState>32</AdjState>
+		<AdjState>43</AdjState>
+	</AdjacentStates>
+</StateInfo>

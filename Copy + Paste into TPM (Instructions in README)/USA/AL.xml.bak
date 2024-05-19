@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<StateInfo>
+	<UID>1</UID>
+	<Name>Alabama</Name>
+	<ShortName>AL</ShortName>
+	<StrategyDefaultLeft>0</StrategyDefaultLeft>
+	<StrategyDefaultRight>1</StrategyDefaultRight>
+	<VotingPop>3333</VotingPop>
+	<Wealth>229319</Wealth>
+	<ElecVotes>9</ElecVotes>
+  <DemocratDelegates>59</DemocratDelegates>
+  <RepublicanDelegates>50</RepublicanDelegates>
+	<GenderData Count="2">
+		<Gender ID="Male">46</Gender>
+		<Gender ID="Female">54</Gender>
+	</GenderData>
+	<RaceData Count="5">
+		<Race ID="White">73</Race>
+		<Race ID="Black">25</Race>
+		<Race ID="Hispanic">1</Race>
+		<Race ID="Asian">1</Race>
+		<Race ID="Other">0</Race>
+	</RaceData>
+	<AgeData Count="4">
+		<Age ID="18to29">18</Age>
+		<Age ID="30to44">28</Age>
+		<Age ID="45to59">29</Age>
+		<Age ID="60plus">24</Age>
+	</AgeData>
+	<IncomeData Count="6">
+		<Income ID="Under15">10</Income>
+		<Income ID="15to30">23</Income>
+		<Income ID="30to50">30</Income>
+		<Income ID="50to75">21</Income>
+		<Income ID="75to100">8</Income>
+		<Income ID="100plus">8</Income>
+	</IncomeData>
+	<PartyData Count="3">
+		<Party ID="Left">33</Party>
+		<Party ID="Right">47</Party>
+		<Party ID="Independent">20</Party>
+	</PartyData>
+	<ViewData Count="3">
+		<View ID="Lib">0</View>
+		<View ID="Mod">0</View>
+		<View ID="Con">0</View>
+	</ViewData>
+	<AdjacentStates Count="4">
+		<AdjState>8</AdjState>
+		<AdjState>9</AdjState>
+		<AdjState>24</AdjState>
+		<AdjState>41</AdjState>
+	</AdjacentStates>
+</StateInfo>
+

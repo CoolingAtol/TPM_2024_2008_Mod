@@ -1,0 +1,776 @@
+<RandomEvents>  
+    <CRandomEvent InternalName="NaturalDisaster">
+        <Image>NewsImage_NaturalDisaster.png</Image>
+        <Headline>Natural Disaster</Headline>
+        <Paragraph>The United States isn't a stranger to natural disasters, but a recent severe incident has left people talking and headlines running for weeks. Each report brings more grim news as the scale of the disaster is still not fully understood. It's coming up more frequently -is the United States truly equipped to help those in the wake of such tragedies?</Paragraph>
+        <EffectsText>Moderate Importance increase and minor Position increase of  Disaster Preparedness in all states.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>DISASTERPREP</StringValue>
+                <Value>4</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>DISASTERPREP</StringValue>
+                <Value>1</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="UkraineConflictEscalates">
+        <Image>NewsImage_UkraineConflictEscalates.png</Image>
+        <Headline>Ukraine Conflict Escalates</Headline>
+        <Paragraph>The conflict between Ukraine and Russia has escalated with the frequency of clashes and rising casualty numbers, bringing the issue back to the forefront of many peoples' minds. The conversation has reignited whether the United States is doing enough to curb Russian aggression and if Ukraine needs more immediate support.</Paragraph>
+        <EffectsText>Moderate Importance increase of Sanctions on Russia and The Situation in Ukraine in all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>RUSSIASMIL</StringValue>
+                <Value>4</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>UKRAINEAID</StringValue>
+                <Value>4</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="MilitaryAggression">
+        <Image>NewsImage_MilitaryAggression.png</Image>
+        <Headline>Military Aggression</Headline>
+        <Paragraph>International tensions have risen as more nations rattle sabers and boast prepared military operations. Some interpret the increase as intentional shows of force and indications of possible military aggression. Domestically, people question if the United States' response with similar displays of strength would de-escalate or worsen the situation.</Paragraph>
+        <EffectsText>Moderate Importance increase of Strong Military in all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>STRONGMILITARY</StringValue>
+                <Value>4</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+	
+    <!--<CRandomEvent InternalName="StockMarketCrash">
+        <Image>NewsImage_StockMarketCrash.png</Image>
+        <Headline>Stock Market Crash</Headline>
+        <Paragraph>For weeks, the stock market had shown signs of slowing but seemed overall healthy, but it suddenly took a turn for the worse. The crash comes with a lot of uncertainty and a threat of economic instability. The public speculates that Wall Street is responsible and needs increased government oversight.</Paragraph>
+        <EffectsText>Minor Importance increase and moderate Position increase of Regulating Wall Street in all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>REGULATEWALLSTREET</StringValue>
+                <Value>2</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>REGULATEWALLSTREET</StringValue>
+                <Value>2</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>-->
+
+    <CRandomEvent InternalName="StudentLoanBubbleBursts">
+        <Image>NewsImage_StudentLoanBubbleBursts.png</Image>
+        <Headline>Student Loan Bubble Bursts</Headline>
+        <Paragraph>An increasing number of graduates are defaulting on their student loans. Whether it's because of an inability to find work or stagnating wages doesn't matter as the bubble has burst. The current system of loans and expensive education is proving unsustainable. </Paragraph>
+        <EffectsText>Moderate Importance increase and minor Position increase of College Expenses/Student Debt in all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>LOANFORGIVE</StringValue>
+                <Value>4</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>LOANFORGIVE</StringValue>
+                <Value>1</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="NationalDebtMilestone">
+        <Image>NewsImage_NationalDebtMilestone.png</Image>
+        <Headline>National Debt Milestone</Headline>
+        <Paragraph>As the National Debt Clock passes $33 Trillion, headlines and opinion pieces go into circulation, helping inform the public and tell them what this means for them. The national conversation around the nature of deficit spending has become more common and less charitable in the wake of the news cycle.</Paragraph>
+        <EffectsText>Moderate Importance increase and moderate Position decrease of Deficit Spending in all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>DEFICITSPENDING</StringValue>
+                <Value>4</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>DEFICITSPENDING</StringValue>
+                <Value>-2</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="DomesticOilSpill">
+        <Image>NewsImage_DomesticOilSpill.png</Image>
+        <Headline>Domestic Oil Spill</Headline>
+        <Paragraph>A recent domestic oil spill has commanded a week of headlines. As the cost of work hours, financial loss, and environmental destruction is tallied up, people become more resentful. Concerns about the United States' continual dependence on oil and the risks it incorporates have become more vocal, and alternatives are more desired.</Paragraph>
+        <EffectsText>Minor Importance increase and moderate Position decrease of Natural Gas and Oil in all States. Minor Importance increase and moderate Position increase of Renewable Energy in all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>GASNOIL</StringValue>
+                <Value>2</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>GASNOIL</StringValue>
+                <Value>-2</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>ALTENERGY</StringValue>
+                <Value>2</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>ALTENERGY</StringValue>
+                <Value>2</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="ForeignElectionInterferenceRumors">
+        <Image>NewsImage_ForeignElectionInterferenceRumors.png</Image>
+        <Headline>Foreign Election Interference Rumors</Headline>
+        <Paragraph>As rumors of election interference swell, so do the number of think pieces and speculative op-eds about the subject. Whether about direct manipulation of results or social manipulation of the voter base, the impact on concerns is all the same. Not everyone agrees; many still label the news as simple fear-mongering.</Paragraph>
+        <EffectsText>Major Importance increase of Election Security in all States in all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>DOUBTELECTIONINTEGRITY</StringValue>
+                <Value>6</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="RefugeCrisis">
+        <Image>NewsImage_RefugeCrisis.png</Image>
+        <Headline>Refuge Crisis</Headline>
+        <Paragraph>As humanitarian crises escalate, so does the number of refugees. Some recent investigative pieces have attempted to reveal an accurate scale of the current issue to the public. It also touches on the ways the existing immigration system is failing refugees and causing many to reside in a legal gray area of U.S. residency.</Paragraph>
+        <EffectsText>Major Importance increase of Immigration Reform and Strict Deportation in all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>IMMIGRATIONREFORM</StringValue>
+                <Value>6</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>StrictDeportation</StringValue>
+                <Value>6</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="ExtremeWeatherIncident">
+        <Image>NewsImage_ExtremeWeatherIncident.png</Image>
+        <Headline>Extreme Weather Incident</Headline>
+        <Paragraph>A portion of the United States is currently suffering from an extreme weather event that was never expected to hit that part of the country. News footage and social media posts help reveal the vast impact the event is having on infrastructure and a system that was never intended to deal with such weather. Conversations on the subject often blame climate change and the failure of the government to address aging infrastructure better.</Paragraph>
+        <EffectsText>Minor Importance increase and Position increase of Addressing Climate Change and Overhauling Infrastructure in all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>CLIMATECHA</StringValue>
+                <Value>2</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>CLIMATECHA</StringValue>
+                <Value>1</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>OVERHAULINGINFRASTRUCTURE</StringValue>
+                <Value>2</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>OVERHAULINGINFRASTRUCTURE</StringValue>
+                <Value>1</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="PoliceIncidentDeath">
+        <Image>NewsImage_PoliceIncidentDeath.png</Image>
+        <Headline>Police Incident Death</Headline>
+        <Paragraph>What began on social media has quickly escalated to the focus of national broadcasts. The viral footage shows an incident in which a police response resulted in the loss of a citizen's death. The tragedy has blame going in many directions and about as many suggestions for resolution as there are voices.</Paragraph>
+        <EffectsText>Minor Importance increase and minor Position increase of Stronger Law Enforcement in all States. Moderate Importance increase of Defunding Law Enforcement in all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>LAWENFORCEMENTACCOUNTABILITY</StringValue>
+                <Value>2</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>LAWENFORCEMENTACCOUNTABILITY</StringValue>
+                <Value>1</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>DEFUNDINGLAWENFORCEMENT</StringValue>
+                <Value>4</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="TradeDispute">
+        <Image>NewsImage_TradeDispute.png</Image>
+        <Headline>Trade Dispute</Headline>
+        <Paragraph>A simmering trade dispute between the United States and a foreign nation has begun to attract headlines. The proposed resolution has been remarked as "obviously imbalanced against the interest of the United States." The public is now vested in how the United States handles this dispute.</Paragraph>
+        <EffectsText>Minor Importance increase and moderate Position increase of Favorable Trade in all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>FAIR_TRADE</StringValue>
+                <Value>2</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>FAIR_TRADE</StringValue>
+                <Value>2</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+
+    <!--<CRandomEvent InternalName="TechFirmPrivacyBreach">
+        <Image>NewsImage_TechFirmPrivacyBreach.png</Image>
+        <Headline>Tech Firm Privacy Breach</Headline>
+        <Paragraph>A data breach of a well-known tech firm on a previously unseen scale has put everyone on edge. The scale of the breach is not the only shocking element; it was revealed the firm held far more data on people than anyone expected. The oversight (or lack thereof) has become a focal point of talking heads, along with the prevalence of tech in daily lives.</Paragraph>
+        <EffectsText>Minor Importance increase and minor Position decrease of Technology Deregulation. Minor Position decrease of Technology Integration in all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>TECHDEREG</StringValue>
+                <Value>2</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>TECHDEREG</StringValue>
+                <Value>-1</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>TECHINTEGRATION</StringValue>
+                <Value>-1</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>-->
+
+    <CRandomEvent InternalName="PrivatizedMedicinePricesSkyrocket">
+        <Image>NewsImage_PrivatizedMedicinePricesSkyrocket.png</Image>
+        <Headline>Privatized Medicine Prices Skyrocket</Headline>
+        <Paragraph>News stories are raising the alarm as a sharply increasing number of people are foregoing vital medications. It's not because they want to, but because they can't afford the medication. The medicines in question are ones produced and priced by privately owned corporations. Many are demanding intervention so people don't go without.</Paragraph>
+        <EffectsText>Minor Importance increase and minor Position increase of Drug Prices in all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>REGULATESCRIPTCOST</StringValue>
+                <Value>2</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>REGULATESCRIPTCOST</StringValue>
+                <Value>1</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="MassSocialMediaBanning">
+        <Image>NewsImage_MassSocialMediaBanning.png</Image>
+        <Headline>Mass Social Media Banning</Headline>
+        <Paragraph>Many woke up one morning to find the landscape of their social media platform changed. It took some time for people to realize the scope of the change and track down the cause: a mass banning. A change in the terms of service justified the move, but many are critical that the event is a way to stifle opinions.</Paragraph>
+        <EffectsText>Moderate Importance increase of Social Network Censorship and Cancel Culture in all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>SOCIALNETWORKCENSOR</StringValue>
+                <Value>4</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>THOUGHTPOLICE</StringValue>
+                <Value>4</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="MilitiaMovement">
+        <Image>NewsImage_MilitiaMovement.png</Image>
+        <Headline>Militia Movement</Headline>
+        <Paragraph>A recent expose revealed an extensive militia movement closely tied to a professed Nationalism. While not immediately seen as a threat, the nature of the movement is still obscure and questionable enough to cause many to wonder if the basis of their movement is valid.</Paragraph>
+        <EffectsText>Major Importance increase of Nationalism in all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>NATIONALISM</StringValue>
+                <Value>6</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="TransAthletePlacesinCompetition">
+        <Image>NewsImage_TransAthletePlacesinCompetition.png</Image>
+        <Headline>Trans Athlete Places in Competition</Headline>
+        <Paragraph>At a recent sports event, an openly trans athlete placed notably among their peers. While they didn't walk away with first place, they did well enough to reignite debates about whether trans athletes have an unfair edge or not.</Paragraph>
+        <EffectsText>Major Importance increase of Transgender Athletes in all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>TRANSGENDERATHLETES</StringValue>
+                <Value>6</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="CostofLivingOutpacingWages">
+        <Image>NewsImage_CostofLivingOutpacingWages.png</Image>
+        <Headline>Cost of Living Outpacing Wages</Headline>
+        <Paragraph>A recent large-scale economic analysis has confirmed that beyond a reasonable doubt, the cost of living across is drastically outpacing wages. A large majority of people are falling behind financially as their pay stagnates. Realizing the reality of the situation, many are becoming more vocal about backing a higher minimum wage.</Paragraph>
+        <EffectsText>Moderate Importance increase and minor Position increase of Higher Minimum Wage in all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>HIGHERMINI</StringValue>
+                <Value>4</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>HIGHERMINI</StringValue>
+                <Value>1</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="SocialSecurityCrisis">
+        <Image>NewsImage_SocialSecurityCrisis.png</Image>
+        <Headline>Social Security Crisis</Headline>
+        <Paragraph>The Social Security system is clearly under increased strain, the collapse of the system looming within the tangible future for many. Economic experts are becoming increasingly vocal about a need for action, demanding candidates take a position on ways to solve the problem.</Paragraph>
+        <EffectsText>Moderate Importance increase and minor Position increase of Social Security Reform in all States. Major Importance increase of Raising Retirement Age in all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>REIMBURSINGSOCIALSEC</StringValue>
+                <Value>4</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>REIMBURSINGSOCIALSEC</StringValue>
+                <Value>1</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>RAISINGRETIREAGE</StringValue>
+                <Value>6</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="SuccessfulStrike">
+        <Image>NewsImage_SuccessfulStrike.png</Image>
+        <Headline>Successful Strike</Headline>
+        <Paragraph>A long-standing union-backed strike has ended as an agreement has finally been reached. Many feel that a few too many concessions were made, but overall, there is a celebration for the gains achieved. The success shows many that a union's collective action and support can help improve working conditions.</Paragraph>
+        <EffectsText>Minor Importance increase and minor Position increase of Unions in all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>UNIONS</StringValue>
+                <Value>2</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>UNIONS</StringValue>
+                <Value>1</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="MajorIndustryShiftsOverseas">
+        <Image>NewsImage_MajorIndustryShiftsOverseas.png</Image>
+        <Headline>Major Industry Shifts Overseas</Headline>
+        <Paragraph>Over the last month, thousands of jobs were lost as a major industry has shifted most of its jobs overseas. The increasingly personal effects have left many resentful of the trend that has affected far more than the jobs lost in the past few weeks. Many begin to look toward the federal government for assistance.</Paragraph>
+        <EffectsText>Minor Importance increase and Moderate Position decrease of Job Outsourcing in all States. Minor Importance increase of Supporting Job Training in all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>OUTSOURCINGJOBS</StringValue>
+                <Value>2</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>OUTSOURCINGJOBS</StringValue>
+                <Value>-2</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>JOBS</StringValue>
+                <Value>2</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="MajorRetailChainCollapse">
+        <Image>NewsImage_MajorRetailChainCollapse.png</Image>
+        <Headline>Major Retail Chain Collapse</Headline>
+        <Paragraph>Almost overnight, a large retail chain has collapsed and shuttered its locations. The closure of these stores has left many areas without any stores that offer the same goods and amenities since the small businesses went under with the emergence of the retail chain. People believe the collapse would have been less impactful if the government had done a better job supporting small businesses.</Paragraph>
+        <EffectsText>Major Importance increase and minor Position increase of Small Businesses in all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>SMALLBUSINESS</StringValue>
+                <Value>6</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>SMALLBUSINESS</StringValue>
+                <Value>1</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="GasPricesIncrease">
+        <Image>NewsImage_GasPricesIncrease.png</Image>
+        <Headline>Gas Prices Increase</Headline>
+        <Paragraph>Over the past few days, gas prices have climbed, and the rise shows no signs of stopping. Most analyses blame an increase in the price of imported gas and oil and a slowdown of trade. Several talking heads have taken the chance to push for the need for the United States to rely more on domestic sources.</Paragraph>
+        <EffectsText>Minor Importance increase and minor Position increase of Energy Independence in all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>ENERGY_INDEPENDENCE</StringValue>
+                <Value>2</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>ENERGY_INDEPENDENCE</StringValue>
+                <Value>1</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="NatureReserveRenovated">
+        <Image>NewsImage_NatureReserveRenovated.png</Image>
+        <Headline>Nature Reserve Renovated</Headline>
+        <Paragraph>A much-loved but poorly funded nature reserve was recently changed from government-managed land to private property. Development of the land has already begun, leaving a very vocal group arguing the United States needs to devote more funds and importance to its parks and lands.</Paragraph>
+        <EffectsText>Minor Importance increase of Environmental Environmental Protection in all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>ENVIRONMENT</StringValue>
+                <Value>2</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="CoralReefReport">
+        <Image>NewsImage_CoralReefReport.png</Image>
+        <Headline>Coral Reef Report</Headline>
+        <Paragraph>A significant paper was recently published that painted the dire state of coral reefs in pretty clear language. It pointed out that the impact on the marine ecosystem doesn't stop at the coral reef, and even if many reefs themselves are beyond saving, immediate action is needed to curb further collapse.</Paragraph>
+        <EffectsText>Moderate Importance increase and minor Position increase of Marine Environmental Protection in all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>MARINECONSERVATION</StringValue>
+                <Value>4</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>MARINECONSERVATION</StringValue>
+                <Value>1</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="HumanitarianCrisisinConflictZone">
+        <Image>NewsImage_HumanitarianCrisisinConflictZone.png</Image>
+        <Headline>U.N. Report on Humanitarian Crisis in Conflict Zone</Headline>
+        <Paragraph>Recent U.N. statements indicate that the latest humanitarian crisis from growing conflict zones requires immediate action. Some news outlets push that the United States should step forward and take charge of the effort, while others argue the U.N. continues to demand too much and the United States no longer benefits from the U.N.</Paragraph>
+        <EffectsText>Moderate Importance increase of Leave the U.N. all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>LEAVEUN</StringValue>
+                <Value>4</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="ScandalinDC">
+        <Image>NewsImage_ScandalinDC.png</Image>
+        <Headline>Scandal in D.C.</Headline>
+        <Paragraph>Trust in the federal government takes a dip as each day brings a new revelation about a scandal in D.C. The details are often too sordid to report directly, but the information finds a way out into the public. While not at an all-time low, trust in politicians is low enough to put more in favor of rooting out and ending corruption.</Paragraph>
+        <EffectsText>Moderate Importance increase and minor Position increase of Drain the Swamp in all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>DRAIN_THE_SWAMP</StringValue>
+                <Value>4</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>DRAIN_THE_SWAMP</StringValue>
+                <Value>1</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="BudgetRelease">
+        <Image>NewsImage_BudgetRelease.png</Image>
+        <Headline>Budget Release</Headline>
+        <Paragraph>A routine budgetary release for various branches of the Federal Government attracted attention when a few outlets released a comprehensive breakdown. The reports put a pretty sharp perspective on how expensive it is for the agencies to operate out of the D.C. metro area.</Paragraph>
+        <EffectsText>Minor Importance increase of Move Agencies out of D.C. in all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>MOVEAGENCIES</StringValue>
+                <Value>2</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="NewCurriculum">
+        <Image>NewsImage_NewCurriculum.png</Image>
+        <Headline>New Curriculum</Headline>
+        <Paragraph>The federal government has rolled out a prospective curriculum in preparation for the next school year. Groups of parents are concerned they are unfamiliar with the elements of the education plan, and many have contentious opinions on how subjects should be taught and even some of what should be taught.</Paragraph>
+        <EffectsText>Minor Importance increase of Classroom Transparency in all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>CLASSROOM_TRANSPARENCY_PARENTAL_RIGHTS</StringValue>
+                <Value>2</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="ContendedLandOwnership">
+        <Image>NewsImage_ContendedLandOwnership.png</Image>
+        <Headline>Contended Land Ownership</Headline>
+        <Paragraph>The United States government recently zoned some land for development; however, an indigenous group in the area points out they have a protected claim to the land. The debate over land ownership has made more of the populace aware of the complicated legal framework for indigenous rights.</Paragraph>
+        <EffectsText>Minor Importance increase and minor Position increase of Indigenous Rights and Protections in all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>INDIGENOUSRIGHTS</StringValue>
+                <Value>2</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>INDIGENOUSRIGHTS</StringValue>
+                <Value>1</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="SubstanceEpidemicWorsens">
+        <Image>NewsImage_SubstanceEpidemicWorsens.png</Image>
+        <Headline>Substance Epidemic Worsens</Headline>
+        <Paragraph>Over the last few weeks, a documentary has revealed the extent of the current epidemic of substance abuse. It's shown that the rate of use and prevalence of the drug has only increased. While never addressing whether existing efforts are having an effect or to what degree, viewers have drawn their own conclusions.</Paragraph>
+        <EffectsText>Minor Position increase of Stricter Drug Policing and Combating Drug Trafficking in all States.</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>DRUGTRAFFICKING</StringValue>
+                <Value>1</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>DRUGPOLICING</StringValue>
+                <Value>1</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+</RandomEvents>

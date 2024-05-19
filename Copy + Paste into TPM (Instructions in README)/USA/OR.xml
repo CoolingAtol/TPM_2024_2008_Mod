@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<StateInfo>
+	<UID>36</UID>
+	<Name>Oregon</Name>
+	<ShortName>OR</ShortName>
+	<StrategyDefaultLeft>1</StrategyDefaultLeft>
+	<StrategyDefaultRight>0</StrategyDefaultRight>
+	<VotingPop>1818</VotingPop>
+	<Wealth>299125</Wealth>
+	<ElecVotes>7</ElecVotes>
+  <DemocratDelegates>78</DemocratDelegates>
+  <RepublicanDelegates>31</RepublicanDelegates>
+	<GenderData Count="2">
+		<Gender ID="Male">45</Gender>
+		<Gender ID="Female">55</Gender>
+	</GenderData>
+	<RaceData Count="5">
+		<Race ID="White">93</Race>
+		<Race ID="Black">1</Race>
+		<Race ID="Hispanic">3</Race>
+		<Race ID="Asian">1</Race>
+		<Race ID="Other">2</Race>
+	</RaceData>
+	<AgeData Count="4">
+		<Age ID="18to29">13</Age>
+		<Age ID="30to44">26</Age>
+		<Age ID="45to59">31</Age>
+		<Age ID="60plus">29</Age>
+	</AgeData>
+	<IncomeData Count="6">
+		<Income ID="Under15">6</Income>
+		<Income ID="15to30">15</Income>
+		<Income ID="30to50">24</Income>
+		<Income ID="50to75">26</Income>
+		<Income ID="75to100">12</Income>
+		<Income ID="100plus">17</Income>
+	</IncomeData>
+	<PartyData Count="3">
+		<Party ID="Left">34</Party>
+		<Party ID="Right">25</Party>
+		<Party ID="Independent">41</Party>
+	</PartyData>
+	<ViewData Count="3">
+		<View ID="Lib">27</View>
+		<View ID="Mod">39</View>
+		<View ID="Con">34</View>
+	</ViewData>
+	<AdjacentStates Count="4">
+		<AdjState>4</AdjState>
+		<AdjState>12</AdjState>
+		<AdjState>32</AdjState>
+		<AdjState>46</AdjState>
+	</AdjacentStates>
+</StateInfo>
+

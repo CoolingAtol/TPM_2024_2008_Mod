@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<StateInfo>
+	<UID>48</UID>
+	<Name>West Virginia</Name>
+	<ShortName>WV</ShortName>
+	<StrategyDefaultLeft>0</StrategyDefaultLeft>
+	<StrategyDefaultRight>1</StrategyDefaultRight>
+	<VotingPop>741</VotingPop>
+	<Wealth>95558</Wealth>
+	<ElecVotes>5</ElecVotes>
+  <DemocratDelegates>25</DemocratDelegates>
+  <RepublicanDelegates>32</RepublicanDelegates>
+	<GenderData Count="2">
+		<Gender ID="Male">49</Gender>
+		<Gender ID="Female">51</Gender>
+	</GenderData>
+	<RaceData Count="5">
+		<Race ID="White">96</Race>
+		<Race ID="Black">1</Race>
+		<Race ID="Hispanic">1</Race>
+		<Race ID="Asian">0</Race>
+		<Race ID="Other">1</Race>
+	</RaceData>
+	<AgeData Count="4">
+		<Age ID="18to29">9</Age>
+		<Age ID="30to44">21</Age>
+		<Age ID="45to59">38</Age>
+		<Age ID="60plus">31</Age>
+	</AgeData>
+	<IncomeData Count="6">
+		<Income ID="Under15">9</Income>
+		<Income ID="15to30">16</Income>
+		<Income ID="30to50">24</Income>
+		<Income ID="50to75">28</Income>
+		<Income ID="75to100">12</Income>
+		<Income ID="100plus">12</Income>
+	</IncomeData>
+	<PartyData Count="3">
+		<Party ID="Left">33</Party>
+		<Party ID="Right">39</Party>
+		<Party ID="Independent">28</Party>
+	</PartyData>
+	<ViewData Count="3">
+		<View ID="Lib">20</View>
+		<View ID="Mod">35</View>
+		<View ID="Con">45</View>
+	</ViewData>
+	<AdjacentStates Count="5">
+		<AdjState>16</AdjState>
+		<AdjState>19</AdjState>
+		<AdjState>34</AdjState>
+		<AdjState>37</AdjState>
+		<AdjState>44</AdjState>
+	</AdjacentStates>
+</StateInfo>

@@ -1,0 +1,365 @@
+<!--These are the '?' events that appear on the map-->
+<!--
+    You can apply any of the following effects
+    +/- ideology points (AdjustIdeologyPoints)
+    +/- money (AdjustTreasury)
+    +/- enthusiasm (AdjustEnthusiasm)
+    + operatives (random)
+    +/- current stamina (AdjustStaminaTemporary)
+    +/- max stamina (AdjustStamina)
+    +/- player issue position (AdjustIssueScore)
+    +/- national opponent enthusiasm (AdjustOpponentEnthusiasm)
+    (These are all applied in CPlayerInfo::ApplyGameModifier)
+
+    Each requires a Headline, a Paragraph and an Event Image
+-->
+
+
+<RandomEvents>  
+
+    <CRandomEvent InternalName="Choices_MrMoneyBags">
+        <Image>Event_MoneyMan</Image>
+        <Headline>Message from Mr.Richman Fancyson III</Headline>
+        <Paragraph>Greetings and Salutations. I've been following your campaign closely and would like to help making President {CandidateLName} a reality. You can tell by my bags of gold coins that I can easilly assist financially, or I can provide some other assistance if needed. Just let me know how I can help!</Paragraph>
+
+        <Options>
+            <Option>
+                <DisplayName>Bags of Gold would be Perfect!</DisplayName>
+                <FollowUpText>Here are three bags of gold. Spend it wisely!</FollowUpText>
+                <FollowUpResponse>Thanks! [+$600k]</FollowUpResponse>
+                <Modifiers>
+                    <Modifier>
+                        <Target>Player</Target>
+                        <Type>AdjustTreasury</Type>
+                        <Value>600</Value>
+                    </Modifier>
+                </Modifiers>
+            </Option>
+            <Option>
+                <DisplayName>I'd Like some Operatives...</DisplayName>
+                <FollowUpText>I know several people that would be very interested in helping your endevour. They will be there shortly.</FollowUpText>
+                <FollowUpResponse>Thanks! [+$2 Random Operatives]</FollowUpResponse>
+                <Modifiers>
+                    <Modifier>
+                        <Target>Player</Target>
+                        <Type>GiveOperative</Type>
+                        <StringValue>RANDOM</StringValue>
+                        <Value>1</Value>
+                    </Modifier>
+                    <Modifier>
+                      <Target>Player</Target>
+                      <Type>GiveOperative</Type>
+                      <StringValue>RANDOM</StringValue>
+                      <Value>1</Value>
+                    </Modifier>
+                </Modifiers>
+            </Option>
+            <Option>
+                <DisplayName>Some Ideology Points would be Nice.</DisplayName>
+                <FollowUpText>I know of some media outlets that can help get your message out.</FollowUpText>
+                <FollowUpResponse>Thanks! [+3 Ideology Pts.]</FollowUpResponse>
+                <Modifiers>
+                    <Modifier>
+                        <Target>Player</Target>
+                        <Type>AdjustIdeologyPoints</Type>
+                        <Value>3</Value>
+                    </Modifier>
+                </Modifiers>
+            </Option>
+        </Options>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="Choices_BadBoys">
+        <Image>Event_Heckler</Image>
+        <Headline>Message from the {CandidateLName} Bros</Headline>
+        <Paragraph>Yo, {CandidateFName}! Your Loyal League of {CandidateLName} Bros is ready to help the cause. What do you want from us?  Need us to canvas for cash?  Looking for some Intimidators to drop {OpponentLName}'s approval like a stone?  Holler back ASAP!</Paragraph>
+        <Options>
+            <Option>
+                <DisplayName>Cash...the more, the better!</DisplayName>
+                <FollowUpText>Done! Already had people lining up with the assist. How's $125k sound to you? Bam!</FollowUpText>
+                <FollowUpResponse>Thanks! [+$425k]</FollowUpResponse>
+                <Modifiers>
+                    <Modifier>
+                        <Target>Player</Target>
+                        <Type>AdjustTreasury</Type>
+                        <Value>425</Value>
+                    </Modifier>
+                </Modifiers>
+            </Option>
+            <Option>
+                <DisplayName>Some Intimidators would be perfect!</DisplayName>
+                <FollowUpText>Done! Ralph and Little Henry are on their way. Send them to those pink states to get folks thinking twice about voting for {OpponentLName}.</FollowUpText>
+                <FollowUpResponse>Thanks! [+2 Intimidators]</FollowUpResponse>
+                <Modifiers>
+                    <Modifier>
+                        <Target>Player</Target>
+                        <Type>GiveOperative</Type>
+				                <StringValue>INTIMIDATOR</StringValue>
+                        <Value>1</Value>
+                    </Modifier>
+                    <Modifier>
+                      <Target>Player</Target>
+                      <Type>GiveOperative</Type>
+                      <StringValue>INTIMIDATOR</StringValue>
+                      <Value>1</Value>
+                    </Modifier>
+                </Modifiers>
+            </Option>
+            <Option>
+                <DisplayName>Some Ideology Points would be Nice.</DisplayName>
+                <FollowUpText>Not really an 'Ideology' kinda guy myself, but we'll do what we can.</FollowUpText>
+                <FollowUpResponse>Thanks! [+2 Ideology Pts.]</FollowUpResponse>
+                <Modifiers>
+                    <Modifier>
+                        <Target>Player</Target>
+                        <Type>AdjustIdeologyPoints</Type>
+                        <Value>2</Value>
+                    </Modifier>
+                </Modifiers>
+            </Option>
+        </Options>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="Choices_Hacker">
+        <Image>Event_JadedConsultant</Image>
+        <Headline>Message from a 'Hacking Expert'</Headline>
+        <Paragraph>Hello Future President {CandidateLName}. I've been digging into some data, also known as 'hacking', and I'm finding some information that you'll find most...informative. For a cool $25k you can take down some of {OpponentLName}'s hired help...</Paragraph>
+        <Options>
+            <Option>
+                <DisplayName>Keep your hacked data - my ethics aren't for sale!</DisplayName>
+            </Option>
+            <Option>
+                <DisplayName>Give me the dirt - my ethics are absolutely for sale!</DisplayName>
+                <FollowUpText>Excellent! I'm sending over some dubious looking guys with the incriminating packets of data. Use them to knock out {OpponentLName}'s operatives.</FollowUpText>
+                <FollowUpResponse>Thanks! [+2 Fixers] [-25k]</FollowUpResponse>
+                <Modifiers>
+                    <Modifier>
+                        <Target>Player</Target>
+                        <Type>AdjustTreasury</Type>
+                        <Value>-25</Value>
+                    </Modifier>
+                    <Modifier>
+                        <Target>Player</Target>
+                        <Type>GiveOperative</Type>
+                        <StringValue>FIXER</StringValue>
+                        <Value>1</Value>
+                    </Modifier>
+                    <Modifier>
+                      <Target>Player</Target>
+                      <Type>GiveOperative</Type>
+                      <StringValue>FIXER</StringValue>
+                      <Value>1</Value>
+                    </Modifier>
+                </Modifiers>
+            </Option>
+        </Options>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="Choices_Fashion">
+        <Image>Operative_Info_Image_FashionConsultant</Image>
+        <Headline>Message from a Fashion Guru</Headline>
+        <Paragraph>I will cut to the chase. I've seen you on television and you look dreadful. But I like your message. How can I be of service to the {CandidateLName} campaign?</Paragraph>
+        <Options>
+            <Option>
+                <DisplayName>Make me one of the beautiful people!</DisplayName>
+                <FollowUpText>Let's get you looking fabulous! The whole nation will be stunned when we're finished...</FollowUpText>
+                <FollowUpResponse>Thanks! [+3 National Enthusiasm]</FollowUpResponse>
+                <Modifiers>
+                    <Modifier>
+                        <Target>Player</Target>
+                        <Type>AdjustEnthusiasm</Type>
+                        <Value>3</Value>
+                    </Modifier>
+                </Modifiers>
+            </Option>
+            <Option>
+                <DisplayName>I need to improve my image on the issues.</DisplayName>
+                <FollowUpText>I have some medical friends that can give your messaging a nip and a tuck. Use them wisely.</FollowUpText>
+                <FollowUpResponse>Thanks! [+2 Spin Doctors]</FollowUpResponse>
+                <Modifiers>
+                    <Modifier>
+                        <Target>Player</Target>
+                        <Type>GiveOperative</Type>
+				                <StringValue>SPINDOCTOR</StringValue>
+                        <Value>1</Value>
+                    </Modifier>
+                    <Modifier>
+                      <Target>Player</Target>
+                      <Type>GiveOperative</Type>
+                      <StringValue>SPINDOCTOR</StringValue>
+                      <Value>1</Value>
+                    </Modifier>
+                </Modifiers>
+            </Option>
+            <Option>
+                <DisplayName>A small donation is all I really need.</DisplayName>
+                <FollowUpText>While I'm heartbroken that you will continue to look like...that...I understand your financial needs. I will gladly dontate.</FollowUpText>
+                <FollowUpResponse>Thanks! [+400k]</FollowUpResponse>
+                <Modifiers>
+                    <Modifier>
+                        <Target>Player</Target>
+                        <Type>AdjustTreasury</Type>
+                        <Value>400</Value>
+                    </Modifier>
+                </Modifiers>
+            </Option>
+
+        </Options>
+
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="Choices_IdeologyDefiner">
+        <Image>Event_Definer</Image>
+        <Headline>Message from Johnny Star (aka. 'The Campaign Cowboy')</Headline>
+        <Paragraph>Well howdy, {CandidateFName}. You're doing a good job defining your platform, but with Ol' Johny's help, your Ideology can take over the map! So what do you say...how can I help the {CandidateLName} Campaign?</Paragraph>
+        <Options>
+            <Option>
+                <DisplayName>I reckon some Ideology Points would be nice...</DisplayName>
+                <FollowUpText>Well then, let's wrangle up some media outlets and get your message out there!</FollowUpText>
+                <FollowUpResponse>Thanks! [+5 Ideology Pts.]</FollowUpResponse>
+                <Modifiers>
+                    <Modifier>
+                        <Target>Player</Target>
+                        <Type>AdjustIdeologyPoints</Type>
+                        <StringValue>Random</StringValue>
+                        <Value>5</Value>
+                    </Modifier>
+                </Modifiers>
+            </Option>
+            <Option>
+                <DisplayName>Some extra cash would be mighty helpful!</DisplayName>
+                <FollowUpText>Then some extra cash is what you shall have, Future President {CandidateLName}. Good luck, partner!</FollowUpText>
+                <FollowUpResponse>Thanks! [+$400k]</FollowUpResponse>
+                <Modifiers>
+                    <Modifier>
+                        <Target>Player</Target>
+                        <Type>AdjustTreasury</Type>
+                        <Value>400</Value>
+                    </Modifier>
+                </Modifiers>
+            </Option>
+            <Option>
+                <DisplayName>Have any operatives to lend a hand?</DisplayName>
+                <FollowUpText>Sure do! I'll send them right over!</FollowUpText>
+                <FollowUpResponse>Thanks! [+2 Random Operatives]</FollowUpResponse>
+                <Modifiers>
+                    <Modifier>
+                        <Target>Player</Target>
+                        <Type>GiveOperative</Type>
+				                <StringValue>RANDOM</StringValue>
+                        <Value>1</Value>
+                    </Modifier>
+                    <Modifier>
+                      <Target>Player</Target>
+                      <Type>GiveOperative</Type>
+                      <StringValue>RANDOM</StringValue>
+                      <Value>1</Value>
+                    </Modifier>
+                </Modifiers>
+            </Option>
+        </Options>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="Choices_Grandma">
+        <Image>Event_Storyteller</Image>
+        <Headline>Message from Grandma</Headline>
+        <Paragraph>Hi Sweetheart. Thanks for taking time out of your busy schedule for lil' old me. I was wondering if there was anything I could do to help you out? Some cookies, perhaps? Or maybe some Ideology Points?</Paragraph>
+        <Options>
+            <Option>
+                <DisplayName>Sure - I could use Ideology Points!</DisplayName>
+                <FollowUpText>I have some stories from your childhood that should get you some attention. XOXOXOXOX -Grandma</FollowUpText>
+                <FollowUpResponse>Thanks Grandma! [+3 Ideology Pts.]</FollowUpResponse>
+                <Modifiers>
+                    <Modifier>
+                        <Target>Player</Target>
+                        <Type>AdjustIdeologyPoints</Type>
+                        <Value>3</Value>
+                    </Modifier>
+                </Modifiers>
+            </Option>
+            <Option>
+                <DisplayName>I'm actually in need of some money...</DisplayName>
+                <FollowUpText>I have some friends at the local knitting circle that would love to chip in! XOXOXOXOX -Grandma</FollowUpText>
+                <FollowUpResponse>Thanks Grandma! [+$675k]</FollowUpResponse>
+                <Modifiers>
+                    <Modifier>
+                        <Target>Player</Target>
+                        <Type>AdjustTreasury</Type>
+                        <Value>675</Value>
+                    </Modifier>
+                </Modifiers>
+            </Option>
+            <Option>
+                <DisplayName>Some of your cookies sounds great - Thanks!</DisplayName>
+                <FollowUpText>I'm sending the cookies with some friends of mine from the local bingo hall. They're always talking politics and would like to help you out! XOXOXOXOX -Grandma</FollowUpText>
+                <FollowUpResponse>Thanks Grandma! [+2 Random Operatives]</FollowUpResponse>
+                <Modifiers>
+                    <Modifier>
+                        <Target>Player</Target>
+                        <Type>GiveOperative</Type>
+				                <StringValue>RANDOM</StringValue>
+                        <Value>1</Value>
+                    </Modifier>
+                    <Modifier>
+                        <Target>Player</Target>
+                        <Type>GiveOperative</Type>
+				                <StringValue>RANDOM</StringValue>
+                        <Value>1</Value>
+                    </Modifier>
+                </Modifiers>
+            </Option>
+        </Options>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="Choices_Consultant">
+        <Image>Operative_Info_Image_Consultant</Image>
+        <Headline>Message from a Political Consultant</Headline>
+        <Paragraph>Alright {CandidateLName}, I'm gonna make this quick. See this green smile? That's voter enthusiasm, and you need more of it. I like you, and want to help you get more smiles. What do you need, {CandidateFName}?</Paragraph>
+        <Options>
+            <Option>
+                <DisplayName>Uh...Ideology Points?</DisplayName>
+                <FollowUpText>You got it, {CandidateFName}. Let's get your message out there!</FollowUpText>
+                <FollowUpResponse>Thanks! [+2 Ideology Pts.]</FollowUpResponse>
+                <Modifiers>
+                    <Modifier>
+                        <Target>Player</Target>
+                        <Type>AdjustIdeologyPoints</Type>
+                        <Value>2</Value>
+                    </Modifier>
+                </Modifiers>
+            </Option>
+            <Option>
+                <DisplayName>Uh...Funds?</DisplayName>
+                <FollowUpText>You got it, {CandidateFName}. Big bucks coming your way.</FollowUpText>
+                <FollowUpResponse>Thanks! [+$550k]</FollowUpResponse>
+                <Modifiers>
+                    <Modifier>
+                        <Target>Player</Target>
+                        <Type>AdjustTreasury</Type>
+                        <Value>550</Value>
+                    </Modifier>
+                </Modifiers>
+            </Option>
+            <Option>
+                <DisplayName>Uh...Operatives?</DisplayName>
+                <FollowUpText>You got it, {CandidateFName}. Two fresh-faced helping hands coming your way.</FollowUpText>
+                <FollowUpResponse>Thanks! [+2 Random Operatives]</FollowUpResponse>
+                <Modifiers>
+                    <Modifier>
+                        <Target>Player</Target>
+                        <Type>GiveOperative</Type>
+				                <StringValue>RANDOM</StringValue>
+                        <Value>1</Value>
+                    </Modifier>
+                    <Modifier>
+                      <Target>Player</Target>
+                      <Type>GiveOperative</Type>
+                      <StringValue>RANDOM</StringValue>
+                      <Value>1</Value>
+                    </Modifier>
+                </Modifiers>
+            </Option>
+        </Options>
+    </CRandomEvent>
+
+</RandomEvents>

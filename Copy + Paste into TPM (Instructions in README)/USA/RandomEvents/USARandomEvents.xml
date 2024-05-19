@@ -1,0 +1,439 @@
+<RandomEvents>
+    <CRandomEvent InternalName="AMajorWarEruptsOverseas">
+        <Image>Event_WarOverseas.png</Image>
+        <Headline>A Major War Erupts Overseas</Headline>
+        <Paragraph>Well, it finally happened. After years of simmering tensions, famed global hotspot, Hotspotia, has erupted into war, threatening stability in the region. As The United States has several interests in the area, pundits and armchair generals have begun calling for military intervention in the region, and the strengthening of our armed forces in general.</Paragraph>
+        <EffectsText>Importance of 'A Strong Military' raised in all states</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Owner</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>STRONGMILITARY</StringValue>
+                <Value>6</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Owner</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>STRONGMILITARY</StringValue>
+                <Value>3</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+    <CRandomEvent InternalName="OilPricesSkyrocket">
+        <Image>Event_OilPrices.png</Image>
+        <Headline>Oil Prices Skyrocket</Headline>
+        <Paragraph>Oil prices have skyrocketed, whether due to the dastardly work of the oil companies or OPEC, no-one can say (They blame each other.) Aside from acting as a drag on economic growth, this has hit voters at the pump, which is obviously the far more important issue. How candidates deal with this, or lie about how they'll deal with this, is proving to be a key issue this election cycle.</Paragraph>
+        <EffectsText>Importance of 'Fuel Prices' raised in all states</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>FUEL_PRICES</StringValue>
+                <Value>6</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>FUEL_PRICES</StringValue>
+                <Value>3</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+    <CRandomEvent InternalName="StockMarketCrash">
+        <Image>Event_StockMarketCrash.png</Image>
+        <Headline>Stock Market Crash</Headline>
+        <Paragraph>The bottom fell out of the stock market last week, leading to a sudden increase in footage of sweaty, panic-stricken men on the evening news. Also, more relevantly, it raises the spectre of an economic slowdown and significant job losses. Because this crash was almost certainly caused by Wall Street traders themselves, this has many voters calling for increase regulation of Wall Street, and for the government to dedicate resources to job creation.</Paragraph>
+        <EffectsText>Importance of 'Wall Street Regulation' and 'Reducing Unemployment' raised in all states</EffectsText>
+        <InstantEffects>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>WALLSTREET</StringValue>
+                <Value>6</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>WALLSTREET</StringValue>
+                <Value>3</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>JOBS</StringValue>
+                <Value>6</Value>
+            </InstantEffect>
+            <InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>JOBS</StringValue>
+                <Value>3</Value>
+            </InstantEffect>            
+        </InstantEffects>
+    </CRandomEvent>
+
+    <CRandomEvent InternalName="BeeColonyCollapse">
+        <Image>Event_DeadBees.png</Image>
+        <Headline>Bee Colony Collapse</Headline>
+        <Paragraph>A sudden increase in the rate of bee colony collapses has once again raised the issue of the health of the nation's bees. Many voters are now demanding that candidates promise to spend additional research dollars on protecting and rebuilding the nation's bee supply.  Some voters are also demanding military action against the bees, but they can probably be ignored.</Paragraph>
+        <EffectsText>Importance of 'Saving the Bees' raised in all states</EffectsText>
+        <InstantEffects>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>SAVINGTHEB</StringValue>
+                <Value>8</Value>
+            </InstantEffect>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>SAVINGTHEB</StringValue>
+                <Value>3</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+    <CRandomEvent InternalName="StudentLoanBubbleBursts">
+        <Image>Event_StudentLoanBubble.png</Image>
+        <Headline>Student Loan Bubble Bursts</Headline>
+        <Paragraph>The weak job market for new university graduates has led to a dramatic increase in the rate of student loan defaults, threatening the integrity of the entire student loan system. Many voters are now calling on the country's leaders to improve the employment situation for new graduates, and to reform the student loan system entirely.</Paragraph>
+        <EffectsText>Importance of 'Student Loan Reform' and 'Reducing Unemployment' raised in all states</EffectsText>
+        <InstantEffects>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>STUDENTLOA</StringValue>
+                <Value>6</Value>
+            </InstantEffect>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>STUDENTLOA</StringValue>
+                <Value>3</Value>
+            </InstantEffect>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>LOANFORGIVE</StringValue>
+                <Value>3</Value>
+            </InstantEffect>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>JOBS</StringValue>
+                <Value>6</Value>
+            </InstantEffect>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>JOBS</StringValue>
+                <Value>3</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+    <CRandomEvent InternalName="NationwideDrought">
+        <Image>Event_NationalDrought.png</Image>
+        <Headline> Nationwide Drought</Headline>
+        <Paragraph>Months of dry weather across the nation has led to water restrictions, brown lawns, and filthy, filthy cars. Even more troubling is the impact to the nation's agriculture sector, and farmers are now demanding the government provide assistance to protect their livelihoods. Others point to this drought as a sign the nation can no longer ignore the threat of global warming, and demand candidates provide answers about how they'll address this growing challenge.</Paragraph>
+        <EffectsText>Importance of 'Drought Assistance' and 'Addressing Climate Change' raised in all states</EffectsText>
+        <InstantEffects>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>DROUGHTASS</StringValue>
+                <Value>6</Value>
+            </InstantEffect>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>DROUGHTASS</StringValue>
+                <Value>3</Value>
+            </InstantEffect>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>CLIMATECHA</StringValue>
+                <Value>6</Value>
+            </InstantEffect>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>CLIMATECHA</StringValue>
+                <Value>3</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+    <CRandomEvent InternalName="HomelandTerroristAttackThwarted">
+        <Image>Event_HomelandTerrorThwarted.png</Image>
+        <Headline>Homeland Terrorist Attack Thwarted</Headline>
+        <Paragraph>The Department of Homeland Security has just thwarted an elaborate terror plot on American soil. If the plot had succeeded, hundreds, possibly thousands of civilians would have perished. This shocking development has reminded Americans of the threat they still face from terrorists, and to demand answers from candidates what they will do to protect the country from this threat. This incident has also reignited the debate about the NSA's internal surveilance programs, and whether their intrusion into Americans' privacy is worth the benefit or just creepy.</Paragraph>
+        <EffectsText>Importance of 'NSA Surveillance' and 'The War on Terror' raised in all states</EffectsText>
+        <InstantEffects>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>DOMESTICSU</StringValue>
+                <Value>6</Value>
+            </InstantEffect>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>DOMESTICSU</StringValue>
+                <Value>3</Value>
+            </InstantEffect>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>WARONTERROR</StringValue>
+                <Value>6</Value>
+            </InstantEffect>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>WARONTERROR</StringValue>
+                <Value>3</Value>
+            </InstantEffect>            
+        </InstantEffects>
+    </CRandomEvent>
+    <CRandomEvent InternalName="NationalDebt25Trillion">
+        <Image>Event_25TrillDebtClock.png</Image>
+        <Headline>National Debt Clock passes $33 Trillion</Headline>
+        <Paragraph>The National Debt Clock just passed the $33 trillion mark, which all agree seems like a pretty big number. Many voters have used this milestone to demand the government balance its budget, reduce its debt, and otherwise stop spending so much.</Paragraph>
+        <EffectsText>Importance of 'Deficit Reduction' raised in all states</EffectsText>
+        <InstantEffects>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>DEFICITREDUCTION</StringValue>
+                <Value>6</Value>
+            </InstantEffect>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>DEFICITREDUCTION</StringValue>
+                <Value>3</Value>
+            </InstantEffect>            
+        </InstantEffects>
+    </CRandomEvent>
+    <CRandomEvent InternalName="DomesticOilSpill">
+        <Image>Event_DomesticOilSpill.png</Image>
+        <Headline>A Domestic Oil Spill</Headline>
+        <Paragraph>A massive oil spill on American soil has caused enormous environmental impacts and a sudden increase in the amount Americans care about the cleanliness of birds. This has many voters now demanding the nation reconsider its energy needs, and whether it's time to begin investing in alternative energy programs instead of major oil pipelines.</Paragraph>
+        <EffectsText>Importance of 'Alternative Energy' and 'Keystone XL Pipeline' raised in all states</EffectsText>
+        <InstantEffects>            
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>ALTENERGY</StringValue>
+                <Value>6</Value>
+            </InstantEffect>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>ALTENERGY</StringValue>
+                <Value>3</Value>
+            </InstantEffect>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>KEYSTONEXL</StringValue>
+                <Value>6</Value>
+            </InstantEffect>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>KEYSTONEXL</StringValue>
+                <Value>3</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+    <CRandomEvent InternalName="RussianMilitaryInBlackSea">
+        <Image>Event_WarOverseas.png</Image>
+        <Headline> Russian Military Exercises In the Black Sea</Headline>
+        <Paragraph>Russia has begun large-scale military exercises in the Black Sea, which most observers are interpreting as a thinly veiled threat towards Turkey, a NATO member and U.S. ally. Although no iminent threat of invasions seems likely at this point, this posturing is a bad sign for stability in the region. Many voters want to know what the candidates would do about this if elected, and how they would handle Russia's military flexing in general.</Paragraph>
+        <EffectsText>Importance of 'Hawkish on Russian Might' and 'A Strong Military' raised in all states</EffectsText>
+        <InstantEffects>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>RUSSIASMIL</StringValue>
+                <Value>6</Value>
+            </InstantEffect>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>RUSSIASMIL</StringValue>
+                <Value>3</Value>
+            </InstantEffect>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>STRONGMILITARY</StringValue>
+                <Value>6</Value>
+            </InstantEffect>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>STRONGMILITARY</StringValue>
+                <Value>3</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+    <CRandomEvent InternalName="NewPollMoreAmericansPoverty">
+        <Image>Event_StockMarketCrash.png</Image>
+        <Headline> New Poll Shows More Americans Living in Poverty</Headline>
+        <Paragraph>A recent study has found that an increasing number of Americans are now living in poverty. This isn't news to those Americans, of course, but the sudden attention to their plight has caused many to demand the government do something to address it, by creating more jobs and raising the minimum wage.</Paragraph>
+        <EffectsText>Importance of 'Higher Minimum Wage' and 'Reducing Unemployment' raised in all states</EffectsText>
+        <InstantEffects>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>HIGHERMINI</StringValue>
+                <Value>6</Value>
+            </InstantEffect>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>HIGHERMINI</StringValue>
+                <Value>3</Value>
+            </InstantEffect>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>JOBS</StringValue>
+                <Value>6</Value>
+            </InstantEffect>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>JOBS</StringValue>
+                <Value>3</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+    <CRandomEvent InternalName="SupremeCourtVacancy">
+        <Image>Event_GenericSadEagle.png</Image>
+        <Headline> Tragic Death of Supreme Court Justice</Headline>
+        <Paragraph>A Supreme Court justice has died. The president has vowed to name a replacement, despite stiff opposition from Senate leaders, who have vowed not to consider any nomination in an election year.</Paragraph>
+        <EffectsText>Importance of 'Supreme Court Nomination' raised in all states.</EffectsText>
+        <InstantEffects>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>SUPREMECOU</StringValue>
+                <Value>10</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+    <CRandomEvent InternalName="ForeignInterference">
+        <IsSinglePlayerEvent>0</IsSinglePlayerEvent>
+        <Image>Event_GenericSadEagle.png</Image>
+        <Headline>Foreign Interference</Headline>
+        <Paragraph>A foreign power has taken a sudden interest in American democracy. While that would normally be commendable, and worthy of applause, in this particular case their interest appears to be limited to seeing you win. This has raised questions about the integrity of our democracy, the independence of your opponent, and what your opponent did to piss off those foreigners so much.</Paragraph>
+        <EffectsText>-1 to Fund Raising. Increases the importance of 'Nationalism' and 'Integrity of the Election'</EffectsText>
+        <OpponentHeadline>Foreign Interference</OpponentHeadline>
+        <OpponentParagraph>A foreign power has taken a sudden interest in American democracy. While that would normally be commendable, and worthy of applause, in this particular case their interest appears to be limited to seeing your opponent win. This has raised questions about the integrity of our democracy, the independence of your opponent, and what you did to piss off those foreigners so much. </OpponentParagraph>
+        <OpponentEffectsText>Increases the importance of 'Nationalism' and 'Integrity of the Election'</OpponentEffectsText>
+        <InstantEffects>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>ELECTIONIN</StringValue>
+                <Value>3</Value>
+            </InstantEffect>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssueImportance</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>NATIONALISM</StringValue>
+                <Value>2</Value>
+            </InstantEffect>
+			<InstantEffect>
+                <Target>Global</Target>
+                <Type>ModifyStateIssuePosition</Type>
+                <ModifyType>Add</ModifyType>
+                <StateTarget>AllStates</StateTarget>
+                <StringValue>NATIONALISM</StringValue>
+                <Value>2</Value>
+            </InstantEffect>
+        </InstantEffects>
+    </CRandomEvent>
+</RandomEvents>

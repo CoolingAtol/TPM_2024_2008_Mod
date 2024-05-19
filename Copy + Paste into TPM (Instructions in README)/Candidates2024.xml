@@ -1,0 +1,2551 @@
+<PresidentialCandidates>
+    <Candidate InternalName="CustomCandidateTemplate">
+        <FirstName>New</FirstName>
+        <LastName>Candidate</LastName>
+        <Description />
+        <ElectionHistory>Presidential Hopeful</ElectionHistory>
+        <PortraitSprite>CandidatePortrait_Default</PortraitSprite>
+		<BodySprite>CandidateBody_Default</BodySprite>
+        <Config>CustomCandidate</Config>
+        <IdeologyTree>SOCIALDEMOCRAT</IdeologyTree>
+        <PoliticalActionCardDeck>BasicDeck</PoliticalActionCardDeck>
+        <Gender>0</Gender>
+        <FundRaisingAbility>7</FundRaisingAbility>
+        <Stamina>10</Stamina>
+        <Intelligence>6</Intelligence>
+        <Charisma>-1</Charisma>
+        <MediaBias>1</MediaBias>
+        <MinorityAppeal>3</MinorityAppeal>
+        <Experience>4</Experience>
+        <StartingMoney>2</StartingMoney>
+        <PoliticalParty>-1</PoliticalParty>
+        <!-- by setting their party to -1, they can't be selected normally -->
+        <HomeState Map="USA">0</HomeState>
+        <Money>3000</Money>
+        <AllowedInExpressVersion>1</AllowedInExpressVersion>
+        <IssueStanceMap InternalName="Default">
+            <IssueStance Key="_CHARISMA">4</IssueStance>
+            <IssueStance Key="_COMELINESS">5</IssueStance>
+            <IssueStance Key="_CREDIBILITY">5</IssueStance>
+            <IssueStance Key="_EXPERIENCE">5</IssueStance>
+            <IssueStance Key="_INTELLIGENCE">3</IssueStance>
+            <IssueStance Key="_MEDIABIAS">3</IssueStance>
+            <IssueStance Key="_MINORITYAPPEAL">3</IssueStance>
+            <IssueStance Key="_RELIGIOUS">5</IssueStance>
+        </IssueStanceMap>
+        <DemographicStances>
+            <!-- GENDER -->
+            <DemographicStance Key="GENDER_MALE">0</DemographicStance>
+            <DemographicStance Key="GENDER_FEMALE">0</DemographicStance>
+            <!-- RACE -->
+            <DemographicStance Key="RACE_WHITE">0</DemographicStance>
+            <DemographicStance Key="RACE_BLACK">0</DemographicStance>
+            <DemographicStance Key="RACE_HISPANIC">0</DemographicStance>
+            <DemographicStance Key="RACE_ASIAN">0</DemographicStance>
+            <DemographicStance Key="RACE_OTHER">0</DemographicStance>
+            <!-- AGE -->
+            <DemographicStance Key="AGE_YOUNG">0</DemographicStance>
+            <DemographicStance Key="AGE_MIDDLEAGED">0</DemographicStance>
+            <DemographicStance Key="AGE_OLD">0</DemographicStance>
+            <DemographicStance Key="AGE_OLDEST">0</DemographicStance>
+            <!-- INCOME -->
+            <DemographicStance Key="INCOME_LOWEST">0</DemographicStance>
+            <DemographicStance Key="INCOME_LOW">0</DemographicStance>
+            <DemographicStance Key="INCOME_MIDLOW">0</DemographicStance>
+            <DemographicStance Key="INCOME_MIDHIGH">0</DemographicStance>
+            <DemographicStance Key="INCOME_MIDHIGH">0</DemographicStance>
+            <DemographicStance Key="INCOME_HIGH">0</DemographicStance>
+            <DemographicStance Key="INCOME_HIGHEST">0</DemographicStance>
+            <!-- PARTY -->
+            <DemographicStance Key="PARTY_LEFT">0</DemographicStance>
+            <DemographicStance Key="PARTY_RIGHT">0</DemographicStance>
+            <DemographicStance Key="PARTY_INDEPENDENT">0</DemographicStance>
+            <!-- VIEWS -->
+            <DemographicStance Key="VIEWS_LIBERAL">0</DemographicStance>
+            <DemographicStance Key="VIEWS_MODERATE">0</DemographicStance>
+            <DemographicStance Key="VIEWS_CONSERVATIVE">0</DemographicStance>
+        </DemographicStances>
+    </Candidate>
+    <!-- **************************************************************************************** -->
+    <!-- Democrats -->
+    <!-- **************************************************************************************** -->
+    <Candidate InternalName="ElizabethWarren">
+        <FirstName>Elizabeth</FirstName>
+        <LastName>Warren</LastName>
+        <Description>While in office, Warren has focused on consumer protections and pushed for increasing the regulation of Wall Street. She's a vocal supporter of various social issues, including rebuilding the middle class and tackling systemic racism.</Description>
+        <ElectionHistory>Senator</ElectionHistory>
+        <Image>gfx\\candidate_images\\ElizabethWarren.png</Image>
+        <PortraitSprite>CandidateFace_ElizabethWarren</PortraitSprite>
+		<BodySprite>CandidateBody_ElizabethWarren</BodySprite>
+        <IdeologyTree>SOCIALDEMOCRAT</IdeologyTree>
+        <PoliticalActionCardDeck>DemocraticSocialism</PoliticalActionCardDeck>
+        <Gender>1</Gender>
+        <FundRaisingAbility>7</FundRaisingAbility>
+        <!--Unique Stats-->
+        <Stamina>12</Stamina>
+        <Intelligence>7</Intelligence>
+        <Charisma>1</Charisma>
+        <MediaBias>1</MediaBias>
+        <Experience>6</Experience>
+        <StartingMoney>2</StartingMoney>
+        <!--Unique Stats-->
+        <MinorityAppeal>5</MinorityAppeal>
+        <PoliticalParty>-1</PoliticalParty>
+        <HomeState Map="USA">18</HomeState>
+        <Money>3000</Money>
+        <AllowedInExpressVersion>1</AllowedInExpressVersion>
+        <IssueStanceMap InternalName="Default">
+            <IssueStance Key="_COMELINESS">5</IssueStance>
+            <IssueStance Key="_CREDIBILITY">3</IssueStance>
+            <IssueStance Key="_RELIGIOUS">5</IssueStance>
+            <!--ISSUES-->
+            <IssueStance Key="CLIMATECHA">80</IssueStance>
+            <IssueStance Key="IMMIGRATIONREFORM">70</IssueStance>
+            <IssueStance Key="LESSREGULATION">-90</IssueStance>
+            <IssueStance Key="HIGHERMINI">60</IssueStance>
+            <IssueStance Key="ABORTION">80</IssueStance>
+            <IssueStance Key="FEDERALEDUCATION">70</IssueStance>
+            <IssueStance Key="IMPROVEDGUNCONTROL">80</IssueStance>
+            <IssueStance Key="HIGHERWEALTHYTAXES">80</IssueStance>
+            <IssueStance Key="INDIVIDIAL_TAX_CUTS">-60</IssueStance>
+            <IssueStance Key="SEXGENDERPROTECTIONS">70</IssueStance>
+            <IssueStance Key="BUILDING_THE_WALL">-80</IssueStance>
+            <IssueStance Key="CRIME">-50</IssueStance>
+            <IssueStance Key="SOCIALNETWORKCENSOR">-40</IssueStance>
+            <IssueStance Key="SUPPORTINGCHARTERSCHOOLS">-40</IssueStance>
+            <IssueStance Key="RUSSIASMIL">20</IssueStance>
+            <IssueStance Key="REDUCINGWE">60</IssueStance>
+            <IssueStance Key="LOANFORGIVE">80</IssueStance>
+            <IssueStance Key="GREENNEWDEAL">80</IssueStance>
+            <IssueStance Key="ALTENERGY">40</IssueStance>
+            <IssueStance Key="REIMBURSINGSOCIALSEC">30</IssueStance>
+            <IssueStance Key="POL_SPIRTUALITY">-40</IssueStance>
+        </IssueStanceMap>
+        <DemographicStances>
+            <!-- GENDER -->
+            <DemographicStance Key="GENDER_MALE">-3</DemographicStance>
+            <DemographicStance Key="GENDER_FEMALE">8</DemographicStance>
+            <!-- RACE -->
+            <DemographicStance Key="RACE_WHITE">6</DemographicStance>
+            <DemographicStance Key="RACE_BLACK">2</DemographicStance>
+            <DemographicStance Key="RACE_HISPANIC">5</DemographicStance>
+            <DemographicStance Key="RACE_ASIAN">3</DemographicStance>
+            <DemographicStance Key="RACE_OTHER">4</DemographicStance>
+            <!-- AGE -->
+            <DemographicStance Key="AGE_YOUNG">7</DemographicStance>
+            <DemographicStance Key="AGE_MIDDLEAGED">6</DemographicStance>
+            <DemographicStance Key="AGE_OLD">3</DemographicStance>
+            <DemographicStance Key="AGE_OLDEST">2</DemographicStance>
+            <!-- INCOME -->
+            <DemographicStance Key="INCOME_LOWEST">7</DemographicStance>
+            <DemographicStance Key="INCOME_LOW">6</DemographicStance>
+            <DemographicStance Key="INCOME_MIDLOW">5</DemographicStance>
+            <DemographicStance Key="INCOME_MIDHIGH">4</DemographicStance>
+            <DemographicStance Key="INCOME_HIGH">3</DemographicStance>
+            <DemographicStance Key="INCOME_HIGHEST">2</DemographicStance>
+            <!-- PARTY -->
+            <DemographicStance Key="PARTY_LEFT">7</DemographicStance>
+            <DemographicStance Key="PARTY_RIGHT">-5</DemographicStance>
+            <DemographicStance Key="PARTY_INDEPENDENT">3</DemographicStance>
+            <!-- VIEWS -->
+            <DemographicStance Key="VIEWS_LIBERAL">9</DemographicStance>
+            <DemographicStance Key="VIEWS_MODERATE">4</DemographicStance>
+            <DemographicStance Key="VIEWS_CONSERVATIVE">-6</DemographicStance>
+        </DemographicStances>
+    </Candidate>
+    <Candidate InternalName="JoeBiden">
+        <FirstName>Joe</FirstName>
+        <LastName>Biden</LastName>
+        <Description>Biden served as vice president to Barack Obama, was a senator for Delaware, and is the current 46th president of the United States. He's an experienced and established progressive and has been a leading advocate for gun control.</Description>
+        <ElectionHistory>Incumbent President</ElectionHistory>
+        <Image>gfx\\candidate_images\\JoeBiden.png</Image>
+        <PortraitSprite>CandidateFace_JoeBiden</PortraitSprite>
+		<BodySprite>CandidateBody_JoeBiden</BodySprite>
+        <IdeologyTree>BIDENLIBERALISM</IdeologyTree>
+        <PoliticalActionCardDeck>BidenLiberalism</PoliticalActionCardDeck>
+        <Gender>0</Gender>
+        <FundRaisingAbility>7</FundRaisingAbility>
+        <!--Unique Stats-->
+        <Stamina>11</Stamina>
+        <Intelligence>6</Intelligence>
+        <Charisma>0</Charisma>
+        <MediaBias>1</MediaBias>
+        <Experience>7</Experience>
+        <StartingMoney>4</StartingMoney>
+        <!--Unique Stats-->
+        <MinorityAppeal>7</MinorityAppeal>
+        <PoliticalParty>0</PoliticalParty>
+        <AllowedInExpressVersion>1</AllowedInExpressVersion>
+        <HomeState Map="USA">7</HomeState>
+        <Money>3500</Money>
+        <IssueStanceMap InternalName="Default">
+            <IssueStance Key="_COMELINESS">5</IssueStance>
+            <IssueStance Key="_CREDIBILITY">5</IssueStance>
+            <IssueStance Key="_RELIGIOUS">7</IssueStance>
+            <!--ISSUES-->
+			<IssueStance Key="REFORMFINANCIALCRISIS">-25</IssueStance>
+			<IssueStance Key="FINANCIALCRISIS">20</IssueStance>
+			<IssueStance Key="HOUSEFINANCIALCRISIS">20</IssueStance>
+			<IssueStance Key="STIMULUSFINANCIALCRISIS">30</IssueStance>
+			<IssueStance Key="SUPPORTHOMEOWNERSFINANCIALCRISIS">10</IssueStance>
+			<IssueStance Key="OBAMACARE">30</IssueStance>
+			<IssueStance Key="REFORMHEALTHCARE">-20</IssueStance>
+			<IssueStance Key="GOVERNMENTCONTROLLEDDRUGPRICES">25</IssueStance>
+			<IssueStance Key="LONGTERMIRAQ">-10</IssueStance>
+			<IssueStance Key="WITHDRAWINGIRAQ">20</IssueStance>
+			<IssueStance Key="BUSHSUPPORT">-20</IssueStance>
+			<IssueStance Key="LOWERTAXES">-10</IssueStance>
+			<IssueStance Key="FUNDRAISINGTRANSPARENCY">-10</IssueStance>
+			<IssueStance Key="AGRICULTURESUPPORT">0</IssueStance>
+			<IssueStance Key="EXPANDSOCIALSECURITY">15</IssueStance>
+			<IssueStance Key="IGNORE">0</IssueStance>
+        </IssueStanceMap>
+        <DemographicStances>
+            <!-- GENDER -->
+            <DemographicStance Key="GENDER_MALE">4</DemographicStance>
+            <DemographicStance Key="GENDER_FEMALE">5</DemographicStance>
+            <!-- RACE -->
+            <DemographicStance Key="RACE_WHITE">6</DemographicStance>
+            <DemographicStance Key="RACE_BLACK">-1</DemographicStance>
+            <DemographicStance Key="RACE_HISPANIC">2</DemographicStance>
+            <DemographicStance Key="RACE_ASIAN">3</DemographicStance>
+            <DemographicStance Key="RACE_OTHER">4</DemographicStance>
+            <!-- AGE -->
+            <DemographicStance Key="AGE_YOUNG">-1</DemographicStance>
+            <DemographicStance Key="AGE_MIDDLEAGED">3</DemographicStance>
+            <DemographicStance Key="AGE_OLD">4</DemographicStance>
+            <DemographicStance Key="AGE_OLDEST">6</DemographicStance>
+            <!-- INCOME -->
+            <DemographicStance Key="INCOME_LOWEST">4</DemographicStance>
+            <DemographicStance Key="INCOME_LOW">3</DemographicStance>
+            <DemographicStance Key="INCOME_MIDLOW">2</DemographicStance>
+            <DemographicStance Key="INCOME_MIDHIGH">0</DemographicStance>
+            <DemographicStance Key="INCOME_HIGH">-1</DemographicStance>
+            <DemographicStance Key="INCOME_HIGHEST">4</DemographicStance>
+            <!-- PARTY -->
+            <DemographicStance Key="PARTY_LEFT">10</DemographicStance>
+            <DemographicStance Key="PARTY_RIGHT">-7</DemographicStance>
+            <DemographicStance Key="PARTY_INDEPENDENT">6</DemographicStance>
+            <!-- VIEWS -->
+            <DemographicStance Key="VIEWS_LIBERAL">8</DemographicStance>
+            <DemographicStance Key="VIEWS_MODERATE">9</DemographicStance>
+            <DemographicStance Key="VIEWS_CONSERVATIVE">-6</DemographicStance>
+        </DemographicStances>
+    </Candidate>
+    <Candidate InternalName="BernieSanders">
+        <FirstName>Bernie</FirstName>
+        <LastName>Sanders</LastName>
+        <Description>Bernie's long career has had him fighting tirelessly for the working class. He opposes the growing wealth gap and shrinking middle class. The leftward shift of the Democratic party is credited at least in part to Sanders and his activism.</Description>
+        <ElectionHistory>Senator</ElectionHistory>
+        <Image>gfx\\candidate_images\\BernieSanders.png</Image>
+        <PortraitSprite>CandidateFace_BernieSanders</PortraitSprite>
+		<BodySprite>CandidateBody_BernieSanders</BodySprite>
+        <IdeologyTree>SOCIALDEMOCRAT</IdeologyTree>
+        <PoliticalActionCardDeck>DemocraticSocialism</PoliticalActionCardDeck>
+        <Gender>0</Gender>
+        <FundRaisingAbility>7</FundRaisingAbility>
+        <!--Unique Stats-->
+        <Stamina>13</Stamina>
+        <Intelligence>6</Intelligence>
+        <Charisma>2</Charisma>
+        <MediaBias>0</MediaBias>
+        <Experience>7</Experience>
+        <StartingMoney>1</StartingMoney>
+        <!--Unique Stats-->
+        <MinorityAppeal>5</MinorityAppeal>
+        <PoliticalParty>-1</PoliticalParty>
+        <AllowedInExpressVersion>1</AllowedInExpressVersion>
+        <HomeState Map="USA">45</HomeState>
+        <Money>3000</Money>
+        <IssueStanceMap InternalName="Default">
+            <IssueStance Key="_COMELINESS">2</IssueStance>
+            <IssueStance Key="_CREDIBILITY">9</IssueStance>
+            <IssueStance Key="_RELIGIOUS">3</IssueStance>
+            <!--ISSUES-->
+            <IssueStance Key="IMMIGRATIONREFORM">40</IssueStance>
+            <IssueStance Key="EXPANDPUBLICHEALTHCARE">100</IssueStance>
+            <IssueStance Key="ABORTION">50</IssueStance>
+            <IssueStance Key="MENTALHEALTHSERVICES">40</IssueStance>
+            <IssueStance Key="HIGHERWEALTHYTAXES">100</IssueStance>
+            <IssueStance Key="REDUCINGWE">70</IssueStance>
+            <IssueStance Key="CLIMATECHA">50</IssueStance>
+            <IssueStance Key="GREENNEWDEAL">50</IssueStance>
+            <IssueStance Key="ENVIRONMENT">50</IssueStance>
+            <IssueStance Key="UNIVERSAL_BASIC_INCOME">50</IssueStance>
+            <IssueStance Key="SEXGENDERPROTECTIONS">30</IssueStance>
+            <IssueStance Key="TRANSGENDERHEALTHCARE">60</IssueStance>
+            <IssueStance Key="SOCIALISM">50</IssueStance>
+            <IssueStance Key="FEDERALEDUCATION">50</IssueStance>
+            <IssueStance Key="IMPROVEDGUNCONTROL">50</IssueStance>
+            <IssueStance Key="NETNEUTRAL">-40</IssueStance>
+            <IssueStance Key="SOCIALNETWORKCENSOR">-30</IssueStance>
+            <IssueStance Key="RUSSIASMIL">20</IssueStance>
+            <IssueStance Key="CORPORATE_TAX_CUTS">-30</IssueStance>
+            <IssueStance Key="LOANFORGIVE">40</IssueStance>
+        </IssueStanceMap>
+        <DemographicStances>
+            <!-- GENDER -->
+            <DemographicStance Key="GENDER_MALE">5</DemographicStance>
+            <DemographicStance Key="GENDER_FEMALE">7</DemographicStance>
+            <!-- RACE -->
+            <DemographicStance Key="RACE_WHITE">7</DemographicStance>
+            <DemographicStance Key="RACE_BLACK">6</DemographicStance>
+            <DemographicStance Key="RACE_HISPANIC">8</DemographicStance>
+            <DemographicStance Key="RACE_ASIAN">6</DemographicStance>
+            <DemographicStance Key="RACE_OTHER">5</DemographicStance>
+            <!-- AGE -->
+            <DemographicStance Key="AGE_YOUNG">9</DemographicStance>
+            <DemographicStance Key="AGE_MIDDLEAGED">7</DemographicStance>
+            <DemographicStance Key="AGE_OLD">-1</DemographicStance>
+            <DemographicStance Key="AGE_OLDEST">-3</DemographicStance>
+            <!-- INCOME -->
+            <DemographicStance Key="INCOME_LOWEST">9</DemographicStance>
+            <DemographicStance Key="INCOME_LOW">8</DemographicStance>
+            <DemographicStance Key="INCOME_MIDLOW">5</DemographicStance>
+            <DemographicStance Key="INCOME_MIDHIGH">-1</DemographicStance>
+            <DemographicStance Key="INCOME_HIGH">-5</DemographicStance>
+            <DemographicStance Key="INCOME_HIGHEST">-5</DemographicStance>
+            <!-- PARTY -->
+            <DemographicStance Key="PARTY_LEFT">9</DemographicStance>
+            <DemographicStance Key="PARTY_RIGHT">-8</DemographicStance>
+            <DemographicStance Key="PARTY_INDEPENDENT">6</DemographicStance>
+            <!-- VIEWS -->
+            <DemographicStance Key="VIEWS_LIBERAL">9</DemographicStance>
+            <DemographicStance Key="VIEWS_MODERATE">2</DemographicStance>
+            <DemographicStance Key="VIEWS_CONSERVATIVE">-9</DemographicStance>
+        </DemographicStances>
+    </Candidate>
+    <Candidate InternalName="AndrewYang">
+        <FirstName>Andrew</FirstName>
+        <LastName>Yang</LastName>
+        <Description>Yang is a businessman and lobbyist who promotes America's future as one where technology and social reform improve everyone's lives and bridge the partisan divide in United States politics. Among the causes he champions, Yang supports UBI and data privacy.</Description>
+        <ElectionHistory>Entrepreneur</ElectionHistory>
+        <Image>gfx\\candidate_images\\BernieSanders.png</Image>
+        <PortraitSprite>CandidateFace_AndrewYang</PortraitSprite>
+		<BodySprite>CandidateBody_AndrewYang</BodySprite>
+        <IdeologyTree>YANGSINGULARITY</IdeologyTree>
+        <PoliticalActionCardDeck>OutsiderDemocrat</PoliticalActionCardDeck>
+        <Gender>0</Gender>
+        <FundRaisingAbility>7</FundRaisingAbility>
+        <!--Unique Stats-->
+        <Stamina>15</Stamina>
+        <Intelligence>8</Intelligence>
+        <Charisma>-1</Charisma>
+        <MediaBias>1</MediaBias>
+        <Experience>5</Experience>
+        <StartingMoney>1</StartingMoney>
+        <!--Unique Stats-->
+        <MinorityAppeal>4</MinorityAppeal>
+        <PoliticalParty>-1</PoliticalParty>
+        <AllowedInExpressVersion>1</AllowedInExpressVersion>
+        <HomeState Map="USA">33</HomeState>
+        <!-- New York -->
+        <Money>1500</Money>
+        <IssueStanceMap InternalName="Default">
+            <IssueStance Key="_COMELINESS">5</IssueStance>
+            <IssueStance Key="_CREDIBILITY">9</IssueStance>
+            <IssueStance Key="_RELIGIOUS">3</IssueStance>
+            <!--ISSUES-->
+            <IssueStance Key="IMMIGRATIONREFORM">60</IssueStance>
+            <IssueStance Key="UNIVERSAL_BASIC_INCOME">100</IssueStance>
+            <IssueStance Key="HIGHERMINI">60</IssueStance>
+            <IssueStance Key="FREE_MARKET">60</IssueStance>
+            <IssueStance Key="CLIMATECHA">60</IssueStance>
+            <IssueStance Key="ENVIRONMENT">60</IssueStance>
+            <IssueStance Key="RURALCONNECTIVITY">50</IssueStance>
+            <IssueStance Key="SEXGENDERPROTECTIONS">60</IssueStance>
+            <IssueStance Key="SOCIALISM">-30</IssueStance>
+            <IssueStance Key="AUTOMATION">40</IssueStance>
+            <IssueStance Key="NETNEUTRAL">-40</IssueStance>
+            <IssueStance Key="SOCIALNETWORKCENSOR">-50</IssueStance>
+            <IssueStance Key="AIREGULATION">60</IssueStance>
+            <IssueStance Key="RUSSIASMIL">20</IssueStance>
+            <IssueStance Key="EXPANDPUBLICHEALTHCARE">80</IssueStance>
+            <IssueStance Key="DRUGPOLICING">-40</IssueStance>
+            <IssueStance Key="SUPPORTINGCHARTERSCHOOLS">40</IssueStance>
+            <IssueStance Key="HIGHERWEALTHYTAXES">60</IssueStance>
+            <IssueStance Key="LOANFORGIVE">70</IssueStance>
+            <IssueStance Key="GENDERSEXED">40</IssueStance>
+            <IssueStance Key="Stricter">60</IssueStance>
+            <IssueStance Key="ADDRESSINGHOMELESSNESS">60</IssueStance>
+        </IssueStanceMap>
+        <DemographicStances>
+            <!-- GENDER -->
+            <DemographicStance Key="GENDER_MALE">6</DemographicStance>
+            <DemographicStance Key="GENDER_FEMALE">6</DemographicStance>
+            <!-- RACE -->
+            <DemographicStance Key="RACE_WHITE">6</DemographicStance>
+            <DemographicStance Key="RACE_BLACK">4</DemographicStance>
+            <DemographicStance Key="RACE_HISPANIC">5</DemographicStance>
+            <DemographicStance Key="RACE_ASIAN">9</DemographicStance>
+            <DemographicStance Key="RACE_OTHER">3</DemographicStance>
+            <!-- AGE -->
+            <DemographicStance Key="AGE_YOUNG">9</DemographicStance>
+            <DemographicStance Key="AGE_MIDDLEAGED">6</DemographicStance>
+            <DemographicStance Key="AGE_OLD">2</DemographicStance>
+            <DemographicStance Key="AGE_OLDEST">-1</DemographicStance>
+            <!-- INCOME -->
+            <DemographicStance Key="INCOME_LOWEST">9</DemographicStance>
+            <DemographicStance Key="INCOME_LOW">8</DemographicStance>
+            <DemographicStance Key="INCOME_MIDLOW">6</DemographicStance>
+            <DemographicStance Key="INCOME_MIDHIGH">0</DemographicStance>
+            <DemographicStance Key="INCOME_HIGH">-3</DemographicStance>
+            <DemographicStance Key="INCOME_HIGHEST">-5</DemographicStance>
+            <!-- PARTY -->
+            <DemographicStance Key="PARTY_LEFT">7</DemographicStance>
+            <DemographicStance Key="PARTY_RIGHT">-9</DemographicStance>
+            <DemographicStance Key="PARTY_INDEPENDENT">9</DemographicStance>
+            <!-- VIEWS -->
+            <DemographicStance Key="VIEWS_LIBERAL">5</DemographicStance>
+            <DemographicStance Key="VIEWS_MODERATE">6</DemographicStance>
+            <DemographicStance Key="VIEWS_CONSERVATIVE">-8</DemographicStance>
+        </DemographicStances>
+    </Candidate>
+    <Candidate InternalName="PeteButtigieg">
+        <FirstName>Pete</FirstName>
+        <LastName>Buttigieg</LastName>
+        <Description>A former Mayor of South Bend, Indiana. As a democratic capitalist, Buttigieg has focused on the nature of the influence of automation on job loss and has championed keeping leaders in contact with labor unions.</Description>
+        <ElectionHistory>Secretary of Transportation</ElectionHistory>
+        <Image>gfx\\candidate_images\\BernieSanders.png</Image>
+        <PortraitSprite>CandidateFace_PeteButtigieg</PortraitSprite>
+		<BodySprite>CandidateBody_PeteButtigieg</BodySprite>
+        <IdeologyTree>ESTABLISHMENTDEMOCRAT</IdeologyTree>
+        <PoliticalActionCardDeck>EstablishmentDemocrat</PoliticalActionCardDeck>
+        <Gender>0</Gender>
+        <FundRaisingAbility>7</FundRaisingAbility>
+        <!--Unique Stats-->
+        <Stamina>14</Stamina>
+        <Intelligence>5</Intelligence>
+        <Charisma>2</Charisma>
+        <MediaBias>0</MediaBias>
+        <Experience>6</Experience>
+        <StartingMoney>1</StartingMoney>
+        <!--Unique Stats-->
+        <MinorityAppeal>3</MinorityAppeal>
+        <PoliticalParty>-1</PoliticalParty>
+        <AllowedInExpressVersion>1</AllowedInExpressVersion>
+        <HomeState Map="USA">14</HomeState>
+        <!-- Indiana -->
+        <Money>2000</Money>
+        <IssueStanceMap InternalName="Default">
+            <IssueStance Key="_COMELINESS">7</IssueStance>
+            <IssueStance Key="_CREDIBILITY">5</IssueStance>
+            <!--ISSUES-->
+            <IssueStance Key="CLIMATECHA">80</IssueStance>
+            <IssueStance Key="FIXINGINFR">100</IssueStance>
+            <IssueStance Key="IMMIGRATIONREFORM">70</IssueStance>
+            <IssueStance Key="EXPANDPUBLICHEALTHCARE">80</IssueStance>
+            <IssueStance Key="HIGHERWEALTHYTAXES">70</IssueStance>
+            <IssueStance Key="FEDERALEDUCATION">70</IssueStance>
+            <IssueStance Key="ABORTION">70</IssueStance>
+            <IssueStance Key="SEXGENDERPROTECTIONS">80</IssueStance>
+            <IssueStance Key="ENERGY_INDEPENDENCE">60</IssueStance>
+            <IssueStance Key="IMPROVEDGUNCONTROL">70</IssueStance>
+            <IssueStance Key="GREENNEWDEAL">-60</IssueStance>
+            <IssueStance Key="SUPPORTINGCHARTERSCHOOLS">-40</IssueStance>
+            <IssueStance Key="SOCIALNETWORKCENSOR">-40</IssueStance>
+            <IssueStance Key="STRONGMILITARY">-30</IssueStance>
+            <IssueStance Key="RUSSIASMIL">20</IssueStance>
+            <IssueStance Key="LAWENFORCEMENTACCOUNTABILITY">60</IssueStance>
+            <IssueStance Key="DRUGSERVICES">60</IssueStance>
+            <IssueStance Key="LOANFORGIVE">30</IssueStance>
+            <IssueStance Key="COMBATSYSTEMICRACISM">40</IssueStance>
+            <IssueStance Key="LEAVENATO">-30</IssueStance>
+            <IssueStance Key="LEAVEUN">-40</IssueStance>
+            <IssueStance Key="ESG">60</IssueStance>
+            <IssueStance Key="DEFICITSPENDING">40</IssueStance>
+        </IssueStanceMap>
+        <DemographicStances>
+            <!-- GENDER -->
+            <DemographicStance Key="GENDER_MALE">3</DemographicStance>
+            <DemographicStance Key="GENDER_FEMALE">4</DemographicStance>
+            <!-- RACE -->
+            <DemographicStance Key="RACE_WHITE">8</DemographicStance>
+            <DemographicStance Key="RACE_BLACK">2</DemographicStance>
+            <DemographicStance Key="RACE_HISPANIC">3</DemographicStance>
+            <DemographicStance Key="RACE_ASIAN">5</DemographicStance>
+            <DemographicStance Key="RACE_OTHER">1</DemographicStance>
+            <!-- AGE -->
+            <DemographicStance Key="AGE_YOUNG">3</DemographicStance>
+            <DemographicStance Key="AGE_MIDDLEAGED">6</DemographicStance>
+            <DemographicStance Key="AGE_OLD">3</DemographicStance>
+            <DemographicStance Key="AGE_OLDEST">2</DemographicStance>
+            <!-- INCOME -->
+            <DemographicStance Key="INCOME_LOWEST">6</DemographicStance>
+            <DemographicStance Key="INCOME_LOW">5</DemographicStance>
+            <DemographicStance Key="INCOME_MIDLOW">4</DemographicStance>
+            <DemographicStance Key="INCOME_MIDHIGH">4</DemographicStance>
+            <DemographicStance Key="INCOME_HIGH">-1</DemographicStance>
+            <DemographicStance Key="INCOME_HIGHEST">-2</DemographicStance>
+            <!-- PARTY -->
+            <DemographicStance Key="PARTY_LEFT">6</DemographicStance>
+            <DemographicStance Key="PARTY_RIGHT">-6</DemographicStance>
+            <DemographicStance Key="PARTY_INDEPENDENT">5</DemographicStance>
+            <!-- VIEWS -->
+            <DemographicStance Key="VIEWS_LIBERAL">6</DemographicStance>
+            <DemographicStance Key="VIEWS_MODERATE">7</DemographicStance>
+            <DemographicStance Key="VIEWS_CONSERVATIVE">-5</DemographicStance>
+        </DemographicStances>
+    </Candidate>
+	<Candidate InternalName="DeanPhillips">
+		<FirstName>Dean</FirstName>
+		<LastName>Phillips</LastName>
+		<Description>As a businessman and representative, Phillips works to end the influence of special interest money in politics and pushes for increased support of small businesses. He remains active in the philanthropic community in Minnesota.</Description>
+		<ElectionHistory>Congressman</ElectionHistory>
+		<Image>gfx\\candidate_images\\BernieSanders.png</Image>
+		<PortraitSprite>CandidateFace_DeanPhillips</PortraitSprite>
+		<BodySprite>CandidateBody_DeanPhillips</BodySprite>
+		<IdeologyTree>ESTABLISHMENTDEMOCRAT</IdeologyTree>
+        <PoliticalActionCardDeck>EstablishmentDemocrat</PoliticalActionCardDeck>
+		<Gender>0</Gender>
+		<FundRaisingAbility>7</FundRaisingAbility>
+        <!--Unique Stats-->
+        <Stamina>12</Stamina>
+        <Intelligence>5</Intelligence>
+        <Charisma>2</Charisma>
+        <MediaBias>1</MediaBias>
+        <Experience>6</Experience>
+        <StartingMoney>3</StartingMoney>
+        <!--Unique Stats-->
+		<MinorityAppeal>3</MinorityAppeal>
+		<PoliticalParty>-1</PoliticalParty>
+		<AllowedInExpressVersion>1</AllowedInExpressVersion>
+		<HomeState Map="USA">22</HomeState><!-- Minnesota-->
+		<Money>2000</Money>
+		<IssueStanceMap InternalName="Default">
+			<IssueStance Key="_COMELINESS">7</IssueStance>
+			<IssueStance Key="_CREDIBILITY">5</IssueStance>
+            <!--ISSUES-->
+            <IssueStance Key="SMALLBUSINESS">60</IssueStance>
+            <IssueStance Key="COMBATSYSTEMICRACISM">50</IssueStance>
+            <IssueStance Key="LAWENFORCEMENTACCOUNTABILITY">60</IssueStance>
+            <IssueStance Key="FEDERALEDUCATION">60</IssueStance>
+            <IssueStance Key="SUPPORTINGCHARTERSCHOOLS">-60</IssueStance>
+            <IssueStance Key="LESSREGULATION">-60</IssueStance>
+            <IssueStance Key="STRONGERLAWENFORCEMENT">-20</IssueStance>
+            <IssueStance Key="DEFUNDINGLAWENFORCEMENT">-50</IssueStance>
+            <IssueStance Key="AIREGULATION">20</IssueStance>
+            <IssueStance Key="NETNEUTRAL">30</IssueStance>
+            <IssueStance Key="IMPROVEDGUNCONTROL">60</IssueStance>
+            <IssueStance Key="SECONDAMENDPROTECTION">40</IssueStance>
+            <IssueStance Key="BORDERSECURITY">-30</IssueStance>
+            <IssueStance Key="CORPORATE_TAX_CUTS">-30</IssueStance>
+            <IssueStance Key="TRADITIONALVALUES">-20</IssueStance>
+            <IssueStance Key="MENTALHEALTHSERVICES">50</IssueStance>
+            <IssueStance Key="JOBS">30</IssueStance>
+            <IssueStance Key="RUSSIASMIL">40</IssueStance>
+            <IssueStance Key="SEXGENDERPROTECTIONS">30</IssueStance>
+            <IssueStance Key="REPEALTHEACA">-40</IssueStance>
+            <IssueStance Key="EXPANDPUBLICHEALTHCARE">30</IssueStance>
+            <IssueStance Key="COMBATSYSTEMICRACISM">30</IssueStance>
+            <IssueStance Key="ALTENERGY">40</IssueStance>
+            <IssueStance Key="UKRAINEAID">50</IssueStance>
+            <IssueStance Key="POL_SPIRTUALITY">-40</IssueStance>
+            <IssueStance Key="RELIGIOUSFREEDOM">40</IssueStance>
+            <IssueStance Key="REGULATESCRIPTCOST">40</IssueStance>
+            <IssueStance Key="MARKETSOLUTIONS">40</IssueStance>
+		</IssueStanceMap>
+		<DemographicStances>
+			<!-- GENDER -->
+			<DemographicStance Key="GENDER_MALE">3</DemographicStance>
+			<DemographicStance Key="GENDER_FEMALE">4</DemographicStance>
+			<!-- RACE -->
+			<DemographicStance Key="RACE_WHITE">8</DemographicStance>
+			<DemographicStance Key="RACE_BLACK">2</DemographicStance>
+			<DemographicStance Key="RACE_HISPANIC">3</DemographicStance>
+			<DemographicStance Key="RACE_ASIAN">5</DemographicStance>
+			<DemographicStance Key="RACE_OTHER">1</DemographicStance>
+			<!-- AGE -->
+			<DemographicStance Key="AGE_YOUNG">3</DemographicStance>
+			<DemographicStance Key="AGE_MIDDLEAGED">6</DemographicStance>
+			<DemographicStance Key="AGE_OLD">3</DemographicStance>
+			<DemographicStance Key="AGE_OLDEST">2</DemographicStance>
+			<!-- INCOME -->
+			<DemographicStance Key="INCOME_LOWEST">6</DemographicStance>
+			<DemographicStance Key="INCOME_LOW">5</DemographicStance>
+			<DemographicStance Key="INCOME_MIDLOW">4</DemographicStance>
+			<DemographicStance Key="INCOME_MIDHIGH">4</DemographicStance>
+			<DemographicStance Key="INCOME_HIGH">-1</DemographicStance>
+			<DemographicStance Key="INCOME_HIGHEST">-2</DemographicStance>
+			<!-- PARTY -->
+			<DemographicStance Key="PARTY_LEFT">6</DemographicStance>
+			<DemographicStance Key="PARTY_RIGHT">-6</DemographicStance>
+			<DemographicStance Key="PARTY_INDEPENDENT">5</DemographicStance>
+			<!-- VIEWS -->
+			<DemographicStance Key="VIEWS_LIBERAL">6</DemographicStance>
+			<DemographicStance Key="VIEWS_MODERATE">7</DemographicStance>
+			<DemographicStance Key="VIEWS_CONSERVATIVE">-5</DemographicStance>
+		</DemographicStances>
+	</Candidate>
+    <Candidate InternalName="KamalaHarris">
+        <FirstName>Kamala</FirstName>
+        <LastName>Harris</LastName>
+        <Description>Harris has served as a Senator for California and is the current 49th vice president of the United States. Harris has been an advocate of same-sex and LGBT rights. In addition, she has worked to overcome the implicit bias of policing.</Description>
+        <ElectionHistory>Incumbent Vice President</ElectionHistory>
+        <Image>gfx\\candidate_images\\BernieSanders.png</Image>
+        <PortraitSprite>CandidateFace_KamalaHarris</PortraitSprite>
+		<BodySprite>CandidateBody_KamalaHarris</BodySprite>
+        <IdeologyTree>ESTABLISHMENTDEMOCRAT</IdeologyTree>
+        <PoliticalActionCardDeck>EstablishmentDemocrat</PoliticalActionCardDeck>
+        <Gender>1</Gender>
+        <FundRaisingAbility>7</FundRaisingAbility>
+        <!--Unique Stats-->
+        <Stamina>12</Stamina>
+        <Intelligence>7</Intelligence>
+        <Charisma>1</Charisma>
+        <MediaBias>0</MediaBias>
+        <Experience>7</Experience>
+        <StartingMoney>2</StartingMoney>
+        <!--Unique Stats-->
+        <MinorityAppeal>8</MinorityAppeal>
+        <PoliticalParty>-1</PoliticalParty>
+        <AllowedInExpressVersion>1</AllowedInExpressVersion>
+        <HomeState Map="USA">4</HomeState>
+        <Money>1000</Money>
+        <IssueStanceMap InternalName="Default">
+            <IssueStance Key="_COMELINESS">7</IssueStance>
+            <IssueStance Key="_CREDIBILITY">5</IssueStance>
+            <!--ISSUES-->
+            <IssueStance Key="EXPANDPUBLICHEALTHCARE">80</IssueStance>
+            <IssueStance Key="REPEALTHEACA">-70</IssueStance>
+            <IssueStance Key="MARKETSOLUTIONS">-30</IssueStance>
+            <IssueStance Key="STRONGERLAWENFORCEMENT">-20</IssueStance>
+            <IssueStance Key="COMBATSYSTEMICRACISM">80</IssueStance>
+            <IssueStance Key="LAWENFORCEMENTACCOUNTABILITY">70</IssueStance>
+            <IssueStance Key="IMMIGRATIONREFORM">70</IssueStance>
+            <IssueStance Key="BORDERSECURITY">-60</IssueStance>
+            <IssueStance Key="CLIMATECHA">80</IssueStance>
+            <IssueStance Key="ALTENERGY">70</IssueStance>
+            <IssueStance Key="HIGHERWEALTHYTAXES">60</IssueStance>
+            <IssueStance Key="SOCIALNETWORKCENSOR">-60</IssueStance>
+            <IssueStance Key="ABORTION">80</IssueStance>
+            <IssueStance Key="STRONGMILITARY">-20</IssueStance>
+            <IssueStance Key="LOWERINGINFLATION">30</IssueStance>
+            <IssueStance Key="AIREGULATION">20</IssueStance>
+            <IssueStance Key="INDIVIDIAL_TAX_CUTS">-20</IssueStance>
+            <IssueStance Key="RUSSIASMIL">20</IssueStance>
+            <IssueStance Key="SEXGENDERPROTECTIONS">60</IssueStance>
+            <IssueStance Key="IMPROVEDGUNCONTROL">40</IssueStance>
+            <IssueStance Key="REDUCINGWE">40</IssueStance>
+            <IssueStance Key="HIGHERMINI">60</IssueStance>
+            <IssueStance Key="GREENNEWDEAL">100</IssueStance>
+            <IssueStance Key="UKRAINEAID">60</IssueStance>
+        </IssueStanceMap>
+        <DemographicStances>
+            <!-- GENDER -->
+            <DemographicStance Key="GENDER_MALE">3</DemographicStance>
+            <DemographicStance Key="GENDER_FEMALE">7</DemographicStance>
+            <!-- RACE -->
+            <DemographicStance Key="RACE_WHITE">3</DemographicStance>
+            <DemographicStance Key="RACE_BLACK">8</DemographicStance>
+            <DemographicStance Key="RACE_HISPANIC">7</DemographicStance>
+            <DemographicStance Key="RACE_ASIAN">4</DemographicStance>
+            <DemographicStance Key="RACE_OTHER">5</DemographicStance>
+            <!-- AGE -->
+            <DemographicStance Key="AGE_YOUNG">5</DemographicStance>
+            <DemographicStance Key="AGE_MIDDLEAGED">6</DemographicStance>
+            <DemographicStance Key="AGE_OLD">-1</DemographicStance>
+            <DemographicStance Key="AGE_OLDEST">-2</DemographicStance>
+            <!-- INCOME -->
+            <DemographicStance Key="INCOME_LOWEST">6</DemographicStance>
+            <DemographicStance Key="INCOME_LOW">5</DemographicStance>
+            <DemographicStance Key="INCOME_MIDLOW">4</DemographicStance>
+            <DemographicStance Key="INCOME_MIDHIGH">3</DemographicStance>
+            <DemographicStance Key="INCOME_HIGH">-1</DemographicStance>
+            <DemographicStance Key="INCOME_HIGHEST">-2</DemographicStance>
+            <!-- PARTY -->
+            <DemographicStance Key="PARTY_LEFT">6</DemographicStance>
+            <DemographicStance Key="PARTY_RIGHT">-5</DemographicStance>
+            <DemographicStance Key="PARTY_INDEPENDENT">5</DemographicStance>
+            <!-- VIEWS -->
+            <DemographicStance Key="VIEWS_LIBERAL">7</DemographicStance>
+            <DemographicStance Key="VIEWS_MODERATE">5</DemographicStance>
+            <DemographicStance Key="VIEWS_CONSERVATIVE">-3</DemographicStance>
+        </DemographicStances>
+    </Candidate>
+    <Candidate InternalName="MichaelBloomberg">
+        <FirstName>Michael</FirstName>
+        <LastName>Bloomberg</LastName>
+        <Description>Bloomberg is a businessman and has served several terms as the mayor of New York City. Bloomberg has used his experience and expertise as a businessman in politics. A former Republican, he switched parties when he felt the Republican party had failed to govern responsibly.</Description>
+        <ElectionHistory>Entrepreneur</ElectionHistory>
+        <Image>gfx\\candidate_images\\BernieSanders.png</Image>
+        <PortraitSprite>CandidateFace_MikeBloomberg</PortraitSprite>
+		<BodySprite>CandidateBody_MikeBloomberg</BodySprite>
+        <IdeologyTree>ESTABLISHMENTDEMOCRAT</IdeologyTree>
+        <PoliticalActionCardDeck>EstablishmentDemocrat</PoliticalActionCardDeck>
+        <Gender>0</Gender>
+        <FundRaisingAbility>7</FundRaisingAbility>
+        <!--Unique Stats-->
+        <Stamina>11</Stamina>
+        <Intelligence>7</Intelligence>
+        <Charisma>-1</Charisma>
+        <MediaBias>0</MediaBias>
+        <Experience>6</Experience>
+        <StartingMoney>5</StartingMoney>
+        <!--Unique Stats-->
+        <MinorityAppeal>3</MinorityAppeal>
+        <PoliticalParty>-1</PoliticalParty>
+        <AllowedInExpressVersion>1</AllowedInExpressVersion>
+        <HomeState Map="USA">33</HomeState>
+        <!-- New York -->
+        <Money>4000</Money>
+        <IssueStanceMap InternalName="Default">
+            <IssueStance Key="_COMELINESS">7</IssueStance>
+            <IssueStance Key="_CREDIBILITY">5</IssueStance>
+            <!--ISSUES-->
+            <IssueStance Key="CLIMATECHA">40</IssueStance>
+            <IssueStance Key="IMMIGRATIONREFORM">40</IssueStance>
+            <IssueStance Key="EXPANDPUBLICHEALTHCARE">30</IssueStance>
+            <IssueStance Key="ABORTION">40</IssueStance>
+            <IssueStance Key="FEDERALEDUCATION">50</IssueStance>
+            <IssueStance Key="IMPROVEDGUNCONTROL">40</IssueStance>
+            <IssueStance Key="HIGHERWEALTHYTAXES">40</IssueStance>
+            <IssueStance Key="SOCIALNETWORKCENSOR">-30</IssueStance>
+            <IssueStance Key="SUPPORTINGCHARTERSCHOOLS">30</IssueStance>
+            <IssueStance Key="TRANSGENDERHEALTHCARE">40</IssueStance>
+            <IssueStance Key="RURALCONNECTIVITY">30</IssueStance>
+            <IssueStance Key="RUSSIASMIL">20</IssueStance>
+            <IssueStance Key="DEFICITSPENDING">-30</IssueStance>
+            <IssueStance Key="LAWENFORCEMENTACCOUNTABILITY">20</IssueStance>
+            <IssueStance Key="STRONGMILITARY">20</IssueStance>
+            <IssueStance Key="ISRAEL">10</IssueStance>
+            <IssueStance Key="ENVIRONMENT">40</IssueStance>
+            <IssueStance Key="ALTENERGY">30</IssueStance>
+            <IssueStance Key="REGULATESCRIPTCOST">20</IssueStance>
+            <IssueStance Key="SMALLBUSINESS">20</IssueStance>
+            <IssueStance Key="MENTALHEALTHSERVICES">40</IssueStance>
+            <IssueStance Key="HIGHERMINI">30</IssueStance>
+            <IssueStance Key="POL_SPIRTUALITY">-40</IssueStance>
+            <IssueStance Key="RELIGIOUSFREEDOM">20</IssueStance>
+            <IssueStance Key="SEXGENDERPROTECTIONS">30</IssueStance>
+            <IssueStance Key="FREE_MARKET">20</IssueStance>
+        </IssueStanceMap>
+        <DemographicStances>
+            <!-- GENDER -->
+            <DemographicStance Key="GENDER_MALE">6</DemographicStance>
+            <DemographicStance Key="GENDER_FEMALE">2</DemographicStance>
+            <!-- RACE -->
+            <DemographicStance Key="RACE_WHITE">8</DemographicStance>
+            <DemographicStance Key="RACE_BLACK">1</DemographicStance>
+            <DemographicStance Key="RACE_HISPANIC">2</DemographicStance>
+            <DemographicStance Key="RACE_ASIAN">3</DemographicStance>
+            <DemographicStance Key="RACE_OTHER">4</DemographicStance>
+            <!-- AGE -->
+            <DemographicStance Key="AGE_YOUNG">1</DemographicStance>
+            <DemographicStance Key="AGE_MIDDLEAGED">4</DemographicStance>
+            <DemographicStance Key="AGE_OLD">7</DemographicStance>
+            <DemographicStance Key="AGE_OLDEST">4</DemographicStance>
+            <!-- INCOME -->
+            <DemographicStance Key="INCOME_LOWEST">3</DemographicStance>
+            <DemographicStance Key="INCOME_LOW">3</DemographicStance>
+            <DemographicStance Key="INCOME_MIDLOW">3</DemographicStance>
+            <DemographicStance Key="INCOME_MIDHIGH">4</DemographicStance>
+            <DemographicStance Key="INCOME_HIGH">4</DemographicStance>
+            <DemographicStance Key="INCOME_HIGHEST">5</DemographicStance>
+            <!-- PARTY -->
+            <DemographicStance Key="PARTY_LEFT">4</DemographicStance>
+            <DemographicStance Key="PARTY_RIGHT">4</DemographicStance>
+            <DemographicStance Key="PARTY_INDEPENDENT">6</DemographicStance>
+            <!-- VIEWS -->
+            <DemographicStance Key="VIEWS_LIBERAL">5</DemographicStance>
+            <DemographicStance Key="VIEWS_MODERATE">7</DemographicStance>
+            <DemographicStance Key="VIEWS_CONSERVATIVE">4</DemographicStance>
+        </DemographicStances>
+    </Candidate>
+    <Candidate InternalName="HillaryClinton">
+        <FirstName>Hillary</FirstName>
+        <LastName>Clinton</LastName>
+        <ElectionHistory>Former Secretary of State</ElectionHistory>
+        <Description>Clinton is a former Senator and the former 67th Secretary of State. While some of her stances have shifted, Clinton has consistently listened to experts and worked to benefit the public. She's been an outspoken advocate of LGBT rights and acknowledges the science of climate change.</Description>
+        <PortraitSprite>CandidateFace_HillaryClinton</PortraitSprite>
+		<BodySprite>CandidateBody_HillaryClinton</BodySprite>
+        <IdeologyTree>PROGRESSIVE</IdeologyTree>
+        <PoliticalActionCardDeck>EstablishmentDemocrat</PoliticalActionCardDeck>
+        <Gender>1</Gender>
+        <FundRaisingAbility>7</FundRaisingAbility>
+        <!--Unique Stats-->
+        <Stamina>11</Stamina>
+        <Intelligence>7</Intelligence>
+        <Charisma>1</Charisma>
+        <MediaBias>-1</MediaBias>
+        <Experience>7</Experience>
+        <StartingMoney>3</StartingMoney>
+        <!--Unique Stats-->
+        <MinorityAppeal>6</MinorityAppeal>
+        <PoliticalParty>-1</PoliticalParty>
+        <HomeState Map="USA">33</HomeState>
+        <Money>2500</Money>
+        <AllowedInExpressVersion>1</AllowedInExpressVersion>
+        <IssueStanceMap InternalName="Default">
+            <IssueStance Key="_RELIGIOUS">5</IssueStance>
+            <!--ISSUES-->
+            <IssueStance Key="FEDERALEDUCATION">70</IssueStance>
+            <IssueStance Key="DRUGTRAFFICKING">70</IssueStance>
+            <IssueStance Key="DRUGSERVICES">70</IssueStance>
+            <IssueStance Key="IMMIGRATIONREFORM">40</IssueStance>
+            <IssueStance Key="BORDERSECURITY">-30</IssueStance>
+            <IssueStance Key="CLIMATECHA">80</IssueStance>
+            <IssueStance Key="GASNOIL">60</IssueStance>
+            <IssueStance Key="SEXGENDERPROTECTIONS">70</IssueStance>
+            <IssueStance Key="TRANSGENDERHEALTHCARE">70</IssueStance>
+            <IssueStance Key="NETNEUTRAL">30</IssueStance>
+            <IssueStance Key="LEAVEUN">-30</IssueStance>
+            <IssueStance Key="FAIR_TRADE">40</IssueStance>
+            <IssueStance Key="RELIGIOUSFREEDOM">20</IssueStance>
+            <IssueStance Key="MENTALHEALTHSERVICES">60</IssueStance>
+            <IssueStance Key="ABORTION">50</IssueStance>
+            <IssueStance Key="CORPORATE_TAX_CUTS">-30</IssueStance>
+            <IssueStance Key="FREE_MARKET">-30</IssueStance>
+            <IssueStance Key="HIGHERWEALTHYTAXES">30</IssueStance>
+            <IssueStance Key="NATIONALISM">-20</IssueStance>
+            <IssueStance Key="EXPANDPUBLICHEALTHCARE">70</IssueStance>
+            <IssueStance Key="RUSSIASMIL">20</IssueStance>
+            <IssueStance Key="HIGHERMINI">40</IssueStance>
+            <IssueStance Key="LAWENFORCEMENTACCOUNTABILITY">40</IssueStance>
+            <IssueStance Key="IMPROVEDGUNCONTROL">60</IssueStance>
+            <IssueStance Key="ALTENERGY">80</IssueStance>
+            <IssueStance Key="DEFICITSPENDING">-50</IssueStance>
+            <IssueStance Key="LESSREGULATION">-40</IssueStance>
+        </IssueStanceMap>
+        <DemographicStances>
+            <!-- GENDER -->
+            <DemographicStance Key="GENDER_MALE">3</DemographicStance>
+            <DemographicStance Key="GENDER_FEMALE">9</DemographicStance>
+            <!-- RACE -->
+            <DemographicStance Key="RACE_WHITE">6</DemographicStance>
+            <DemographicStance Key="RACE_BLACK">5</DemographicStance>
+            <DemographicStance Key="RACE_HISPANIC">6</DemographicStance>
+            <DemographicStance Key="RACE_ASIAN">5</DemographicStance>
+            <DemographicStance Key="RACE_OTHER">4</DemographicStance>
+            <!-- AGE -->
+            <DemographicStance Key="AGE_YOUNG">1</DemographicStance>
+            <DemographicStance Key="AGE_MIDDLEAGED">3</DemographicStance>
+            <DemographicStance Key="AGE_OLD">7</DemographicStance>
+            <DemographicStance Key="AGE_OLDEST">6</DemographicStance>
+            <!-- INCOME -->
+            <DemographicStance Key="INCOME_LOWEST">2</DemographicStance>
+            <DemographicStance Key="INCOME_LOW">2</DemographicStance>
+            <DemographicStance Key="INCOME_MIDLOW">4</DemographicStance>
+            <DemographicStance Key="INCOME_MIDHIGH">4</DemographicStance>
+            <DemographicStance Key="INCOME_HIGH">4</DemographicStance>
+            <DemographicStance Key="INCOME_HIGHEST">5</DemographicStance>
+            <!-- PARTY -->
+            <DemographicStance Key="PARTY_LEFT">8</DemographicStance>
+            <DemographicStance Key="PARTY_RIGHT">-6</DemographicStance>
+            <DemographicStance Key="PARTY_INDEPENDENT">5</DemographicStance>
+            <!-- VIEWS -->
+            <DemographicStance Key="VIEWS_LIBERAL">9</DemographicStance>
+            <DemographicStance Key="VIEWS_MODERATE">5</DemographicStance>
+            <DemographicStance Key="VIEWS_CONSERVATIVE">-3</DemographicStance>
+        </DemographicStances>
+    </Candidate>
+    <Candidate InternalName="MarianneWilliamson">
+        <FirstName>Marianne</FirstName>
+        <LastName>Williamson</LastName>
+        <Description>As a spiritualist and activist, Williamson campaigns on social-economic issues, including universal healthcare and tuition-free higher education. Outside politics, she's a religious leader and author known for charity work.</Description>
+        <ElectionHistory>Presidential Hopeful</ElectionHistory>
+        <PortraitSprite>CandidateFace_MarianneWilliamson</PortraitSprite>
+		<BodySprite>CandidateBody_MarianneWilliamson</BodySprite>
+        <IdeologyTree>PROGRESSIVE_SPIRTUALIST</IdeologyTree>
+        <PoliticalActionCardDeck>OutsiderDemocrat</PoliticalActionCardDeck>
+        <Gender>1</Gender>
+        <PoliticalParty>-1</PoliticalParty>
+        <HomeState Map="USA">42</HomeState>
+        <Money>3100</Money>
+        <FundRaisingAbility>7</FundRaisingAbility>
+        <!--Unique Stats-->
+        <Stamina>14</Stamina>
+        <Intelligence>5</Intelligence>
+        <Charisma>2</Charisma>
+        <MediaBias>1</MediaBias>
+        <Experience>4</Experience>
+        <StartingMoney>2</StartingMoney>
+        <!--Unique Stats-->
+        <MinorityAppeal>3</MinorityAppeal>
+        <IssueStanceMap InternalName="Default">
+            <IssueStance Key="_RELIGIOUS">4</IssueStance>
+            <!--ISSUES-->
+            <IssueStance Key="DRUGPOLICING">-50</IssueStance>
+            <IssueStance Key="DRUGSERVICES">50</IssueStance>
+            <IssueStance Key="CORPORATE_TAX_CUTS">-50</IssueStance>
+            <IssueStance Key="HIGHERWEALTHYTAXES">50</IssueStance>
+            <IssueStance Key="AIREGULATION">40</IssueStance>
+            <IssueStance Key="CLIMATECHA">50</IssueStance>
+            <IssueStance Key="ALTENERGY">30</IssueStance>
+            <IssueStance Key="RELIGIOUSFREEDOM">55</IssueStance>
+            <IssueStance Key="POL_SPIRTUALITY">60</IssueStance>
+            <IssueStance Key="TRADITIONALVALUES">-20</IssueStance>
+            <IssueStance Key="MENTALHEALTHSERVICES">50</IssueStance>
+            <IssueStance Key="SEXGENDERPROTECTIONS">55</IssueStance>
+            <IssueStance Key="COMBATSYSTEMICRACISM">30</IssueStance>
+            <IssueStance Key="LESSREGULATION">-40</IssueStance>
+            <IssueStance Key="ESG">30</IssueStance>
+            <IssueStance Key="GENDERSEXED">30</IssueStance>
+            <IssueStance Key="RUSSIASMIL">10</IssueStance>
+            <IssueStance Key="HIGHERMINI">10</IssueStance>
+            <IssueStance Key="LOANFORGIVE">30</IssueStance>
+            <IssueStance Key="EXPANDPUBLICHEALTHCARE">20</IssueStance>
+            <IssueStance Key="STRONGMILITARY">-20</IssueStance>
+            <IssueStance Key="ADDRESSINGHOMELESSNESS">30</IssueStance>
+            <IssueStance Key="REDUCINGWE">40</IssueStance>
+            <IssueStance Key="FREE_MARKET">-30</IssueStance>
+        </IssueStanceMap>
+        <DemographicStances>
+            <!-- GENDER -->
+            <DemographicStance Key="GENDER_MALE">1</DemographicStance>
+            <DemographicStance Key="GENDER_FEMALE">8</DemographicStance>
+            <!-- RACE -->
+            <DemographicStance Key="RACE_WHITE">7</DemographicStance>
+            <DemographicStance Key="RACE_BLACK">4</DemographicStance>
+            <DemographicStance Key="RACE_HISPANIC">3</DemographicStance>
+            <DemographicStance Key="RACE_ASIAN">2</DemographicStance>
+            <DemographicStance Key="RACE_OTHER">7</DemographicStance>
+            <!-- AGE -->
+            <DemographicStance Key="AGE_YOUNG">6</DemographicStance>
+            <DemographicStance Key="AGE_MIDDLEAGED">5</DemographicStance>
+            <DemographicStance Key="AGE_OLD">1</DemographicStance>
+            <DemographicStance Key="AGE_OLDEST">0</DemographicStance>
+            <!-- INCOME -->
+            <DemographicStance Key="INCOME_LOWEST">7</DemographicStance>
+            <DemographicStance Key="INCOME_LOW">7</DemographicStance>
+            <DemographicStance Key="INCOME_MIDLOW">6</DemographicStance>
+            <DemographicStance Key="INCOME_MIDHIGH">5</DemographicStance>
+            <DemographicStance Key="INCOME_HIGH">0</DemographicStance>
+            <DemographicStance Key="INCOME_HIGHEST">-1</DemographicStance>
+            <!-- PARTY -->
+            <DemographicStance Key="PARTY_LEFT">5</DemographicStance>
+            <DemographicStance Key="PARTY_RIGHT">-3</DemographicStance>
+            <DemographicStance Key="PARTY_INDEPENDENT">8</DemographicStance>
+            <!-- VIEWS -->
+            <DemographicStance Key="VIEWS_LIBERAL">6</DemographicStance>
+            <DemographicStance Key="VIEWS_MODERATE">4</DemographicStance>
+            <DemographicStance Key="VIEWS_CONSERVATIVE">-2</DemographicStance>
+        </DemographicStances>
+    </Candidate>
+    <!-- **************************************************************************************** -->
+    <!-- Republicans -->
+    <!-- **************************************************************************************** -->
+    <Candidate InternalName="DonaldTrump">
+        <FirstName>Donald</FirstName>
+        <LastName>Trump</LastName>
+        <Description>Donald Trump is a businessman turned politician. He served as the 45th President of the United States and was vocal about efforts to increase American independence. His eligibility for re-election is currently in question due to his links with the events of January 6th.</Description>
+        <ElectionHistory>Former President</ElectionHistory>
+        <Image>gfx\\candidate_images\\DonaldTrump.png</Image>
+        <PortraitSprite>CandidateFace_DonaldTrump</PortraitSprite>
+		<BodySprite>CandidateBody_DonaldTrump</BodySprite>
+        <IdeologyTree>TRUMPPOPULISM</IdeologyTree>
+        <PoliticalActionCardDeck>TrumpPopulism</PoliticalActionCardDeck>
+        <Gender>0</Gender>
+        <FundRaisingAbility>7</FundRaisingAbility>
+        <!--Unique Stats-->
+        <Stamina>13</Stamina>
+        <Intelligence>5</Intelligence>
+        <Charisma>2</Charisma>
+        <MediaBias>-1</MediaBias>
+        <Experience>5</Experience>
+        <StartingMoney>5</StartingMoney>
+        <!--Unique Stats-->
+        <MinorityAppeal>6</MinorityAppeal>
+        <PoliticalParty>1</PoliticalParty>
+        <AllowedInExpressVersion>1</AllowedInExpressVersion>
+        <HomeState Map="USA">8</HomeState>
+        <!-- Florida -->
+        <Money>3500</Money>
+        <IssueStanceMap InternalName="Default">
+            <IssueStance Key="_COMELINESS">5</IssueStance>
+            <IssueStance Key="_CREDIBILITY">3</IssueStance>
+            <IssueStance Key="_RELIGIOUS">3</IssueStance>
+            <!--ISSUES-->
+            <IssueStance Key="REFORMFINANCIALCRISIS">40</IssueStance>
+			<IssueStance Key="FINANCIALCRISIS">15</IssueStance>
+			<IssueStance Key="HOUSEFINANCIALCRISIS">15</IssueStance>
+			<IssueStance Key="STIMULUSFINANCIALCRISIS">10</IssueStance>
+			<IssueStance Key="SUPPORTHOMEOWNERSFINANCIALCRISIS">35</IssueStance>
+			<IssueStance Key="OBAMACARE">-15</IssueStance>
+			<IssueStance Key="REFORMHEALTHCARE">20</IssueStance>
+			<IssueStance Key="GOVERNMENTCONTROLLEDDRUGPRICES">-30</IssueStance>
+			<IssueStance Key="LONGTERMIRAQ">20</IssueStance>
+			<IssueStance Key="WITHDRAWINGIRAQ">-20</IssueStance>
+			<IssueStance Key="BUSHSUPPORT">5</IssueStance>
+			<IssueStance Key="LOWERTAXES">20</IssueStance>
+			<IssueStance Key="FUNDRAISINGTRANSPARENCY">15</IssueStance>
+			<IssueStance Key="AGRICULTURESUPPORT">25</IssueStance>
+			<IssueStance Key="EXPANDSOCIALSECURITY">-10</IssueStance>
+			<IssueStance Key="IGNORE">0</IssueStance>
+        </IssueStanceMap>
+        <DemographicStances>
+            <!-- GENDER -->
+            <DemographicStance Key="GENDER_MALE">9</DemographicStance>
+            <DemographicStance Key="GENDER_FEMALE">3</DemographicStance>
+            <!-- RACE -->
+            <DemographicStance Key="RACE_WHITE">8</DemographicStance>
+            <DemographicStance Key="RACE_BLACK">3</DemographicStance>
+            <DemographicStance Key="RACE_HISPANIC">1</DemographicStance>
+            <DemographicStance Key="RACE_ASIAN">4</DemographicStance>
+            <DemographicStance Key="RACE_OTHER">5</DemographicStance>
+            <!-- AGE -->
+            <DemographicStance Key="AGE_YOUNG">1</DemographicStance>
+            <DemographicStance Key="AGE_MIDDLEAGED">5</DemographicStance>
+            <DemographicStance Key="AGE_OLD">6</DemographicStance>
+            <DemographicStance Key="AGE_OLDEST">7</DemographicStance>
+            <!-- INCOME -->
+            <DemographicStance Key="INCOME_LOWEST">-1</DemographicStance>
+            <DemographicStance Key="INCOME_LOW">0</DemographicStance>
+            <DemographicStance Key="INCOME_MIDLOW">3</DemographicStance>
+            <DemographicStance Key="INCOME_MIDHIGH">5</DemographicStance>
+            <DemographicStance Key="INCOME_HIGH">8</DemographicStance>
+            <DemographicStance Key="INCOME_HIGHEST">9</DemographicStance>
+            <!-- PARTY -->
+            <DemographicStance Key="PARTY_LEFT">-9</DemographicStance>
+            <DemographicStance Key="PARTY_RIGHT">9</DemographicStance>
+            <DemographicStance Key="PARTY_INDEPENDENT">5</DemographicStance>
+            <!-- VIEWS -->
+            <DemographicStance Key="VIEWS_LIBERAL">-7</DemographicStance>
+            <DemographicStance Key="VIEWS_MODERATE">3</DemographicStance>
+            <DemographicStance Key="VIEWS_CONSERVATIVE">8</DemographicStance>
+        </DemographicStances>
+    </Candidate>
+    <Candidate InternalName="TedCruz">
+        <FirstName>Ted</FirstName>
+        <LastName>Cruz</LastName>
+        <Description>While in office, Cruz has worked to defend the Second Amendment and push for increased border security. He's been pro-military and favored limiting the federal government's power. Cruz has retained a hard anti-abortion stance.</Description>
+        <ElectionHistory>Senator</ElectionHistory>
+        <Image>gfx\\candidate_images\\MittRomney.png</Image>
+        <PortraitSprite>CandidateFace_TedCruz</PortraitSprite>
+		<BodySprite>CandidateBody_TedCruz</BodySprite>
+        <IdeologyTree>CONSERVATIVE</IdeologyTree>
+        <PoliticalActionCardDeck>OutsiderRepublican</PoliticalActionCardDeck>
+        <Gender>0</Gender>
+        <FundRaisingAbility>7</FundRaisingAbility>
+        <!--Unique Stats-->
+        <Stamina>13</Stamina>
+        <Intelligence>6</Intelligence>
+        <Charisma>-1</Charisma>
+        <MediaBias>-1</MediaBias>
+        <Experience>7</Experience>
+        <StartingMoney>4</StartingMoney>
+        <!--Unique Stats-->
+        <MinorityAppeal>3</MinorityAppeal>
+        <PoliticalParty>-1</PoliticalParty>
+        <HomeState Map="USA">42</HomeState>
+        <Money>3000</Money>
+        <IssueStanceMap InternalName="Default">
+            <IssueStance Key="_RELIGIOUS">6</IssueStance>
+            <!--ISSUES-->
+            <IssueStance Key="BORDERSECURITY">80</IssueStance>
+            <IssueStance Key="StrictDeportation">70</IssueStance>
+            <IssueStance Key="BUILDING_THE_WALL">60</IssueStance>
+            <IssueStance Key="REPEALTHEACA">50</IssueStance>
+            <IssueStance Key="MARKETSOLUTIONS">60</IssueStance>
+            <IssueStance Key="INDIVIDIAL_TAX_CUTS">70</IssueStance>
+            <IssueStance Key="CORPORATE_TAX_CUTS">50</IssueStance>
+            <IssueStance Key="FREE_MARKET">70</IssueStance>
+            <IssueStance Key="ENERGY_INDEPENDENCE">60</IssueStance>
+            <IssueStance Key="CLASSROOM_TRANSPARENCY_PARENTAL_RIGHTS">40</IssueStance>
+            <IssueStance Key="NATIONALISM">50</IssueStance>
+            <IssueStance Key="RELIGIOUSFREEDOM">60</IssueStance>
+            <IssueStance Key="SECONDAMENDPROTECTION">80</IssueStance>
+            <IssueStance Key="CRIME">50</IssueStance>
+            <IssueStance Key="STRONGERLAWENFORCEMENT">50</IssueStance>
+            <IssueStance Key="SEXGENDERPROTECTIONS">-20</IssueStance>
+            <IssueStance Key="IMPROVEDGUNCONTROL">-30</IssueStance>
+            <IssueStance Key="SOCIALNETWORKCENSOR">-40</IssueStance>
+            <IssueStance Key="VOTERID">60</IssueStance>
+            <IssueStance Key="ABORTION">-70</IssueStance>
+            <IssueStance Key="TRADITIONALVALUES">60</IssueStance>
+            <IssueStance Key="SUPPORTINGCHARTERSCHOOLS">50</IssueStance>
+            <IssueStance Key="DRUGTRAFFICKING">40</IssueStance>
+            <IssueStance Key="STRONGMILITARY">30</IssueStance>
+        </IssueStanceMap>
+        <DemographicStances>
+            <!-- GENDER -->
+            <DemographicStance Key="GENDER_MALE">3</DemographicStance>
+            <DemographicStance Key="GENDER_FEMALE">1</DemographicStance>
+            <!-- RACE -->
+            <DemographicStance Key="RACE_WHITE">4</DemographicStance>
+            <DemographicStance Key="RACE_BLACK">-1</DemographicStance>
+            <DemographicStance Key="RACE_HISPANIC">0</DemographicStance>
+            <DemographicStance Key="RACE_ASIAN">1</DemographicStance>
+            <DemographicStance Key="RACE_OTHER">0</DemographicStance>
+            <!-- AGE -->
+            <DemographicStance Key="AGE_YOUNG">1</DemographicStance>
+            <DemographicStance Key="AGE_MIDDLEAGED">2</DemographicStance>
+            <DemographicStance Key="AGE_OLD">4</DemographicStance>
+            <DemographicStance Key="AGE_OLDEST">4</DemographicStance>
+            <!-- INCOME -->
+            <DemographicStance Key="INCOME_LOWEST">-1</DemographicStance>
+            <DemographicStance Key="INCOME_LOW">2</DemographicStance>
+            <DemographicStance Key="INCOME_MIDLOW">3</DemographicStance>
+            <DemographicStance Key="INCOME_MIDHIGH">4</DemographicStance>
+            <DemographicStance Key="INCOME_HIGH">5</DemographicStance>
+            <DemographicStance Key="INCOME_HIGHEST">6</DemographicStance>
+            <!-- PARTY -->
+            <DemographicStance Key="PARTY_LEFT">-6</DemographicStance>
+            <DemographicStance Key="PARTY_RIGHT">7</DemographicStance>
+            <DemographicStance Key="PARTY_INDEPENDENT">1</DemographicStance>
+            <!-- VIEWS -->
+            <DemographicStance Key="VIEWS_LIBERAL">-7</DemographicStance>
+            <DemographicStance Key="VIEWS_MODERATE">-2</DemographicStance>
+            <DemographicStance Key="VIEWS_CONSERVATIVE">8</DemographicStance>
+        </DemographicStances>
+    </Candidate>
+    <Candidate InternalName="DanCrenshaw">
+        <FirstName>Dan</FirstName>
+        <LastName>Crenshaw</LastName>
+        <Description>As a politician, Crenshaw has consistently advocated for free speech, the right to arms, and ensuring people have equal access to freedom and liberty. This philosophy even extended to same-sex marriage, believing the government shouldn't be involved.</Description>
+        <ElectionHistory>Congressman</ElectionHistory>
+        <Image>gfx\\candidate_images\\MittRomney.png</Image>
+        <PortraitSprite>CandidateFace_DanCrenshaw</PortraitSprite>
+		<BodySprite>CandidateBody_DanCrenshaw</BodySprite>
+        <IdeologyTree>CONSERVATIVE</IdeologyTree>
+        <PoliticalActionCardDeck>EstablishmentRepublican</PoliticalActionCardDeck>
+        <Gender>0</Gender>
+        <!--Unique Stats-->
+        <Stamina>14</Stamina>
+        <Intelligence>5</Intelligence>
+        <Charisma>1</Charisma>
+        <MediaBias>3</MediaBias>
+        <Experience>5</Experience>
+        <StartingMoney>1</StartingMoney>
+        <!--Unique Stats-->
+        <MinorityAppeal>3</MinorityAppeal>
+        <PoliticalParty>-1</PoliticalParty>
+        <HomeState Map="USA">42</HomeState>
+        <Money>2000</Money>
+        <IssueStanceMap InternalName="Default">
+            <IssueStance Key="_RELIGIOUS">6</IssueStance>
+            <!--ISSUES-->
+            <IssueStance Key="BORDERSECURITY">80</IssueStance>
+            <IssueStance Key="IMMIGRATIONREFORM">30</IssueStance>
+            <IssueStance Key="SECONDAMENDPROTECTION">80</IssueStance>
+            <IssueStance Key="DEFICITSPENDING">-70</IssueStance>
+            <IssueStance Key="STRONGMILITARY">70</IssueStance>
+            <IssueStance Key="ENERGY_INDEPENDENCE">70</IssueStance>
+            <IssueStance Key="CLIMATECHA">40</IssueStance>
+            <IssueStance Key="LOWERINGINFLATION">60</IssueStance>
+            <IssueStance Key="REPEALTHEACA">50</IssueStance>
+            <IssueStance Key="FEDERALEDUCATION">-40</IssueStance>
+            <IssueStance Key="FREE_MARKET">70</IssueStance>
+            <IssueStance Key="CORPORATE_TAX_CUTS">50</IssueStance>
+            <IssueStance Key="INDIVIDIAL_TAX_CUTS">50</IssueStance>
+            <IssueStance Key="ABORTION">60</IssueStance>
+            <IssueStance Key="RELIGIOUSFREEDOM">50</IssueStance>
+            <IssueStance Key="SUPPORTINGCHARTERSCHOOLS">40</IssueStance>
+            <IssueStance Key="VOTERID">60</IssueStance>
+            <IssueStance Key="STRONGERLAWENFORCEMENT">70</IssueStance>
+            <IssueStance Key="IMPROVEDGUNCONTROL">-30</IssueStance>
+            <IssueStance Key="SOCIALISM">-80</IssueStance>
+            <IssueStance Key="UNIVERSAL_BASIC_INCOME">-60</IssueStance>
+            <IssueStance Key="SOCIALNETWORKCENSOR">-30</IssueStance>
+            <IssueStance Key="LESSREGULATION">60</IssueStance>
+        </IssueStanceMap>
+        <DemographicStances>
+            <!-- GENDER -->
+            <DemographicStance Key="GENDER_MALE">7</DemographicStance>
+            <DemographicStance Key="GENDER_FEMALE">4</DemographicStance>
+            <!-- RACE -->
+            <DemographicStance Key="RACE_WHITE">6</DemographicStance>
+            <DemographicStance Key="RACE_BLACK">1</DemographicStance>
+            <DemographicStance Key="RACE_HISPANIC">1</DemographicStance>
+            <DemographicStance Key="RACE_ASIAN">2</DemographicStance>
+            <DemographicStance Key="RACE_OTHER">0</DemographicStance>
+            <!-- AGE -->
+            <DemographicStance Key="AGE_YOUNG">6</DemographicStance>
+            <DemographicStance Key="AGE_MIDDLEAGED">8</DemographicStance>
+            <DemographicStance Key="AGE_OLD">5</DemographicStance>
+            <DemographicStance Key="AGE_OLDEST">3</DemographicStance>
+            <!-- INCOME -->
+            <DemographicStance Key="INCOME_LOWEST">3</DemographicStance>
+            <DemographicStance Key="INCOME_LOW">3</DemographicStance>
+            <DemographicStance Key="INCOME_MIDLOW">4</DemographicStance>
+            <DemographicStance Key="INCOME_MIDHIGH">5</DemographicStance>
+            <DemographicStance Key="INCOME_HIGH">7</DemographicStance>
+            <DemographicStance Key="INCOME_HIGHEST">6</DemographicStance>
+            <!-- PARTY -->
+            <DemographicStance Key="PARTY_LEFT">-4</DemographicStance>
+            <DemographicStance Key="PARTY_RIGHT">6</DemographicStance>
+            <DemographicStance Key="PARTY_INDEPENDENT">6</DemographicStance>
+            <!-- VIEWS -->
+            <DemographicStance Key="VIEWS_LIBERAL">-6</DemographicStance>
+            <DemographicStance Key="VIEWS_MODERATE">1</DemographicStance>
+            <DemographicStance Key="VIEWS_CONSERVATIVE">5</DemographicStance>
+        </DemographicStances>
+    </Candidate>
+    <Candidate InternalName="NikkiHaley">
+        <FirstName>Nikki</FirstName>
+        <LastName>Haley</LastName>
+        <Description>Nikki Haley served as the 29th Ambassador to the United Nations and, before that appointment, was the Governor of South Carolina. She campaigns on ideas of making America energy-independent, deporting undocumented immigrants, and improving healthcare with increased transparency.</Description>
+        <ElectionHistory>Former Ambassador</ElectionHistory>
+        <PortraitSprite>CandidateFace_NikkiHaley</PortraitSprite>
+		<BodySprite>CandidateBody_NikkiHaley</BodySprite>
+        <IdeologyTree>ESTABLISHMENTREPUBLICAN</IdeologyTree>
+        <PoliticalActionCardDeck>EstablishmentRepublican</PoliticalActionCardDeck>
+        <FundRaisingAbility>7</FundRaisingAbility>
+        <Gender>1</Gender>
+        <PoliticalParty>-1</PoliticalParty>
+        <HomeState Map="USA">39</HomeState>
+        <Money>3050</Money>
+        <!--Unique Stats-->
+        <Stamina>15</Stamina>
+        <Intelligence>5</Intelligence>
+        <Charisma>1</Charisma>
+        <MediaBias>1</MediaBias>
+        <Experience>5</Experience>
+        <StartingMoney>2</StartingMoney>
+        <!--Unique Stats-->
+        <MinorityAppeal>3</MinorityAppeal>
+        <IssueStanceMap InternalName="Default">
+            <IssueStance Key="_RELIGIOUS">6</IssueStance>
+            <!--ISSUES-->
+            <IssueStance Key="RAISINGRETIREAGE">70</IssueStance>
+            <IssueStance Key="STRONGMILITARY">60</IssueStance>
+            <IssueStance Key="IMMIGRATIONREFORM">50</IssueStance>
+            <IssueStance Key="BUILDING_THE_WALL">40</IssueStance>
+            <IssueStance Key="ENERGY_INDEPENDENCE">60</IssueStance>
+            <IssueStance Key="FREE_MARKET">70</IssueStance>
+            <IssueStance Key="CORPORATE_TAX_CUTS">50</IssueStance>
+            <IssueStance Key="CLIMATECHA">30</IssueStance>
+            <IssueStance Key="SECONDAMENDPROTECTION">80</IssueStance>
+            <IssueStance Key="RELIGIOUSFREEDOM">50</IssueStance>
+            <IssueStance Key="TRADITIONALVALUES">50</IssueStance>
+            <IssueStance Key="ABORTION">40</IssueStance>
+            <IssueStance Key="SUPPORTINGCHARTERSCHOOLS">50</IssueStance>
+            <IssueStance Key="CLASSROOM_TRANSPARENCY_PARENTAL_RIGHTS">60</IssueStance>
+            <IssueStance Key="VOTERID">60</IssueStance>
+            <IssueStance Key="STRONGERLAWENFORCEMENT">60</IssueStance>
+            <IssueStance Key="SOCIALNETWORKCENSOR">-40</IssueStance>
+            <IssueStance Key="IMPROVEDGUNCONTROL">-30</IssueStance>
+            <IssueStance Key="DRUGTRAFFICKING">50</IssueStance>
+            <IssueStance Key="UNIVERSAL_BASIC_INCOME">-60</IssueStance>
+            <IssueStance Key="SOCIALISM">-70</IssueStance>
+            <!--<IssueStance Key="SMALLBUSINESS">80</IssueStance>
+            <IssueStance Key="INDIVIDIAL_TAX_CUTS">40</IssueStance>
+            <IssueStance Key="CORPORATE_TAX_CUTS">30</IssueStance>
+            <IssueStance Key="BORDERSECURITY">20</IssueStance>-->
+        </IssueStanceMap>
+        <DemographicStances>
+            <!-- GENDER -->
+            <DemographicStance Key="GENDER_MALE">2</DemographicStance>
+            <DemographicStance Key="GENDER_FEMALE">5</DemographicStance>
+            <!-- RACE -->
+            <DemographicStance Key="RACE_WHITE">5</DemographicStance>
+            <DemographicStance Key="RACE_BLACK">5</DemographicStance>
+            <DemographicStance Key="RACE_HISPANIC">4</DemographicStance>
+            <DemographicStance Key="RACE_ASIAN">4</DemographicStance>
+            <DemographicStance Key="RACE_OTHER">7</DemographicStance>
+            <!-- AGE -->
+            <DemographicStance Key="AGE_YOUNG">4</DemographicStance>
+            <DemographicStance Key="AGE_MIDDLEAGED">8</DemographicStance>
+            <DemographicStance Key="AGE_OLD">7</DemographicStance>
+            <DemographicStance Key="AGE_OLDEST">4</DemographicStance>
+            <!-- INCOME -->
+            <DemographicStance Key="INCOME_LOWEST">1</DemographicStance>
+            <DemographicStance Key="INCOME_LOW">3</DemographicStance>
+            <DemographicStance Key="INCOME_MIDLOW">4</DemographicStance>
+            <DemographicStance Key="INCOME_MIDHIGH">5</DemographicStance>
+            <DemographicStance Key="INCOME_HIGH">5</DemographicStance>
+            <DemographicStance Key="INCOME_HIGHEST">4</DemographicStance>
+            <!-- PARTY -->
+            <DemographicStance Key="PARTY_LEFT">-3</DemographicStance>
+            <DemographicStance Key="PARTY_RIGHT">5</DemographicStance>
+            <DemographicStance Key="PARTY_INDEPENDENT">4</DemographicStance>
+            <!-- VIEWS -->
+            <DemographicStance Key="VIEWS_LIBERAL">-4</DemographicStance>
+            <DemographicStance Key="VIEWS_MODERATE">3</DemographicStance>
+            <DemographicStance Key="VIEWS_CONSERVATIVE">7</DemographicStance>
+        </DemographicStances>
+    </Candidate>
+    <Candidate InternalName="ChrisChristie">
+        <FirstName>Chris</FirstName>
+        <LastName>Christie</LastName>
+        <Description>Christie is the former governor of New Jersey as well as a former federal prosecutor for the U.S. Department of Justice. As governor, he used his values to influence his decisions but did not force his values on others. He supports giving more power to parents.</Description>
+        <ElectionHistory>Former Governor</ElectionHistory>
+        <PortraitSprite>CandidateFace_ChrisChristie</PortraitSprite>
+		<BodySprite>CandidateBody_ChrisChristie</BodySprite>
+        <IdeologyTree>ESTABLISHMENTREPUBLICAN</IdeologyTree>
+        <PoliticalActionCardDeck>EstablishmentRepublican</PoliticalActionCardDeck>
+        <Gender>0</Gender>
+        <PoliticalParty>-1</PoliticalParty>
+        <HomeState Map="USA">30</HomeState>
+        <Money>3100</Money>
+        <!--Unique Stats-->
+        <Stamina>11</Stamina>
+        <Intelligence>5</Intelligence>
+        <Charisma>2</Charisma>
+        <MediaBias>0</MediaBias>
+        <Experience>7</Experience>
+        <StartingMoney>4</StartingMoney>
+        <!--Unique Stats-->
+        <MinorityAppeal>3</MinorityAppeal>
+        <IssueStanceMap InternalName="Default">
+            <IssueStance Key="_RELIGIOUS">4</IssueStance>
+            <!--ISSUES-->
+            <IssueStance Key="BORDERSECURITY">60</IssueStance>
+            <IssueStance Key="IMMIGRATIONREFORM">50</IssueStance>
+            <IssueStance Key="CRIME">70</IssueStance>
+            <IssueStance Key="FEDERALEDUCATION">-50</IssueStance>
+            <IssueStance Key="SMALLBUSINESS">60</IssueStance>
+            <IssueStance Key="ABORTION">30</IssueStance>
+            <IssueStance Key="DEFICITSPENDING">-50</IssueStance>
+            <IssueStance Key="CLIMATECHA">30</IssueStance>
+            <IssueStance Key="STRONGMILITARY">60</IssueStance>
+            <IssueStance Key="SOCIALISM">-60</IssueStance>
+            <IssueStance Key="FREE_MARKET">60</IssueStance>
+            <IssueStance Key="SOCIALNETWORKCENSOR">-20</IssueStance>
+            <IssueStance Key="TRUMPSELIGIBILITY">-60</IssueStance>
+            <IssueStance Key="DRUGPOLICING">-80</IssueStance>
+            <IssueStance Key="DRUGSERVICES">70</IssueStance>
+            <IssueStance Key="INTELAGENCYTRANSPARENCY">-40</IssueStance>
+            <IssueStance Key="LEAVENATO">-60</IssueStance>
+            <IssueStance Key="STRONGERLAWENFORCEMENT">60</IssueStance>
+            <IssueStance Key="INDIVIDIAL_TAX_CUTS">80</IssueStance>
+            <IssueStance Key="CORPORATE_TAX_CUTS">70</IssueStance>
+            <IssueStance Key="HIGHERWEALTHYTAXES">-40</IssueStance>
+            <IssueStance Key="SUPPORTINGCHARTERSCHOOLS">50</IssueStance>
+            <IssueStance Key="FIXINGINFR">30</IssueStance>
+            <IssueStance Key="OVERHAULINGINFRASTRUCTURE">-30</IssueStance>
+            <IssueStance Key="RAISINGRETIREAGE">30</IssueStance>
+        </IssueStanceMap>
+        <DemographicStances>
+            <!-- GENDER -->
+            <DemographicStance Key="GENDER_MALE">3</DemographicStance>
+            <DemographicStance Key="GENDER_FEMALE">1</DemographicStance>
+            <!-- RACE -->
+            <DemographicStance Key="RACE_WHITE">5</DemographicStance>
+            <DemographicStance Key="RACE_BLACK">0</DemographicStance>
+            <DemographicStance Key="RACE_HISPANIC">1</DemographicStance>
+            <DemographicStance Key="RACE_ASIAN">2</DemographicStance>
+            <DemographicStance Key="RACE_OTHER">4</DemographicStance>
+            <!-- AGE -->
+            <DemographicStance Key="AGE_YOUNG">0</DemographicStance>
+            <DemographicStance Key="AGE_MIDDLEAGED">3</DemographicStance>
+            <DemographicStance Key="AGE_OLD">4</DemographicStance>
+            <DemographicStance Key="AGE_OLDEST">3</DemographicStance>
+            <!-- INCOME -->
+            <DemographicStance Key="INCOME_LOWEST">1</DemographicStance>
+            <DemographicStance Key="INCOME_LOW">3</DemographicStance>
+            <DemographicStance Key="INCOME_MIDLOW">6</DemographicStance>
+            <DemographicStance Key="INCOME_MIDHIGH">7</DemographicStance>
+            <DemographicStance Key="INCOME_HIGH">6</DemographicStance>
+            <DemographicStance Key="INCOME_HIGHEST">7</DemographicStance>
+            <!-- PARTY -->
+            <DemographicStance Key="PARTY_LEFT">-4</DemographicStance>
+            <DemographicStance Key="PARTY_RIGHT">5</DemographicStance>
+            <DemographicStance Key="PARTY_INDEPENDENT">4</DemographicStance>
+            <!-- VIEWS -->
+            <DemographicStance Key="VIEWS_LIBERAL">-3</DemographicStance>
+            <DemographicStance Key="VIEWS_MODERATE">4</DemographicStance>
+            <DemographicStance Key="VIEWS_CONSERVATIVE">6</DemographicStance>
+        </DemographicStances>
+    </Candidate>
+    <Candidate InternalName="TimScott">
+        <FirstName>Tim</FirstName>
+        <LastName>Scott</LastName>
+        <Description>Scott is a senator who believes the future is one where faith becomes a dominant force in American politics. He pushes for increasing border security and international security with a strong military. He wants to base more policy on religion.</Description>
+        <ElectionHistory>Senator</ElectionHistory>
+        <PortraitSprite>CandidateFace_TimScott</PortraitSprite>
+		<BodySprite>CandidateBody_TimScott</BodySprite>
+        <IdeologyTree>ESTABLISHMENTREPUBLICAN</IdeologyTree>
+        <PoliticalActionCardDeck>EstablishmentRepublican</PoliticalActionCardDeck>
+        <Gender>0</Gender>
+        <PoliticalParty>-1</PoliticalParty>
+        <HomeState Map="USA">39</HomeState>
+        <Money>3100</Money>
+        <!--Unique Stats-->
+        <Stamina>12</Stamina>
+        <Intelligence>6</Intelligence>
+        <Charisma>1</Charisma>
+        <MediaBias>2</MediaBias>
+        <Experience>6</Experience>
+        <StartingMoney>1</StartingMoney>
+        <!--Unique Stats-->
+        <MinorityAppeal>6</MinorityAppeal>
+        <IssueStanceMap InternalName="Default">
+            <IssueStance Key="_RELIGIOUS">4</IssueStance>
+            <!--ISSUES-->
+            <IssueStance Key="BORDERSECURITY">60</IssueStance>
+            <IssueStance Key="POL_SPIRTUALITY">70</IssueStance>
+            <IssueStance Key="BUILDING_THE_WALL">40</IssueStance>
+            <IssueStance Key="RELIGIOUSFREEDOM">100</IssueStance>
+            <IssueStance Key="FREE_MARKET">80</IssueStance>
+            <IssueStance Key="SUPPORTINGCHARTERSCHOOLS">70</IssueStance>
+            <IssueStance Key="ABORTION">-30</IssueStance>
+            <IssueStance Key="SECONDAMENDPROTECTION">80</IssueStance>
+            <IssueStance Key="TRADEWITHCHINA">-20</IssueStance>
+            <IssueStance Key="LAWENFORCEMENTACCOUNTABILITY">60</IssueStance>
+            <IssueStance Key="DRUGTRAFFICKING">70</IssueStance>
+            <IssueStance Key="ENERGY_INDEPENDENCE">70</IssueStance>
+            <IssueStance Key="CLIMATECHA">40</IssueStance>
+            <IssueStance Key="REDUCINGWE">50</IssueStance>
+            <IssueStance Key="MENTALHEALTHSERVICES">60</IssueStance>
+            <IssueStance Key="COMBATSYSTEMICRACISM">-70</IssueStance>
+            <IssueStance Key="VOTERID">70</IssueStance>
+            <IssueStance Key="SOCIALNETWORKCENSOR">-40</IssueStance>
+            <!--<IssueStance Key="REPEALTHEACA">60</IssueStance>
+            <IssueStance Key="EXPANDPUBLICHEALTHCARE">-30</IssueStance>
+            <IssueStance Key="INDIVIDIAL_TAX_CUTS">40</IssueStance>
+            <IssueStance Key="CORPORATE_TAX_CUTS">40</IssueStance>
+            <IssueStance Key="JOBS">50</IssueStance>-->
+        </IssueStanceMap>
+        <DemographicStances>
+            <!-- GENDER -->
+            <DemographicStance Key="GENDER_MALE">6</DemographicStance>
+            <DemographicStance Key="GENDER_FEMALE">3</DemographicStance>
+            <!-- RACE -->
+            <DemographicStance Key="RACE_WHITE">6</DemographicStance>
+            <DemographicStance Key="RACE_BLACK">9</DemographicStance>
+            <DemographicStance Key="RACE_HISPANIC">6</DemographicStance>
+            <DemographicStance Key="RACE_ASIAN">5</DemographicStance>
+            <DemographicStance Key="RACE_OTHER">6</DemographicStance>
+            <!-- AGE -->
+            <DemographicStance Key="AGE_YOUNG">6</DemographicStance>
+            <DemographicStance Key="AGE_MIDDLEAGED">6</DemographicStance>
+            <DemographicStance Key="AGE_OLD">3</DemographicStance>
+            <DemographicStance Key="AGE_OLDEST">-1</DemographicStance>
+            <!-- INCOME -->
+            <DemographicStance Key="INCOME_LOWEST">4</DemographicStance>
+            <DemographicStance Key="INCOME_LOW">4</DemographicStance>
+            <DemographicStance Key="INCOME_MIDLOW">5</DemographicStance>
+            <DemographicStance Key="INCOME_MIDHIGH">5</DemographicStance>
+            <DemographicStance Key="INCOME_HIGH">6</DemographicStance>
+            <DemographicStance Key="INCOME_HIGHEST">5</DemographicStance>
+            <!-- PARTY -->
+            <DemographicStance Key="PARTY_LEFT">-3</DemographicStance>
+            <DemographicStance Key="PARTY_RIGHT">6</DemographicStance>
+            <DemographicStance Key="PARTY_INDEPENDENT">5</DemographicStance>
+            <!-- VIEWS -->
+            <DemographicStance Key="VIEWS_LIBERAL">-2</DemographicStance>
+            <DemographicStance Key="VIEWS_MODERATE">3</DemographicStance>
+            <DemographicStance Key="VIEWS_CONSERVATIVE">7</DemographicStance>
+        </DemographicStances>
+    </Candidate>
+    <Candidate InternalName="RonDeSantis">
+        <FirstName>Ron</FirstName>
+        <LastName>DeSantis</LastName>
+        <Description>DeSantis is known for his hardline stance on many social issues and the drastic measures he takes to entrench those stances into law. He has been particularly vocal about supporting classroom transparency and charter schools, along with opposing abortion.</Description>
+        <ElectionHistory>Governor</ElectionHistory>
+        <PortraitSprite>CandidateFace_RonDesantis</PortraitSprite>
+		<BodySprite>CandidateBody_RonDesantis</BodySprite>
+        <IdeologyTree>STATESRIGHTS_CONSERVATIVE</IdeologyTree>
+        <PoliticalActionCardDeck>OutsiderRepublican</PoliticalActionCardDeck>
+        <Gender>0</Gender>
+        <PoliticalParty>-1</PoliticalParty>
+        <HomeState Map="USA">8</HomeState>
+        <Money>3100</Money>
+        <!--Unique Stats-->
+        <Stamina>14</Stamina>
+        <Intelligence>6</Intelligence>
+        <Charisma>0</Charisma>
+        <MediaBias>-2</MediaBias>
+        <Experience>6</Experience>
+        <StartingMoney>4</StartingMoney>
+        <!--Unique Stats-->
+        <MinorityAppeal>3</MinorityAppeal>
+        <IssueStanceMap InternalName="Default">
+            <IssueStance Key="_RELIGIOUS">4</IssueStance>
+            <!--ISSUES-->
+            <IssueStance Key="BORDERSECURITY">90</IssueStance>
+            <IssueStance Key="StrictDeportation">80</IssueStance>
+            <IssueStance Key="BUILDING_THE_WALL">65</IssueStance>
+            <IssueStance Key="REPEALTHEACA">70</IssueStance>
+            <IssueStance Key="MARKETSOLUTIONS">65</IssueStance>
+            <IssueStance Key="ABORTION">-80</IssueStance>
+            <IssueStance Key="ENERGY_INDEPENDENCE">80</IssueStance>
+            <IssueStance Key="CLIMATECHA">-30</IssueStance>
+            <IssueStance Key="JOBS">60</IssueStance>
+            <IssueStance Key="STRONGMILITARY">70</IssueStance>
+            <IssueStance Key="ISRAEL">80</IssueStance>
+            <IssueStance Key="POL_SPIRTUALITY">70</IssueStance>
+            <IssueStance Key="DEFICITSPENDING">-60</IssueStance>
+            <IssueStance Key="CRIME">90</IssueStance>
+            <IssueStance Key="CLASSROOM_TRANSPARENCY_PARENTAL_RIGHTS">50</IssueStance>
+            <IssueStance Key="SEXGENDERPROTECTIONS">-70</IssueStance>
+            <IssueStance Key="GENDERSEXED">-80</IssueStance>
+            <IssueStance Key="VOTERID">60</IssueStance>
+            <IssueStance Key="SOCIALNETWORKCENSOR">-50</IssueStance>
+        </IssueStanceMap>
+        <DemographicStances>
+            <!-- GENDER -->
+            <DemographicStance Key="GENDER_MALE">7</DemographicStance>
+            <DemographicStance Key="GENDER_FEMALE">3</DemographicStance>
+            <!-- RACE -->
+            <DemographicStance Key="RACE_WHITE">9</DemographicStance>
+            <DemographicStance Key="RACE_BLACK">4</DemographicStance>
+            <DemographicStance Key="RACE_HISPANIC">5</DemographicStance>
+            <DemographicStance Key="RACE_ASIAN">5</DemographicStance>
+            <DemographicStance Key="RACE_OTHER">3</DemographicStance>
+            <!-- AGE -->
+            <DemographicStance Key="AGE_YOUNG">3</DemographicStance>
+            <DemographicStance Key="AGE_MIDDLEAGED">6</DemographicStance>
+            <DemographicStance Key="AGE_OLD">4</DemographicStance>
+            <DemographicStance Key="AGE_OLDEST">5</DemographicStance>
+            <!-- INCOME -->
+            <DemographicStance Key="INCOME_LOWEST">2</DemographicStance>
+            <DemographicStance Key="INCOME_LOW">4</DemographicStance>
+            <DemographicStance Key="INCOME_MIDLOW">5</DemographicStance>
+            <DemographicStance Key="INCOME_MIDHIGH">7</DemographicStance>
+            <DemographicStance Key="INCOME_HIGH">8</DemographicStance>
+            <DemographicStance Key="INCOME_HIGHEST">7</DemographicStance>
+            <!-- PARTY -->
+            <DemographicStance Key="PARTY_LEFT">-4</DemographicStance>
+            <DemographicStance Key="PARTY_RIGHT">8</DemographicStance>
+            <DemographicStance Key="PARTY_INDEPENDENT">3</DemographicStance>
+            <!-- VIEWS -->
+            <DemographicStance Key="VIEWS_LIBERAL">-5</DemographicStance>
+            <DemographicStance Key="VIEWS_MODERATE">3</DemographicStance>
+            <DemographicStance Key="VIEWS_CONSERVATIVE">9</DemographicStance>
+        </DemographicStances>
+    </Candidate>
+    <Candidate InternalName="VivekRamaswamy">
+        <FirstName>Vivek</FirstName>
+        <LastName>Ramaswamy</LastName>
+        <Description>Vivek has built his campaign around supporting free speech and opposing ESG policies. He argues for the downsizing of the federal government, pushing for deep cuts in staff and wanting to move many agencies out of D.C.</Description>
+        <ElectionHistory>Entrepreneur</ElectionHistory>
+        <PortraitSprite>CandidateFace_VivekRamaswamy</PortraitSprite>
+		<BodySprite>CandidateBody_VivekRamaswamy</BodySprite>
+        <IdeologyTree>CONSERVATIVE_LIBERTARIAN</IdeologyTree>
+        <PoliticalActionCardDeck>OutsiderRepublican</PoliticalActionCardDeck>
+        <Gender>0</Gender>
+        <PoliticalParty>-1</PoliticalParty>
+        <HomeState Map="USA">34</HomeState>
+        <Money>3100</Money>
+        <!--Unique Stats-->
+        <Stamina>15</Stamina>
+        <Intelligence>8</Intelligence>
+        <Charisma>0</Charisma>
+        <MediaBias>-2</MediaBias>
+        <Experience>4</Experience>
+        <StartingMoney>3</StartingMoney>
+        <!--Unique Stats-->
+        <MinorityAppeal>3</MinorityAppeal>
+        <IssueStanceMap InternalName="Default">
+            <IssueStance Key="_RELIGIOUS">4</IssueStance>
+            <!--ISSUES-->
+            <IssueStance Key="BORDERSECURITY">70</IssueStance>
+            <IssueStance Key="StrictDeportation">60</IssueStance>
+            <IssueStance Key="FREE_MARKET">90</IssueStance>
+            <IssueStance Key="CORPORATE_TAX_CUTS">80</IssueStance>
+            <IssueStance Key="REPEALTHEACA">70</IssueStance>
+            <IssueStance Key="TRANSGENDERHEALTHCARE">-50</IssueStance>
+            <IssueStance Key="SUPPORTINGCHARTERSCHOOLS">80</IssueStance>
+            <IssueStance Key="CRIME">80</IssueStance>
+            <IssueStance Key="RELIGIOUSFREEDOM">80</IssueStance>
+            <IssueStance Key="VOTERID">70</IssueStance>
+            <IssueStance Key="STRONGMILITARY">60</IssueStance>
+            <IssueStance Key="ISRAEL">70</IssueStance>
+            <IssueStance Key="NATIONALISM">90</IssueStance>
+            <IssueStance Key="LESSREGULATION">80</IssueStance>
+            <IssueStance Key="SOCIALNETWORKCENSOR">-80</IssueStance>
+            <!--<IssueStance Key="ESG">-80</IssueStance>
+            <IssueStance Key="UNIONS">-60</IssueStance>
+            <IssueStance Key="BIG_PHARMA">50</IssueStance>-->
+        </IssueStanceMap>
+        <DemographicStances>
+            <!-- GENDER -->
+            <DemographicStance Key="GENDER_MALE">4</DemographicStance>
+            <DemographicStance Key="GENDER_FEMALE">1</DemographicStance>
+            <!-- RACE -->
+            <DemographicStance Key="RACE_WHITE">4</DemographicStance>
+            <DemographicStance Key="RACE_BLACK">5</DemographicStance>
+            <DemographicStance Key="RACE_HISPANIC">5</DemographicStance>
+            <DemographicStance Key="RACE_ASIAN">8</DemographicStance>
+            <DemographicStance Key="RACE_OTHER">8</DemographicStance>
+            <!-- AGE -->
+            <DemographicStance Key="AGE_YOUNG">5</DemographicStance>
+            <DemographicStance Key="AGE_MIDDLEAGED">5</DemographicStance>
+            <DemographicStance Key="AGE_OLD">4</DemographicStance>
+            <DemographicStance Key="AGE_OLDEST">1</DemographicStance>
+            <!-- INCOME -->
+            <DemographicStance Key="INCOME_LOWEST">3</DemographicStance>
+            <DemographicStance Key="INCOME_LOW">3</DemographicStance>
+            <DemographicStance Key="INCOME_MIDLOW">5</DemographicStance>
+            <DemographicStance Key="INCOME_MIDHIGH">6</DemographicStance>
+            <DemographicStance Key="INCOME_HIGH">7</DemographicStance>
+            <DemographicStance Key="INCOME_HIGHEST">8</DemographicStance>
+            <!-- PARTY -->
+            <DemographicStance Key="PARTY_LEFT">1</DemographicStance>
+            <DemographicStance Key="PARTY_RIGHT">6</DemographicStance>
+            <DemographicStance Key="PARTY_INDEPENDENT">4</DemographicStance>
+            <!-- VIEWS -->
+            <DemographicStance Key="VIEWS_LIBERAL">2</DemographicStance>
+            <DemographicStance Key="VIEWS_MODERATE">5</DemographicStance>
+            <DemographicStance Key="VIEWS_CONSERVATIVE">6</DemographicStance>
+        </DemographicStances>
+    </Candidate>
+    <Candidate InternalName="DougBurgum">
+        <FirstName>Doug</FirstName>
+        <LastName>Burgum</LastName>
+        <Description>Burgum claims that as a governor of a small-population state, he can govern more responsibly with a basis in those values and personal connections. He focuses on economic reform with tax cuts, an intent to reduce inflation, and domestic energy production.</Description>
+        <ElectionHistory>Governor</ElectionHistory>
+        <PortraitSprite>CandidateFace_DougBurgum</PortraitSprite>
+		<BodySprite>CandidateBody_DougBurgum</BodySprite>
+        <IdeologyTree>PRAGMATIC_ENERGY_REP</IdeologyTree>
+        <PoliticalActionCardDeck>EstablishmentRepublican</PoliticalActionCardDeck>
+        <Gender>0</Gender>
+        <PoliticalParty>-1</PoliticalParty>
+        <HomeState Map="USA">27</HomeState>
+        <Money>3100</Money>
+        <!--Unique Stats-->
+        <Stamina>12</Stamina>
+        <Intelligence>6</Intelligence>
+        <Charisma>0</Charisma>
+        <MediaBias>2</MediaBias>
+        <Experience>6</Experience>
+        <StartingMoney>3</StartingMoney>
+        <!--Unique Stats-->
+        <MinorityAppeal>3</MinorityAppeal>
+        <IssueStanceMap InternalName="Default">
+            <IssueStance Key="_RELIGIOUS">4</IssueStance>
+            <!--ISSUES-->
+            <IssueStance Key="BORDERSECURITY">60</IssueStance>
+            <IssueStance Key="FAIR_TRADE">60</IssueStance>
+            <IssueStance Key="REPEALTHEACA">70</IssueStance>
+            <IssueStance Key="MARKETSOLUTIONS">75</IssueStance>
+            <IssueStance Key="AGRICULTURESUPPORT">40</IssueStance>
+            <IssueStance Key="LESSREGULATION">70</IssueStance>
+            <IssueStance Key="INDIVIDIAL_TAX_CUTS">70</IssueStance>
+            <IssueStance Key="JOBS">60</IssueStance>
+            <IssueStance Key="ENERGY_INDEPENDENCE">80</IssueStance>
+            <IssueStance Key="ISRAEL">40</IssueStance>
+            <IssueStance Key="SECONDAMENDPROTECTION">60</IssueStance>
+            <IssueStance Key="DEFICITSPENDING">-50</IssueStance>
+            <IssueStance Key="IMPROVEDGUNCONTROL">-50</IssueStance>
+            <IssueStance Key="RURALCONNECTIVITY">60</IssueStance>
+            <IssueStance Key="TRADEWITHCHINA">-50</IssueStance>
+            <IssueStance Key="SOCIALNETWORKCENSOR">-20</IssueStance>
+            <IssueStance Key="GASNOIL">70</IssueStance>
+            <IssueStance Key="DAKOTAACCE">30</IssueStance>
+            <IssueStance Key="KEYSTONEXL">30</IssueStance>
+            <!--<IssueStance Key="LOWERINGINFLATION">60</IssueStance>
+            <IssueStance Key="CORPORATE_TAX_CUTS">35</IssueStance>
+            <IssueStance Key="STRONGMILITARY">40</IssueStance>
+            <IssueStance Key="ABORTION">-90</IssueStance>
+            <IssueStance Key="CLIMATECHA">30</IssueStance>-->
+        </IssueStanceMap>
+        <DemographicStances>
+            <!-- GENDER -->
+            <DemographicStance Key="GENDER_MALE">4</DemographicStance>
+            <DemographicStance Key="GENDER_FEMALE">1</DemographicStance>
+            <!-- RACE -->
+            <DemographicStance Key="RACE_WHITE">6</DemographicStance>
+            <DemographicStance Key="RACE_BLACK">2</DemographicStance>
+            <DemographicStance Key="RACE_HISPANIC">2</DemographicStance>
+            <DemographicStance Key="RACE_ASIAN">3</DemographicStance>
+            <DemographicStance Key="RACE_OTHER">4</DemographicStance>
+            <!-- AGE -->
+            <DemographicStance Key="AGE_YOUNG">2</DemographicStance>
+            <DemographicStance Key="AGE_MIDDLEAGED">5</DemographicStance>
+            <DemographicStance Key="AGE_OLD">6</DemographicStance>
+            <DemographicStance Key="AGE_OLDEST">6</DemographicStance>
+            <!-- INCOME -->
+            <DemographicStance Key="INCOME_LOWEST">0</DemographicStance>
+            <DemographicStance Key="INCOME_LOW">0</DemographicStance>
+            <DemographicStance Key="INCOME_MIDLOW">3</DemographicStance>
+            <DemographicStance Key="INCOME_MIDHIGH">4</DemographicStance>
+            <DemographicStance Key="INCOME_HIGH">5</DemographicStance>
+            <DemographicStance Key="INCOME_HIGHEST">5</DemographicStance>
+            <!-- PARTY -->
+            <DemographicStance Key="PARTY_LEFT">-1</DemographicStance>
+            <DemographicStance Key="PARTY_RIGHT">5</DemographicStance>
+            <DemographicStance Key="PARTY_INDEPENDENT">3</DemographicStance>
+            <!-- VIEWS -->
+            <DemographicStance Key="VIEWS_LIBERAL">2</DemographicStance>
+            <DemographicStance Key="VIEWS_MODERATE">5</DemographicStance>
+            <DemographicStance Key="VIEWS_CONSERVATIVE">7</DemographicStance>
+        </DemographicStances>
+    </Candidate>
+    <Candidate InternalName="MikePence">
+        <FirstName>Mike</FirstName>
+        <LastName>Pence</LastName>
+        <ElectionHistory>Former Vice-President</ElectionHistory>
+        <Description>Pence served as the 48th Vice President of the United States and, before that, was the Governor of Indiana. Pence is known for his deeply held Christian values that influence his policy decisions. </Description>
+        <PortraitSprite>CandidateFace_MikePence</PortraitSprite>
+        <BodySprite>CandidateBody_MikePence</BodySprite>
+        <IdeologyTree>EVANGELIC_CONSERVATIVE</IdeologyTree>
+        <PoliticalActionCardDeck>EvangelicalConservative</PoliticalActionCardDeck>
+        <Gender>0</Gender>
+        <FundRaisingAbility>7</FundRaisingAbility>
+        <!--Unique Stats-->
+        <Stamina>11</Stamina>
+        <Intelligence>7</Intelligence>
+        <Charisma>0</Charisma>
+        <MediaBias>0</MediaBias>
+        <Experience>7</Experience>
+        <StartingMoney>4</StartingMoney>
+        <!--Unique Stats-->
+        <MinorityAppeal>3</MinorityAppeal>
+        <PoliticalParty>-1</PoliticalParty>
+        <HomeState Map="USA">14</HomeState>
+        <Money>2500</Money>
+        <AllowedInExpressVersion>1</AllowedInExpressVersion>
+        <IssueStanceMap InternalName="Default">
+            <IssueStance Key="_RELIGIOUS">8</IssueStance>
+            <!--ISSUES-->
+            <IssueStance Key="BORDERSECURITY">80</IssueStance>
+            <IssueStance Key="IMMIGRATIONREFORM">70</IssueStance>
+            <IssueStance Key="REPEALTHEACA">80</IssueStance>
+            <IssueStance Key="MARKETSOLUTIONS">75</IssueStance>
+            <IssueStance Key="ENERGY_INDEPENDENCE">80</IssueStance>
+            <IssueStance Key="FREE_MARKET">85</IssueStance>
+            <IssueStance Key="CORPORATE_TAX_CUTS">80</IssueStance>
+            <IssueStance Key="ABORTION">-70</IssueStance>
+            <IssueStance Key="VOTERID">80</IssueStance>
+            <IssueStance Key="RUSSIASMIL">80</IssueStance>
+            <IssueStance Key="ISRAEL">80</IssueStance>
+            <IssueStance Key="NATIONALISM">80</IssueStance>
+            <IssueStance Key="RELIGIOUSFREEDOM">80</IssueStance>
+            <IssueStance Key="TRADITIONALVALUES">80</IssueStance>
+            <IssueStance Key="LESSREGULATION">75</IssueStance>
+            <IssueStance Key="DEFICITSPENDING">-70</IssueStance>
+            <IssueStance Key="CRIME">80</IssueStance>
+            <IssueStance Key="SEXGENDERPROTECTIONS">-60</IssueStance>
+            <IssueStance Key="SOCIALNETWORKCENSOR">-70</IssueStance>
+        </IssueStanceMap>
+        <DemographicStances>
+            <!-- GENDER -->
+            <DemographicStance Key="GENDER_MALE">5</DemographicStance>
+            <DemographicStance Key="GENDER_FEMALE">1</DemographicStance>
+            <!-- RACE -->
+            <DemographicStance Key="RACE_WHITE">6</DemographicStance>
+            <DemographicStance Key="RACE_BLACK">2</DemographicStance>
+            <DemographicStance Key="RACE_HISPANIC">3</DemographicStance>
+            <DemographicStance Key="RACE_ASIAN">1</DemographicStance>
+            <DemographicStance Key="RACE_OTHER">1</DemographicStance>
+            <!-- AGE -->
+            <DemographicStance Key="AGE_YOUNG">2</DemographicStance>
+            <DemographicStance Key="AGE_MIDDLEAGED">4</DemographicStance>
+            <DemographicStance Key="AGE_OLD">5</DemographicStance>
+            <DemographicStance Key="AGE_OLDEST">4</DemographicStance>
+            <!-- INCOME -->
+            <DemographicStance Key="INCOME_LOWEST">1</DemographicStance>
+            <DemographicStance Key="INCOME_LOW">1</DemographicStance>
+            <DemographicStance Key="INCOME_MIDLOW">2</DemographicStance>
+            <DemographicStance Key="INCOME_MIDHIGH">4</DemographicStance>
+            <DemographicStance Key="INCOME_HIGH">5</DemographicStance>
+            <DemographicStance Key="INCOME_HIGHEST">5</DemographicStance>
+            <!-- PARTY -->
+            <DemographicStance Key="PARTY_LEFT">-3</DemographicStance>
+            <DemographicStance Key="PARTY_RIGHT">7</DemographicStance>
+            <DemographicStance Key="PARTY_INDEPENDENT">3</DemographicStance>
+            <!-- VIEWS -->
+            <DemographicStance Key="VIEWS_LIBERAL">-4</DemographicStance>
+            <DemographicStance Key="VIEWS_MODERATE">4</DemographicStance>
+            <DemographicStance Key="VIEWS_CONSERVATIVE">7</DemographicStance>
+        </DemographicStances>
+    </Candidate>
+    <!-- **************************************************************************************** -->
+    <!-- Independents -->
+    <!-- **************************************************************************************** -->
+    <Candidate InternalName="RobertKennedyJR">
+        <FirstName>Robert</FirstName>
+        <LastName>Kennedy Jr.</LastName>
+        <Description>Robert Kennedy Jr. is the son of former U.S. Senator Robert F. Kennedy. He is an American environmental attorney, author, and activist, best known for his advocacy in environmental law and his role as president of the board of Waterkeeper Alliance, a non-profit environmental group. Post-pandemic he has garnered media attention for his controversial views on vaccines, often being characterized as a vaccine skeptic.</Description>
+        <ElectionHistory>Independent Candidate</ElectionHistory>
+        <PortraitSprite>CandidateFace_RobertKennedyJR</PortraitSprite>
+		<BodySprite>CandidateBody_RobertKennedyJR</BodySprite>
+        <IdeologyTree>KENNEDYDEMOCRAT</IdeologyTree>
+        <PoliticalActionCardDeck>Independent</PoliticalActionCardDeck>
+        <Gender>0</Gender>
+        <PoliticalParty>2</PoliticalParty>
+        <HomeState Map="USA">33</HomeState>
+        <Money>3100</Money>
+        <Stamina>13</Stamina>
+        <Intelligence>5</Intelligence>
+        <Charisma>1</Charisma>
+        <MediaBias>-1</MediaBias>
+        <Experience>6</Experience>
+        <StartingMoney>4</StartingMoney>
+        <IssueStanceMap InternalName="Default">
+            <IssueStance Key="_RELIGIOUS">4</IssueStance>
+            <!--ISSUES-->
+            <IssueStance Key="BORDERSECURITY">50</IssueStance>
+            <IssueStance Key="HIGHERMINI">50</IssueStance>
+            <IssueStance Key="UNIONS">50</IssueStance>
+            <IssueStance Key="BIG_PHARMA">-30</IssueStance>
+            <IssueStance Key="ENVIRONMENT">90</IssueStance>
+            <IssueStance Key="CLIMATECHA">60</IssueStance>
+            <IssueStance Key="CORPORATE_TAX_CUTS">-60</IssueStance>
+            <IssueStance Key="UKRAINEAID">-40</IssueStance>
+            <IssueStance Key="FAIR_TRADE">50</IssueStance>
+            <IssueStance Key="INTELAGENCYTRANSPARENCY">40</IssueStance>
+            <IssueStance Key="SMALLBUSINESS">70</IssueStance>
+            <IssueStance Key="MARKETSOLUTIONS">40</IssueStance>
+            <IssueStance Key="AGRICULTURESUPPORT">60</IssueStance>
+            <IssueStance Key="REDUCINGWE">40</IssueStance>
+            <IssueStance Key="SOCIALNETWORKCENSOR">-40</IssueStance>
+            <IssueStance Key="GREENNEWDEAL">30</IssueStance>
+            <IssueStance Key="LAWENFORCEMENTACCOUNTABILITY">40</IssueStance>
+            <IssueStance Key="EXPANDPUBLICHEALTHCARE">50</IssueStance>
+            <IssueStance Key="ENERGY_INDEPENDENCE">40</IssueStance>
+            <IssueStance Key="RELIGIOUSFREEDOM">60</IssueStance>
+            <IssueStance Key="INTEL_AGENCY_REFORM">20</IssueStance>
+            <IssueStance Key="LESSREGULATION">60</IssueStance>
+            <IssueStance Key="RUSSIASMIL">-30</IssueStance>
+            <IssueStance Key="THOUGHTPOLICE">-30</IssueStance>
+            <IssueStance Key="SEXGENDERPROTECTIONS">-20</IssueStance>
+            <IssueStance Key="SUPPORTINGCHARTERSCHOOLS">50</IssueStance>
+            <IssueStance Key="LOANFORGIVE">20</IssueStance>
+            <IssueStance Key="BORDERSECURITY">80</IssueStance>
+        </IssueStanceMap>
+        <DemographicStances>
+            <!-- GENDER -->
+            <DemographicStance Key="GENDER_MALE">7</DemographicStance>
+            <DemographicStance Key="GENDER_FEMALE">4</DemographicStance>
+            <!-- RACE -->
+            <DemographicStance Key="RACE_WHITE">6</DemographicStance>
+            <DemographicStance Key="RACE_BLACK">4</DemographicStance>
+            <DemographicStance Key="RACE_HISPANIC">2</DemographicStance>
+            <DemographicStance Key="RACE_ASIAN">2</DemographicStance>
+            <DemographicStance Key="RACE_OTHER">3</DemographicStance>
+            <!-- AGE -->
+            <DemographicStance Key="AGE_YOUNG">2</DemographicStance>
+            <DemographicStance Key="AGE_MIDDLEAGED">5</DemographicStance>
+            <DemographicStance Key="AGE_OLD">4</DemographicStance>
+            <DemographicStance Key="AGE_OLDEST">6</DemographicStance>
+            <!-- INCOME -->
+            <DemographicStance Key="INCOME_LOWEST">5</DemographicStance>
+            <DemographicStance Key="INCOME_LOW">6</DemographicStance>
+            <DemographicStance Key="INCOME_MIDLOW">7</DemographicStance>
+            <DemographicStance Key="INCOME_MIDHIGH">5</DemographicStance>
+            <DemographicStance Key="INCOME_HIGH">4</DemographicStance>
+            <DemographicStance Key="INCOME_HIGHEST">3</DemographicStance>
+            <!-- PARTY -->
+            <DemographicStance Key="PARTY_LEFT">3</DemographicStance>
+            <DemographicStance Key="PARTY_RIGHT">-3</DemographicStance>
+            <DemographicStance Key="PARTY_INDEPENDENT">7</DemographicStance>
+            <!-- VIEWS -->
+            <DemographicStance Key="VIEWS_LIBERAL">4</DemographicStance>
+            <DemographicStance Key="VIEWS_MODERATE">5</DemographicStance>
+            <DemographicStance Key="VIEWS_CONSERVATIVE">2</DemographicStance>
+        </DemographicStances>
+    </Candidate>
+	
+	<!-- **************************************************************************************** -->
+	<!-- **************************************************************************************** -->
+	<!-- POST-RELEASE CANDIDATES -->
+	<!-- **************************************************************************************** -->
+	<!-- **************************************************************************************** -->
+
+	<!-- **************************************************************************************** -->
+	<!-- DEMOCRATS -->
+	<!-- **************************************************************************************** -->
+	<Candidate InternalName="BillClinton">
+		<FirstName>Bill</FirstName>
+		<LastName>Clinton</LastName>
+		<Description>Clinton served as the 42nd President of the United States. He advocated for a balanced budget, economic growth, and a "Third Way" approach that blended liberal and conservative policies. He also promoted social issues like LGBT rights and affirmative action.</Description>
+		<ElectionHistory>Former President</ElectionHistory>
+		<Config>BillClintonBobblehead</Config>
+		<PortraitSprite>CandidateFace_BillClinton</PortraitSprite>
+		<BodySprite>CandidateBody_BillClinton</BodySprite>
+		<IdeologyTree>ESTABLISHMENTDEMOCRAT</IdeologyTree>
+		<PoliticalActionCardDeck>EstablishmentDemocrat</PoliticalActionCardDeck>
+		<Gender>0</Gender>
+		<PoliticalParty>-1</PoliticalParty>
+		<HomeState Map="USA">2</HomeState>
+		<!--STATS-->
+		<Stamina>14</Stamina>
+		<Intelligence>6</Intelligence>
+		<Charisma>1</Charisma>
+		<MediaBias>-1</MediaBias>
+		<Experience>6</Experience>
+		<StartingMoney>3</StartingMoney>
+		<!--ISSUES-->		
+		<IssueStanceMap InternalName="Default">
+			<IssueStance Key="IMMIGRATIONREFORM">60</IssueStance>
+			<IssueStance Key="EXPANDPUBLICHEALTHCARE">40</IssueStance>
+			<IssueStance Key="HIGHERWEALTHYTAXES">20</IssueStance>
+			<IssueStance Key="FREE_MARKET">50</IssueStance>
+			<IssueStance Key="JOBS">60</IssueStance>	    
+			<IssueStance Key="CLIMATECHA">40</IssueStance>
+			<IssueStance Key="LESSREGULATION">40</IssueStance>
+			<IssueStance Key="CRIME">60</IssueStance>
+			<IssueStance Key="IMPROVEDGUNCONTROL">40</IssueStance>
+			<IssueStance Key="REPEALTHEACA">-40</IssueStance>
+			<IssueStance Key="TRADEWITHCHINA">40</IssueStance>
+			<IssueStance Key="INDIVIDIAL_TAX_CUTS">40</IssueStance>
+			<IssueStance Key="CORPORATE_TAX_CUTS">50</IssueStance>
+			<IssueStance Key="LEAVENATO">-50</IssueStance>
+			<IssueStance Key="LEAVEUN">-50</IssueStance>
+			<IssueStance Key="RAISINGRETIREAGE">-40</IssueStance>
+			<IssueStance Key="DEFUNDINGLAWENFORCEMENT">-30</IssueStance>
+			<IssueStance Key="STRONGERLAWENFORCEMENT">40</IssueStance>
+			<IssueStance Key="ALTENERGY">40</IssueStance>
+			<IssueStance Key="GENDERSEXED">20</IssueStance>
+			<IssueStance Key="ABORTION">40</IssueStance>
+			<IssueStance Key="GREENNEWDEAL">60</IssueStance>
+			<IssueStance Key="RUSSIASMIL">20</IssueStance>
+			<IssueStance Key="GREENJOBS">60</IssueStance>
+			<IssueStance Key="FEDERALEDUCATION">40</IssueStance>
+			<IssueStance Key="ADDRESSINGHOMELESSNESS">40</IssueStance>
+			<IssueStance Key="DRUGPOLICING">40</IssueStance>
+			<IssueStance Key="TAXESARETHEFT">-40</IssueStance>
+			<IssueStance Key="REDUCINGWE">40</IssueStance>
+			<IssueStance Key="UNIONS">40</IssueStance>
+			<IssueStance Key="TARIFFS">-30</IssueStance>
+		</IssueStanceMap>
+	</Candidate>
+	<Candidate InternalName="BarackObama">
+		<FirstName>Barack</FirstName>
+		<LastName>Obama</LastName>
+		<Description>Obama served as the 44th President and prioritized progressive values and unity during his tenure. Notable achievements include healthcare reform, economic equity initiatives, and advancements in civil rights, such as support for marriage equality.</Description>
+		<ElectionHistory>Former President</ElectionHistory>
+        <Config>BarackObamaBobblehead</Config>
+		<PortraitSprite>CandidateFace_BarackObama</PortraitSprite>
+		<BodySprite>CandidateBody_BarackObama</BodySprite>
+		<IdeologyTree>ESTABLISHMENTDEMOCRAT</IdeologyTree>
+		<PoliticalActionCardDeck>EstablishmentDemocrat</PoliticalActionCardDeck>
+		<Gender>0</Gender>
+		<PoliticalParty>-1</PoliticalParty>
+		<HomeState Map="USA">13</HomeState>
+		<!--STATS-->
+		<Stamina>13</Stamina>
+		<Intelligence>7</Intelligence>
+		<Charisma>2</Charisma>
+		<MediaBias>1</MediaBias>
+		<Experience>7</Experience>
+		<StartingMoney>1</StartingMoney>
+		<!--ISSUES-->		
+		<IssueStanceMap InternalName="Default">
+			<IssueStance Key="REPEALTHEACA">-80</IssueStance>
+			<IssueStance Key="EXPANDPUBLICHEALTHCARE">25</IssueStance>
+			<IssueStance Key="ABORTION">35</IssueStance>
+			<IssueStance Key="HIGHERMINI">25</IssueStance>
+			<IssueStance Key="OUTSOURCINGJOBS">-30</IssueStance>
+			<IssueStance Key="TRADEWITHCHINA">25</IssueStance>
+			<IssueStance Key="COMBATSYSTEMICRACISM">35</IssueStance>
+			<IssueStance Key="VOTERID">-35</IssueStance>
+			<IssueStance Key="FIXINGINFR">35</IssueStance>
+			<IssueStance Key="FEDERALEDUCATION">35</IssueStance>
+			<IssueStance Key="CLIMATECHA">40</IssueStance>
+			<IssueStance Key="SEXGENDERPROTECTIONS">35</IssueStance>
+			<IssueStance Key="MENTALHEALTHSERVICES">30</IssueStance>
+			<IssueStance Key="IMPROVEDGUNCONTROL">20</IssueStance>
+			<IssueStance Key="LEAVEUN">-20</IssueStance>
+			<IssueStance Key="ALTENERGY">35</IssueStance>
+			<IssueStance Key="MARKETSOLUTIONS">25</IssueStance>
+			<IssueStance Key="RUSSIASMIL">20</IssueStance>
+			<IssueStance Key="LEAVENATO">-20</IssueStance>
+			<IssueStance Key="GREENJOBS">25</IssueStance>
+			<IssueStance Key="HIGHERWEALTHYTAXES">25</IssueStance>
+			<IssueStance Key="ENVIRONMENT">35</IssueStance>
+			<IssueStance Key="SEXGENDERPROTECTIONS">25</IssueStance>
+			<IssueStance Key="LOANFORGIVE">30</IssueStance>
+		</IssueStanceMap>
+	</Candidate>
+    <Candidate InternalName="JohnKerry">
+		<FirstName>John</FirstName>
+		<LastName>Kerry</LastName>
+		<Description>Kerry served as the 68th Secretary of State, prioritizing diplomacy and global cooperation, notably focusing on climate change and nuclear proliferation. His commitment to environmental protection and peace efforts defines his legacy in public service.</Description>
+		<ElectionHistory>Former Secretary of State</ElectionHistory>
+        <Config>JohnKerryBobblehead</Config>
+		<PortraitSprite>CandidateFace_JohnKerry</PortraitSprite>
+		<BodySprite>CandidateBody_JohnKerry</BodySprite>
+		<IdeologyTree>ESTABLISHMENTDEMOCRAT</IdeologyTree>
+		<PoliticalActionCardDeck>EstablishmentDemocrat</PoliticalActionCardDeck>
+		<Gender>0</Gender>
+		<PoliticalParty>-1</PoliticalParty>
+		<HomeState Map="USA">18</HomeState>
+		<!--STATS-->
+		<Stamina>13</Stamina>
+		<Intelligence>7</Intelligence>
+		<Charisma>0</Charisma>
+		<MediaBias>-1</MediaBias>
+		<Experience>7</Experience>
+		<StartingMoney>3</StartingMoney>
+		<!--ISSUES-->		
+		<IssueStanceMap InternalName="Default">
+			<IssueStance Key="CLIMATECHA">100</IssueStance>
+			<IssueStance Key="COMBATSYSTEMICRACISM">90</IssueStance>
+			<IssueStance Key="ALTENERGY">80</IssueStance>
+			<IssueStance Key="GREENNEWDEAL">70</IssueStance>
+			<IssueStance Key="ENVIRONMENT">80</IssueStance>
+			<IssueStance Key="GREENJOBS">70</IssueStance>
+			<IssueStance Key="RUSSIASMIL">-40</IssueStance>
+			<IssueStance Key="REPEALTHEACA">-60</IssueStance>
+			<IssueStance Key="EXPANDPUBLICHEALTHCARE">70</IssueStance>
+			<IssueStance Key="HIGHERMINI">50</IssueStance>
+			<IssueStance Key="FEDERALEDUCATION">70</IssueStance>
+			<IssueStance Key="ABORTION">60</IssueStance>
+			<IssueStance Key="ISRAEL">60</IssueStance>
+			<IssueStance Key="ESG">60</IssueStance>
+			<IssueStance Key="UKRAINEAID">80</IssueStance>
+			<IssueStance Key="AIREGULATION">70</IssueStance>
+			<IssueStance Key="LEAVEUN">-60</IssueStance>
+			<IssueStance Key="INTEL_AGENCY_REFORM">30</IssueStance>
+			<IssueStance Key="TRANSGENDERHEALTHCARE">-30</IssueStance>
+			<IssueStance Key="ENERGY_INDEPENDENCE">20</IssueStance>
+			<IssueStance Key="REIMBURSINGSOCIALSEC">-50</IssueStance>
+		</IssueStanceMap>
+	</Candidate>
+	<Candidate InternalName="JimmyCarter">
+		<FirstName>Jimmy</FirstName>
+		<LastName>Carter</LastName>
+		<Description>Carter, who served as the 39th President, is renowned for his dedication to humanitarian efforts. During his presidency, he emphasized human rights and brokered peace agreements. Carter's post-presidential legacy includes extensive philanthropy and advocacy for global health and democracy.</Description>
+        <ElectionHistory>Former President</ElectionHistory>
+		<Config>JimmyCarterBobblehead</Config>
+		<PortraitSprite>CandidateFace_JimmyCarter</PortraitSprite>
+        <BodySprite>CandidateBody_JimmyCarter</BodySprite>
+		<IdeologyTree>PROGRESSIVE</IdeologyTree>
+		<PoliticalActionCardDeck>OutsiderDemocrat</PoliticalActionCardDeck>
+		<Gender>0</Gender>
+		<PoliticalParty>-1</PoliticalParty>
+		<HomeState Map="USA">9</HomeState>
+		<!--STATS-->
+		<Stamina>13</Stamina>
+		<Intelligence>6</Intelligence>
+		<Charisma>0</Charisma>
+		<MediaBias>1</MediaBias>
+		<Experience>7</Experience>
+		<StartingMoney>1</StartingMoney>
+		<!--ISSUES-->		
+		<IssueStanceMap InternalName="Default">
+			<IssueStance Key="ALTENERGY">80</IssueStance>		
+			<IssueStance Key="COMBATSYSTEMICRACISM">80</IssueStance>	
+			<IssueStance Key="ENVIRONMENT">80</IssueStance>		
+			<IssueStance Key="FEDERALEDUCATION">70</IssueStance>
+			<IssueStance Key="EXPANDPUBLICHEALTHCARE">80</IssueStance>	
+			<IssueStance Key="CLIMATECHA">80</IssueStance>	
+			<IssueStance Key="ESG">60</IssueStance>
+			<IssueStance Key="LAWENFORCEMENTACCOUNTABILITY">60</IssueStance>
+			<IssueStance Key="GENDERSEXED">60</IssueStance>
+			<IssueStance Key="DOUBTELECTIONINTEGRITY">40</IssueStance>
+			<IssueStance Key="UNIVERSAL_BASIC_INCOME">40</IssueStance>
+			<IssueStance Key="STRONGMILITARY">-40</IssueStance>
+			<IssueStance Key="MENTALHEALTHSERVICES">30</IssueStance>
+			<IssueStance Key="OVERHAULINGINFRASTRUCTURE">40</IssueStance>
+			<IssueStance Key="SEXGENDERPROTECTIONS">40</IssueStance>
+			<IssueStance Key="TRANSGENDERHEALTHCARE">20</IssueStance>
+			<IssueStance Key="ABORTION">-30</IssueStance>
+			<IssueStance Key="RELIGIOUSFREEDOM">60</IssueStance>
+			<IssueStance Key="POL_SPIRTUALITY">-20</IssueStance>
+			<IssueStance Key="ADDRESSINGHOMELESSNESS">100</IssueStance>
+			<IssueStance Key="RURALCONNECTIVITY">60</IssueStance>
+			<IssueStance Key="DRUGSERVICES">40</IssueStance>
+			<IssueStance Key="AGRICULTURESUPPORT">30</IssueStance>
+			<IssueStance Key="SMALLBUSINESS">60</IssueStance>
+		</IssueStanceMap>
+	</Candidate>
+	<Candidate InternalName="AlGore">
+		<FirstName>Al</FirstName>
+		<LastName>Gore</LastName>
+		<Description>Gore, the 45th Vice President, was a leading advocate for environmental awareness and sustainability, notably through initiatives like the Kyoto Protocol. His post-political career has focused on environmental activism, earning him a Nobel Peace Prize for combating global warming.</Description>
+		<ElectionHistory>Former Vice President</ElectionHistory>
+        <Config>AlGoreBobblehead</Config>
+		<PortraitSprite>CandidateFace_AlGore</PortraitSprite>
+		<BodySprite>CandidateBody_AlGore</BodySprite>
+		<IdeologyTree>ESTABLISHMENTDEMOCRAT</IdeologyTree>
+		<PoliticalActionCardDeck>EstablishmentDemocrat</PoliticalActionCardDeck>
+		<Gender>0</Gender>
+		<PoliticalParty>-1</PoliticalParty>
+		<HomeState Map="USA">41</HomeState>
+		<!--STATS-->
+		<Stamina>13</Stamina>
+		<Intelligence>7</Intelligence>
+		<Charisma>1</Charisma>
+		<MediaBias>0</MediaBias>
+		<Experience>6</Experience>
+		<StartingMoney>2</StartingMoney>
+		<!--ISSUES-->
+		<IssueStanceMap InternalName="Default">
+			<IssueStance Key="CLIMATECHA">80</IssueStance>
+			<IssueStance Key="ALTENERGY">80</IssueStance>
+			<IssueStance Key="GREENNEWDEAL">80</IssueStance>
+			<IssueStance Key="ENVIRONMENT">80</IssueStance>
+			<IssueStance Key="ENERGY_INDEPENDENCE">70</IssueStance>
+			<IssueStance Key="DAKOTAACCE">-60</IssueStance>
+			<IssueStance Key="KEYSTONEXL">-70</IssueStance>
+			<IssueStance Key="STRONGMILITARY">-40</IssueStance>
+			<IssueStance Key="STRONGERLAWENFORCEMENT">-30</IssueStance>
+			<IssueStance Key="COMBATSYSTEMICRACISM">60</IssueStance>
+			<IssueStance Key="EXPANDPUBLICHEALTHCARE">40</IssueStance>
+			<IssueStance Key="GREENJOBS">80</IssueStance>
+			<IssueStance Key="GASNOIL">-70</IssueStance>
+			<IssueStance Key="MARINECONSERVATION">60</IssueStance>
+			<IssueStance Key="ESG">60</IssueStance>
+			<IssueStance Key="REGULATESCRIPTCOST">80</IssueStance>
+			<IssueStance Key="REPEALTHEACA">-30</IssueStance>
+			<IssueStance Key="ABORTION">40</IssueStance>
+			<IssueStance Key="MARKETSOLUTIONS">60</IssueStance>
+			<IssueStance Key="DOUBTELECTIONINTEGRITY">30</IssueStance>
+			<IssueStance Key="ADDRESSINGHOMELESSNESS">40</IssueStance>
+			<IssueStance Key="RURALCONNECTIVITY">30</IssueStance>
+			<IssueStance Key="HIGHERMINI">30</IssueStance>
+		</IssueStanceMap>
+	</Candidate>
+	<Candidate InternalName="MartinOMalley">
+		<FirstName>Martin</FirstName>
+		<LastName>O'Malley</LastName>
+		<Description>O'Malley, the former Governor of Maryland, prioritized progressive policies, including criminal justice reform and renewable energy. Since leaving office, he has remained active in Democratic causes and grassroots organizing.</Description>
+		<ElectionHistory>Former Governor</ElectionHistory>
+        <Config>MartinOMalleyBobblehead</Config>
+		<PortraitSprite>CandidateFace_MartinOMalley</PortraitSprite>
+		<BodySprite>CandidateBody_MartinOMalley</BodySprite>
+		<IdeologyTree>PROGRESSIVE</IdeologyTree>
+		<PoliticalActionCardDeck>OutsiderDemocrat</PoliticalActionCardDeck>
+		<Gender>0</Gender>
+		<PoliticalParty>-1</PoliticalParty>
+		<HomeState Map="USA">19</HomeState>
+		<!--STATS-->
+		<Stamina>13</Stamina>
+		<Intelligence>5</Intelligence>
+		<Charisma>1</Charisma>
+		<MediaBias>3</MediaBias>
+		<Experience>5</Experience>
+		<StartingMoney>2</StartingMoney>
+		<!--ISSUES-->
+		<IssueStanceMap InternalName="Default">
+			<IssueStance Key="SEXGENDERPROTECTIONS">70</IssueStance>
+			<IssueStance Key="LAWENFORCEMENTACCOUNTABILITY">70</IssueStance>
+			<IssueStance Key="CLIMATECHA">80</IssueStance>
+			<IssueStance Key="ENVIRONMENT">80</IssueStance>
+			<IssueStance Key="IMMIGRATIONREFORM">70</IssueStance>
+			<IssueStance Key="EXPANDPUBLICHEALTHCARE">70</IssueStance>
+			<IssueStance Key="HIGHERMINI">60</IssueStance>
+			<IssueStance Key="ALTENERGY">80</IssueStance>
+			<IssueStance Key="GREENJOBS">70</IssueStance>
+			<IssueStance Key="COMBATSYSTEMICRACISM">80</IssueStance>
+			<IssueStance Key="FEDERALEDUCATION">70</IssueStance>
+			<IssueStance Key="SUPPORTINGCHARTERSCHOOLS">60</IssueStance>
+			<IssueStance Key="CRIME">-50</IssueStance>
+			<IssueStance Key="OVERHAULINGINFRASTRUCTURE">70</IssueStance>
+			<IssueStance Key="DRUGSERVICES">40</IssueStance>
+			<IssueStance Key="STRONGERLAWENFORCEMENT">30</IssueStance>
+			<IssueStance Key="DEFUNDINGLAWENFORCEMENT">-30</IssueStance>
+			<IssueStance Key="LOANFORGIVE">40</IssueStance>
+			<IssueStance Key="REPEALTHEACA">-40</IssueStance>
+			<IssueStance Key="MARINECONSERVATION">70</IssueStance>
+			<IssueStance Key="REGULATESCRIPTCOST">40</IssueStance>
+			<IssueStance Key="UNIONS">30</IssueStance>
+		</IssueStanceMap>
+	</Candidate>
+	<!-- **************************************************************************************** -->
+	<!-- INDEPENDENTS -->
+	<!-- **************************************************************************************** -->
+	<Candidate InternalName="RossPerot">
+		<FirstName>Ross</FirstName>
+		<LastName>Perot</LastName>
+		<Description>Perot, an entrepreneur, gained political prominence with independent presidential runs in 1992 and 1996. He focused on fiscal responsibility and government accountability, advocating for a balanced budget and campaign finance reform. Perot's campaigns highlighted issues of national debt and trade imbalance.</Description>
+		<ElectionHistory>Entrepreneur</ElectionHistory>
+		<PortraitSprite>CandidateFace_RossPerot</PortraitSprite>
+		<BodySprite>CandidateBody_RossPerot</BodySprite>
+		<PoliticalActionCardDeck>Independent</PoliticalActionCardDeck>
+		<Gender>0</Gender>
+		<PoliticalParty>2</PoliticalParty>
+		<HomeState Map="USA">42</HomeState>
+		<!--STATS-->
+		<Stamina>12</Stamina>
+		<Intelligence>6</Intelligence>
+		<Charisma>2</Charisma>
+		<MediaBias>-1</MediaBias>
+		<Experience>5</Experience>
+		<StartingMoney>4</StartingMoney>
+		<!--ISSUES-->
+		<IssueStanceMap InternalName="Default">
+			<IssueStance Key="FAIR_TRADE">80</IssueStance>
+			<IssueStance Key="LOWERINGINFLATION">80</IssueStance>
+			<IssueStance Key="MOVEAGENCIES">60</IssueStance>
+			<IssueStance Key="CRIME">80</IssueStance>
+			<IssueStance Key="OUTSOURCINGJOBS">-60</IssueStance>
+			<IssueStance Key="DEFUNDINGLAWENFORCEMENT">-50</IssueStance>
+			<IssueStance Key="UNIVERSAL_BASIC_INCOME">-70</IssueStance>
+			<IssueStance Key="DEFICITSPENDING">-60</IssueStance>
+			<IssueStance Key="STRONGMILITARY">80</IssueStance>
+			<IssueStance Key="TRADITIONALVALUES">70</IssueStance>
+			<IssueStance Key="SOCIALISM">-70</IssueStance>
+			<IssueStance Key="LESSREGULATION">70</IssueStance>
+			<IssueStance Key="GREENNEWDEAL">40</IssueStance>
+			<IssueStance Key="DECENTRALIZEAUTHORITY">40</IssueStance>
+			<IssueStance Key="SMALLBUSINESS">30</IssueStance>
+			<IssueStance Key="ENERGY_INDEPENDENCE">50</IssueStance>
+			<IssueStance Key="TRADEWITHCHINA">-30</IssueStance>
+			<IssueStance Key="FREE_MARKET">40</IssueStance>
+			<IssueStance Key="REPEALTHEACA">50</IssueStance>
+			<IssueStance Key="INTELAGENCYTRANSPARENCY">60</IssueStance>
+			<IssueStance Key="INDIVIDIAL_TAX_CUTS">30</IssueStance>
+			<IssueStance Key="HIGHERWEALTHYTAXES">-30</IssueStance>
+			<IssueStance Key="REGULATESCRIPTCOST">30</IssueStance>
+			<IssueStance Key="AIREGULATION">-20</IssueStance>
+			<IssueStance Key="EXPANDPUBLICHEALTHCARE">20</IssueStance>
+		</IssueStanceMap>
+	</Candidate>
+	<Candidate InternalName="RalphNader">
+		<FirstName>Ralph</FirstName>
+		<LastName>Nader</LastName>
+		<Description>Nader, a prominent consumer advocate, influenced American politics through presidential runs and advocacy for consumer protection and corporate accountability. He's known for his commitment to third-party politics and regulatory reforms, highlighting issues like consumer rights and corporate influence in politics.</Description>
+		<ElectionHistory>Political Activist</ElectionHistory>
+        <Config>RalphNaderBobblehead</Config>
+		<PortraitSprite>CandidateFace_RalphNader</PortraitSprite>
+		<BodySprite>CandidateBody_RalphNader</BodySprite>
+		<PoliticalActionCardDeck>Independent</PoliticalActionCardDeck>
+		<Gender>0</Gender>
+		<PoliticalParty>2</PoliticalParty>
+		<HomeState Map="USA">6</HomeState>
+		<!--STATS-->
+		<Stamina>14</Stamina>
+		<Intelligence>7</Intelligence>
+		<Charisma>-1</Charisma>
+		<MediaBias>3</MediaBias>
+		<Experience>5</Experience>
+		<StartingMoney>1</StartingMoney>
+		<!--ISSUES-->
+		<IssueStanceMap InternalName="Default">
+			<IssueStance Key="ENVIRONMENT">80</IssueStance>
+			<IssueStance Key="GREENNEWDEAL">70</IssueStance>
+			<IssueStance Key="ALTENERGY">80</IssueStance>
+			<IssueStance Key="CLIMATECHA">80</IssueStance>
+			<IssueStance Key="EXPANDPUBLICHEALTHCARE">60</IssueStance>
+			<IssueStance Key="REDUCINGWE">70</IssueStance>
+			<IssueStance Key="MARKETSOLUTIONS">60</IssueStance>
+			<IssueStance Key="UNIONS">70</IssueStance>
+			<IssueStance Key="GREENJOBS">70</IssueStance>
+			<IssueStance Key="INTELAGENCYTRANSPARENCY">60</IssueStance>
+			<IssueStance Key="CORPORATE_TAX_CUTS">-70</IssueStance>
+			<IssueStance Key="STRONGMILITARY">-60</IssueStance>
+			<IssueStance Key="LEAVENATO">50</IssueStance>
+			<IssueStance Key="LESSREGULATION">-80</IssueStance>
+			<IssueStance Key="DEFICITSPENDING">-40</IssueStance>
+			<IssueStance Key="JOBS">60</IssueStance>
+			<IssueStance Key="FREE_MARKET">-30</IssueStance>
+			<IssueStance Key="HIGHERWEALTHYTAXES">-30</IssueStance>
+			<IssueStance Key="INDIVIDIAL_TAX_CUTS">40</IssueStance>
+			<IssueStance Key="SMALLBUSINESS">70</IssueStance>
+			<IssueStance Key="OUTSOURCINGJOBS">-70</IssueStance>
+		</IssueStanceMap>
+	</Candidate>	
+    <Candidate InternalName="JillStein">
+		<FirstName>Jill</FirstName>
+		<LastName>Stein</LastName>
+		<Description>Stein, a physician and political activist, garnered attention through her presidential runs as the Green Party candidate. She advocated for progressive environmental protection, healthcare reform, and social justice policies. Stein's campaigns emphasized the need for third-party representation and systemic change in American politics.</Description>
+		<ElectionHistory>Political Activist</ElectionHistory>
+        <Config>JillSteinBobblehead</Config>
+		<PortraitSprite>CandidateFace_JillStein</PortraitSprite>
+		<BodySprite>CandidateBody_JillStein</BodySprite>
+		<PoliticalActionCardDeck>Independent</PoliticalActionCardDeck>
+		<Gender>1</Gender>
+		<PoliticalParty>2</PoliticalParty>
+		<HomeState Map="USA">18</HomeState>
+		<!--STATS-->
+		<Stamina>12</Stamina>
+		<Intelligence>8</Intelligence>
+		<Charisma>2</Charisma>
+		<MediaBias>1</MediaBias>
+		<Experience>4</Experience>
+		<StartingMoney>2</StartingMoney>
+		<!--ISSUES-->
+		<IssueStanceMap InternalName="Default">
+			<IssueStance Key="EXPANDPUBLICHEALTHCARE">70</IssueStance>
+			<IssueStance Key="HIGHERWEALTHYTAXES">70</IssueStance>
+			<IssueStance Key="UNIVERSAL_BASIC_INCOME">60</IssueStance>
+			<IssueStance Key="HIGHERMINI">70</IssueStance>
+			<IssueStance Key="UNIONS">70</IssueStance>
+			<IssueStance Key="CLIMATECHA">80</IssueStance>
+			<IssueStance Key="GREENNEWDEAL">60</IssueStance>
+			<IssueStance Key="AIREGULATION">60</IssueStance>
+			<IssueStance Key="ADDRESSINGHOMELESSNESS">60</IssueStance>
+			<IssueStance Key="BORDERSECURITY">-50</IssueStance>
+			<IssueStance Key="StrictDeportation">-60</IssueStance>
+			<IssueStance Key="CORPORATE_TAX_CUTS">-80</IssueStance>
+			<IssueStance Key="STRONGMILITARY">-70</IssueStance>
+			<IssueStance Key="LESSREGULATION">-80</IssueStance>
+			<IssueStance Key="LEAVENATO">60</IssueStance>
+			<IssueStance Key="DEFICITSPENDING">-40</IssueStance>
+			<IssueStance Key="ILLEGALIMMIGRATION">-20</IssueStance>
+			<IssueStance Key="BUILDING_THE_WALL">-20</IssueStance>
+			<IssueStance Key="IMMIGRATIONREFORM">20</IssueStance>
+			<IssueStance Key="REPEALTHEACA">-20</IssueStance>
+			<IssueStance Key="ABORTION">60</IssueStance>
+			<IssueStance Key="REDUCINGWE">60</IssueStance>
+			<IssueStance Key="ALTENERGY">20</IssueStance>
+			<IssueStance Key="ENVIRONMENT">20</IssueStance>
+			<IssueStance Key="IMPROVEDGUNCONTROL">20</IssueStance>
+		</IssueStanceMap>
+	</Candidate>
+	<!-- **************************************************************************************** -->
+	<!-- REPUBLICANS -->
+	<!-- **************************************************************************************** -->
+	<Candidate InternalName="RonaldReagan">
+		<FirstName>Ronald</FirstName>
+		<LastName>Reagan</LastName>
+		<Description>The 40th President, Ronald Reagan, is celebrated for his conservative principles and economic policies. His presidency emphasized lower taxes, deregulation, a strong military, and a genuine anti-communist stance. Reagan's leadership is often associated with revitalizing American conservatism and ending the Cold War through diplomacy with the Soviet Union.</Description>
+		<ElectionHistory>Former President</ElectionHistory>
+        <Config>RonaldReaganBobblehead</Config>
+		<PortraitSprite>CandidateFace_RonaldReagan</PortraitSprite>
+		<BodySprite>CandidateBody_RonaldReagan</BodySprite>
+		<PoliticalActionCardDeck>EvangelicalConservative</PoliticalActionCardDeck>
+		<Gender>0</Gender>
+		<PoliticalParty>-1</PoliticalParty>
+		<HomeState Map="USA">4</HomeState>
+		<!--STATS-->
+		<Stamina>12</Stamina>
+		<Intelligence>4</Intelligence>
+		<Charisma>2</Charisma>
+		<MediaBias>3</MediaBias>
+		<Experience>6</Experience>
+		<StartingMoney>2</StartingMoney>
+		<!--ISSUES-->
+		<IssueStanceMap InternalName="Default">
+			<IssueStance Key="COMMUNISM">-100</IssueStance>
+			<IssueStance Key="SOCIALISM">-100</IssueStance>
+			<IssueStance Key="UNIONS">-80</IssueStance>
+			<IssueStance Key="STRONGMILITARY">80</IssueStance>
+			<IssueStance Key="CORPORATE_TAX_CUTS">70</IssueStance>
+			<IssueStance Key="FREE_MARKET">80</IssueStance>
+			<IssueStance Key="GASNOIL">60</IssueStance>
+			<IssueStance Key="LESSREGULATION">70</IssueStance>
+			<IssueStance Key="CRIME">70</IssueStance>
+			<IssueStance Key="SECONDAMENDPROTECTION">70</IssueStance>
+			<IssueStance Key="RELIGIOUSFREEDOM">60</IssueStance>
+			<IssueStance Key="GREENNEWDEAL">-80</IssueStance>
+			<IssueStance Key="HIGHERMINI">-50</IssueStance>
+			<IssueStance Key="CLIMATECHA">-60</IssueStance>
+			<IssueStance Key="DRUGPOLICING">60</IssueStance>
+			<IssueStance Key="POL_SPIRTUALITY">50</IssueStance>
+			<IssueStance Key="TRADITIONALVALUES">70</IssueStance>
+			<IssueStance Key="NATIONALISM">60</IssueStance>
+			<IssueStance Key="ABORTION">-40</IssueStance>
+			<IssueStance Key="ILLEGALIMMIGRATION">-20</IssueStance>
+			<IssueStance Key="INDIVIDIAL_TAX_CUTS">40</IssueStance>
+			<IssueStance Key="ALTENERGY">-40</IssueStance>
+			<IssueStance Key="TRANSGENDERHEALTHCARE">-60</IssueStance>
+			<IssueStance Key="SEXGENDERPROTECTIONS">-40</IssueStance>
+			<IssueStance Key="THOUGHTPOLICE">-20</IssueStance>
+			<IssueStance Key="HIGHERWEALTHYTAXES">-30</IssueStance>
+		</IssueStanceMap>
+	</Candidate>
+    <Candidate InternalName="MittRomney">
+		<FirstName>Mitt</FirstName>
+		<LastName>Romney</LastName>
+		<Description>Romney, a Senator from Utah, is known for his pragmatic approach to governance and conservative principles. As a former governor of Massachusetts and presidential candidate, he advocated for fiscal responsibility, free-market policies, and a strong national defense. Romney's political career has been marked by a willingness to work across party lines on issues like healthcare reform and immigration.</Description>
+		<ElectionHistory>Senator</ElectionHistory>
+        <Config>MittRomneyBobblehead</Config>
+		<PortraitSprite>CandidateFace_MittRomney</PortraitSprite>
+		<BodySprite>CandidateBody_MittRomney</BodySprite>
+		<PoliticalActionCardDeck>EstablishmentRepublican</PoliticalActionCardDeck>
+		<Gender>0</Gender>
+		<PoliticalParty>-1</PoliticalParty>
+		<HomeState Map="USA">43</HomeState>
+		<!--STATS-->
+		<Stamina>11</Stamina>
+		<Intelligence>5</Intelligence>
+		<Charisma>1</Charisma>
+		<MediaBias>3</MediaBias>
+		<Experience>6</Experience>
+		<StartingMoney>3</StartingMoney>
+		<!--ISSUES-->
+		<IssueStanceMap InternalName="Default">
+			<IssueStance Key="STRONGMILITARY">70</IssueStance>
+			<IssueStance Key="CORPORATE_TAX_CUTS">60</IssueStance>
+			<IssueStance Key="FREE_MARKET">70</IssueStance>
+			<IssueStance Key="GASNOIL">60</IssueStance>
+			<IssueStance Key="LESSREGULATION">60</IssueStance>
+			<IssueStance Key="FEDERALEDUCATION">50</IssueStance>
+			<IssueStance Key="SUPPORTINGCHARTERSCHOOLS">60</IssueStance>
+			<IssueStance Key="STRONGERLAWENFORCEMENT">50</IssueStance>
+			<IssueStance Key="SECONDAMENDPROTECTION">60</IssueStance>
+			<IssueStance Key="ENERGY_INDEPENDENCE">60</IssueStance>
+			<IssueStance Key="RELIGIOUSFREEDOM">60</IssueStance>
+			<IssueStance Key="TRADITIONALVALUES">50</IssueStance>
+			<IssueStance Key="EXPANDPUBLICHEALTHCARE">-40</IssueStance>
+			<IssueStance Key="CLIMATECHA">-30</IssueStance>
+			<IssueStance Key="HIGHERWEALTHYTAXES">-50</IssueStance>
+			<IssueStance Key="SOCIALISM">-70</IssueStance>
+			<IssueStance Key="AGRICULTURESUPPORT">70</IssueStance>
+			<IssueStance Key="LEAVENATO">-60</IssueStance>
+			<IssueStance Key="ABORTION">30</IssueStance>
+			<IssueStance Key="DEFICITSPENDING">-60</IssueStance>
+			<IssueStance Key="LOWERINGINFLATION">40</IssueStance>
+			<IssueStance Key="REPEALTHEACA">-30</IssueStance>
+			<IssueStance Key="IMMIGRATIONREFORM">40</IssueStance>
+			<IssueStance Key="ILLEGALIMMIGRATION">40</IssueStance>
+			<IssueStance Key="LEAVEUN">-30</IssueStance>
+		</IssueStanceMap>
+	</Candidate>
+    <Candidate InternalName="GeorgeWBush">
+		<FirstName>George W.</FirstName>
+		<LastName>Bush</LastName>
+		<Description>Bush, the 43rd President, is recognized for his conservative leadership and response to domestic and international challenges. His presidency prioritized national security, leading to the War on Terror and the invasion of Iraq. Bush also pursued domestic policies such as tax cuts and education reform.</Description>
+		<ElectionHistory>Former President</ElectionHistory>
+		<Config>GeorgeWBushBobblehead</Config>
+		<PortraitSprite>CandidateFace_GeorgeWBush</PortraitSprite>
+		<BodySprite>CandidateBody_GeorgeWBush</BodySprite>
+		<PoliticalActionCardDeck>EstablishmentRepublican</PoliticalActionCardDeck>
+		<Gender>0</Gender>
+		<PoliticalParty>-1</PoliticalParty>
+		<HomeState Map="USA">42</HomeState>
+		<!--STATS-->
+		<Stamina>13</Stamina>
+		<Intelligence>4</Intelligence>
+		<Charisma>2</Charisma>
+		<MediaBias>1</MediaBias>
+		<Experience>6</Experience>
+		<StartingMoney>3</StartingMoney>
+		<!--ISSUES-->		
+		<IssueStanceMap InternalName="Default">
+			<IssueStance Key="STRONGMILITARY">90</IssueStance>
+			<IssueStance Key="CORPORATE_TAX_CUTS">70</IssueStance>
+			<IssueStance Key="FREE_MARKET">60</IssueStance>
+			<IssueStance Key="GASNOIL">70</IssueStance>
+			<IssueStance Key="ENERGY_INDEPENDENCE">70</IssueStance>
+			<IssueStance Key="LESSREGULATION">60</IssueStance>
+			<IssueStance Key="FEDERALEDUCATION">60</IssueStance>
+			<IssueStance Key="ISRAEL">70</IssueStance>
+			<IssueStance Key="RELIGIOUSFREEDOM">60</IssueStance>
+			<IssueStance Key="NATIONALISM">60</IssueStance>
+			<IssueStance Key="CLIMATECHA">-40</IssueStance>
+			<IssueStance Key="LEAVENATO">-80</IssueStance>
+			<IssueStance Key="HIGHERWEALTHYTAXES">-70</IssueStance>
+			<IssueStance Key="OUTSOURCINGJOBS">-40</IssueStance>
+			<IssueStance Key="SMALLBUSINESS">60</IssueStance>
+			<IssueStance Key="LEAVEUN">-80</IssueStance>
+			<IssueStance Key="DEFICITSPENDING">-50</IssueStance>
+			<IssueStance Key="INTELAGENCYTRANSPARENCY">-40</IssueStance>
+			<IssueStance Key="INDIVIDIAL_TAX_CUTS">-40</IssueStance>
+			<IssueStance Key="TRADITIONALVALUES">50</IssueStance>
+			<IssueStance Key="POL_SPIRTUALITY">40</IssueStance>
+			<IssueStance Key="LOANFORGIVE">-40</IssueStance>
+		</IssueStanceMap>
+	</Candidate>
+	<Candidate InternalName="GeorgeHWBush">
+		<FirstName>George H. W.</FirstName>
+		<LastName>Bush</LastName>
+		<Description>George H. W. Bush, the 41st President, is noted for his diplomatic achievements, including the end of the Cold War and the victory in the Gulf War. During his tenure, he also prioritized domestic issues like education reform and environmental protection.</Description>
+		<ElectionHistory>Former President</ElectionHistory>
+		<Config>GeorgeHWBushBobblehead</Config>
+		<PortraitSprite>CandidateFace_GeorgeHWBush</PortraitSprite>
+		<BodySprite>CandidateBody_GeorgeHWBush</BodySprite>
+		<PoliticalActionCardDeck>EstablishmentRepublican</PoliticalActionCardDeck>
+		<Gender>0</Gender>
+		<PoliticalParty>-1</PoliticalParty>
+		<HomeState Map="USA">42</HomeState>
+		<!--STATS-->
+		<Stamina>12</Stamina>
+		<Intelligence>5</Intelligence>
+		<Charisma>0</Charisma>
+		<MediaBias>1</MediaBias>
+		<Experience>7</Experience>
+		<StartingMoney>3</StartingMoney>
+		<!--ISSUES-->
+		<IssueStanceMap InternalName="Default">
+			<IssueStance Key="STRONGMILITARY">80</IssueStance>
+			<IssueStance Key="CORPORATE_TAX_CUTS">60</IssueStance>
+			<IssueStance Key="FREE_MARKET">60</IssueStance>
+			<IssueStance Key="GASNOIL">60</IssueStance>
+			<IssueStance Key="LESSREGULATION">60</IssueStance>
+			<IssueStance Key="FEDERALEDUCATION">50</IssueStance>
+			<IssueStance Key="STRONGERLAWENFORCEMENT">60</IssueStance>
+			<IssueStance Key="RELIGIOUSFREEDOM">50</IssueStance>
+			<IssueStance Key="TRADITIONALVALUES">60</IssueStance>
+			<IssueStance Key="HIGHERMINI">-40</IssueStance>
+			<IssueStance Key="CLIMATECHA">-30</IssueStance>
+			<IssueStance Key="DEFICITSPENDING">-80</IssueStance>
+			<IssueStance Key="LEAVENATO">-50</IssueStance>
+			<IssueStance Key="ENVIRONMENT">50</IssueStance>
+			<IssueStance Key="SOCIALISM">-70</IssueStance>
+			<IssueStance Key="COMMUNISM">-80</IssueStance>
+			<IssueStance Key="LOWERINGINFLATION">70</IssueStance>
+			<IssueStance Key="HIGHERWEALTHYTAXES">-40</IssueStance>
+			<IssueStance Key="REDUCINGWE">20</IssueStance>
+			<IssueStance Key="SMALLBUSINESS">60</IssueStance>
+			<IssueStance Key="TARIFFS">-30</IssueStance>
+			<IssueStance Key="FAIR_TRADE">60</IssueStance>
+			<IssueStance Key="NATIONALISM">30</IssueStance>
+			<IssueStance Key="IMPROVEDGUNCONTROL">50</IssueStance>
+		</IssueStanceMap>
+	</Candidate>
+	<Candidate InternalName="DwightDEisenhower">
+		<FirstName>Dwight D.</FirstName>
+		<LastName>Eisenhower</LastName>
+		<Description>The 34th President, Eisenhower, oversaw the interstate highway system and advanced civil rights. His military background influenced his diplomatic approach, focusing on easing Cold War tensions.</Description>
+		<ElectionHistory>Former President</ElectionHistory>
+		<Config>DwightDEisenhowerBobblehead</Config>
+		<PortraitSprite>CandidateFace_DwightDEisenhower</PortraitSprite>
+		<BodySprite>CandidateBody_DwightDEisenhower</BodySprite>
+		<PoliticalActionCardDeck>EstablishmentRepublican</PoliticalActionCardDeck>
+		<Gender>0</Gender>
+		<PoliticalParty>-1</PoliticalParty>
+		<HomeState Map="USA">42</HomeState>
+		<!--STATS-->
+		<Stamina>14</Stamina>
+		<Intelligence>4</Intelligence>
+		<Charisma>1</Charisma>
+		<MediaBias>2</MediaBias>
+		<Experience>6</Experience>
+		<StartingMoney>2</StartingMoney>
+		<!--ISSUES-->
+		<IssueStanceMap InternalName="Default">
+			<IssueStance Key="STRONGMILITARY">60</IssueStance>
+			<IssueStance Key="FIXINGINFR">80</IssueStance>
+			<IssueStance Key="FEDERALEDUCATION">50</IssueStance>
+			<IssueStance Key="SECONDAMENDPROTECTION">40</IssueStance>
+			<IssueStance Key="ENERGY_INDEPENDENCE">60</IssueStance>
+			<IssueStance Key="STRONGERLAWENFORCEMENT">50</IssueStance>
+			<IssueStance Key="NATIONALISM">60</IssueStance>
+			<IssueStance Key="UNIVERSAL_BASIC_INCOME">-70</IssueStance>
+			<IssueStance Key="SOCIALISM">-80</IssueStance>
+			<IssueStance Key="COMMUNISM">-80</IssueStance>
+			<IssueStance Key="INTELAGENCYTRANSPARENCY">-30</IssueStance>
+			<IssueStance Key="TARIFFS">40</IssueStance>
+			<IssueStance Key="REIMBURSINGSOCIALSEC">30</IssueStance>
+			<IssueStance Key="COMBATSYSTEMICRACISM">30</IssueStance>
+			<IssueStance Key="RELIGIOUSFREEDOM">80</IssueStance>
+			<IssueStance Key="TRADITIONALVALUES">70</IssueStance>
+			<IssueStance Key="POL_SPIRTUALITY">70</IssueStance>
+			<IssueStance Key="LEAVENATO">-60</IssueStance>
+			<IssueStance Key="DEFICITSPENDING">-30</IssueStance>
+			<IssueStance Key="LOWERINGINFLATION">30</IssueStance>
+			<IssueStance Key="LESSREGULATION">-20</IssueStance>
+			<IssueStance Key="OVERHAULINGINFRASTRUCTURE">20</IssueStance>
+			<IssueStance Key="CLASSROOM_TRANSPARENCY_PARENTAL_RIGHTS">20</IssueStance>
+			<IssueStance Key="ILLEGALIMMIGRATION">40</IssueStance>
+			<IssueStance Key="IMMIGRATIONREFORM">30</IssueStance>
+			<IssueStance Key="ABORTION">-30</IssueStance>
+			<IssueStance Key="INDIVIDIAL_TAX_CUTS">-20</IssueStance>
+			<IssueStance Key="CORPORATE_TAX_CUTS">-20</IssueStance>
+		</IssueStanceMap>
+	</Candidate>
+	<Candidate InternalName="RichardNixon">
+		<FirstName>Richard</FirstName>
+		<LastName>Nixon</LastName>
+		<Description>Nixon, the 37th President, enacted notable domestic and foreign policies, including environmental protection and diplomatic engagement with China and the Soviet Union.</Description>
+		<ElectionHistory>Former President</ElectionHistory>
+		<Config>RichardNixonBobblehead</Config>
+		<PortraitSprite>CandidateFace_RichardNixon</PortraitSprite>
+		<BodySprite>CandidateBody_RichardNixon</BodySprite>
+		<PoliticalActionCardDeck>EstablishmentRepublican</PoliticalActionCardDeck>
+		<Gender>0</Gender>
+		<PoliticalParty>-1</PoliticalParty>
+		<HomeState Map="USA">4</HomeState>
+		<!--STATS-->
+		<Stamina>14</Stamina>
+		<Intelligence>7</Intelligence>
+		<Charisma>0</Charisma>
+		<MediaBias>-2</MediaBias>
+		<Experience>7</Experience>
+		<StartingMoney>3</StartingMoney>
+		<!--ISSUES-->
+		<IssueStanceMap InternalName="Default">
+			<IssueStance Key="TRADEWITHCHINA">80</IssueStance>
+			<IssueStance Key="STRONGMILITARY">70</IssueStance>
+			<IssueStance Key="CORPORATE_TAX_CUTS">60</IssueStance>
+			<IssueStance Key="LOWERINGINFLATION">50</IssueStance>
+			<IssueStance Key="STRONGERLAWENFORCEMENT">70</IssueStance>
+			<IssueStance Key="ISRAEL">70</IssueStance>
+			<IssueStance Key="RELIGIOUSFREEDOM">60</IssueStance>
+			<IssueStance Key="NATIONALISM">60</IssueStance>
+			<IssueStance Key="TRADITIONALVALUES">60</IssueStance>
+			<IssueStance Key="SOCIALISM">-80</IssueStance>
+			<IssueStance Key="COMMUNISM">-80</IssueStance>
+			<IssueStance Key="LEAVENATO">-70</IssueStance>
+			<IssueStance Key="LEAVEUN">-50</IssueStance>
+			<IssueStance Key="HIGHERMINI">-40</IssueStance>
+			<IssueStance Key="CLIMATECHA">40</IssueStance>
+			<IssueStance Key="ENVIRONMENT">80</IssueStance>
+			<IssueStance Key="FAIR_TRADE">60</IssueStance>
+			<IssueStance Key="POL_SPIRTUALITY">40</IssueStance>
+			<IssueStance Key="EXPANDPUBLICHEALTHCARE">60</IssueStance>
+			<IssueStance Key="TARIFFS">50</IssueStance>
+			<IssueStance Key="JOBS">40</IssueStance>
+			<IssueStance Key="HIGHERMINI">30</IssueStance>
+		</IssueStanceMap>
+	</Candidate>
+</PresidentialCandidates>

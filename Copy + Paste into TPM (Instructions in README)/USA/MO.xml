@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<StateInfo>
+	<UID>23</UID>
+	<Name>Missouri</Name>
+	<ShortName>MO</ShortName>
+	<StrategyDefaultLeft>0</StrategyDefaultLeft>
+	<StrategyDefaultRight>1</StrategyDefaultRight>
+	<VotingPop>2846</VotingPop>
+	<Wealth>389931</Wealth>
+	<ElecVotes>11</ElecVotes>
+  <DemocratDelegates>70</DemocratDelegates>
+  <RepublicanDelegates>54</RepublicanDelegates>
+	<GenderData Count="2">
+		<Gender ID="Male">45</Gender>
+		<Gender ID="Female">55</Gender>
+	</GenderData>
+	<RaceData Count="5">
+		<Race ID="White">83</Race>
+		<Race ID="Black">13</Race>
+		<Race ID="Hispanic">2</Race>
+		<Race ID="Asian">0</Race>
+		<Race ID="Other">1</Race>
+	</RaceData>
+	<AgeData Count="4">
+		<Age ID="18to29">15</Age>
+		<Age ID="30to44">26</Age>
+		<Age ID="45to59">32</Age>
+		<Age ID="60plus">27</Age>
+	</AgeData>
+	<IncomeData Count="6">
+		<Income ID="Under15">8</Income>
+		<Income ID="15to30">15</Income>
+		<Income ID="30to50">22</Income>
+		<Income ID="50to75">24</Income>
+		<Income ID="75to100">14</Income>
+		<Income ID="100plus">17</Income>
+	</IncomeData>
+	<PartyData Count="3">
+		<Party ID="Left">34</Party>
+		<Party ID="Right">36</Party>
+		<Party ID="Independent">31</Party>
+	</PartyData>
+	<ViewData Count="3">
+		<View ID="Lib">26</View>
+		<View ID="Mod">44</View>
+		<View ID="Con">30</View>
+	</ViewData>
+	<AdjacentStates Count="8">
+		<AdjState>2</AdjState>
+		<AdjState>11</AdjState>
+		<AdjState>13</AdjState>
+		<AdjState>15</AdjState>
+		<AdjState>16</AdjState>
+		<AdjState>28</AdjState>
+		<AdjState>35</AdjState>
+		<AdjState>41</AdjState>
+	</AdjacentStates>
+</StateInfo>

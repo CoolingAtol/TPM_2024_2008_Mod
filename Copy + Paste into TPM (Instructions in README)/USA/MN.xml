@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<StateInfo>
+	<UID>22</UID>
+	<Name>Minnesota</Name>
+	<ShortName>MN</ShortName>
+	<StrategyDefaultLeft>1</StrategyDefaultLeft>
+	<StrategyDefaultRight>0</StrategyDefaultRight>
+	<VotingPop>2759</VotingPop>
+	<Wealth>446591</Wealth>
+	<ElecVotes>10</ElecVotes>
+  <DemocratDelegates>93</DemocratDelegates>
+  <RepublicanDelegates>39</RepublicanDelegates>
+	<GenderData Count="2">
+		<Gender ID="Male">49</Gender>
+		<Gender ID="Female">51</Gender>
+	</GenderData>
+	<RaceData Count="5">
+		<Race ID="White">92</Race>
+		<Race ID="Black">3</Race>
+		<Race ID="Hispanic">1</Race>
+		<Race ID="Asian">1</Race>
+		<Race ID="Other">3</Race>
+	</RaceData>
+	<AgeData Count="4">
+		<Age ID="18to29">15</Age>
+		<Age ID="30to44">24</Age>
+		<Age ID="45to59">35</Age>
+		<Age ID="60plus">25</Age>
+	</AgeData>
+	<IncomeData Count="6">
+		<Income ID="Under15">7</Income>
+		<Income ID="15to30">10</Income>
+		<Income ID="30to50">20</Income>
+		<Income ID="50to75">26</Income>
+		<Income ID="75to100">16</Income>
+		<Income ID="100plus">22</Income>
+	</IncomeData>
+	<PartyData Count="3">
+		<Party ID="Left">43</Party>
+		<Party ID="Right">37</Party>
+		<Party ID="Independent">20</Party>
+	</PartyData>
+	<ViewData Count="3">
+		<View ID="Lib">35</View>
+		<View ID="Mod">40</View>
+		<View ID="Con">25</View>
+	</ViewData>
+	<AdjacentStates Count="4">
+		<AdjState>11</AdjState>
+		<AdjState>27</AdjState>
+		<AdjState>40</AdjState>
+		<AdjState>47</AdjState>
+	</AdjacentStates>
+</StateInfo>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<StateInfo>
+	<UID>17</UID>
+	<Name>Louisiana</Name>
+	<ShortName>LA</ShortName>
+	<StrategyDefaultLeft>0</StrategyDefaultLeft>
+	<StrategyDefaultRight>1</StrategyDefaultRight>
+	<VotingPop>2149</VotingPop>
+	<Wealth>281429</Wealth>
+	<ElecVotes>8</ElecVotes>
+  <DemocratDelegates>54</DemocratDelegates>
+  <RepublicanDelegates>47</RepublicanDelegates>
+	<GenderData Count="2">
+		<Gender ID="Male">45</Gender>
+		<Gender ID="Female">55</Gender>
+	</GenderData>
+	<RaceData Count="5">
+		<Race ID="White">70</Race>
+		<Race ID="Black">27</Race>
+		<Race ID="Hispanic">2</Race>
+		<Race ID="Asian">1</Race>
+		<Race ID="Other">1</Race>
+	</RaceData>
+	<AgeData Count="4">
+		<Age ID="18to29">20</Age>
+		<Age ID="30to44">30</Age>
+		<Age ID="45to59">27</Age>
+		<Age ID="60plus">23</Age>
+	</AgeData>
+	<IncomeData Count="6">
+		<Income ID="Under15">13</Income>
+		<Income ID="15to30">19</Income>
+		<Income ID="30to50">23</Income>
+		<Income ID="50to75">19</Income>
+		<Income ID="75to100">11</Income>
+		<Income ID="100plus">15</Income>
+	</IncomeData>
+	<PartyData Count="3">
+		<Party ID="Left">40</Party>
+		<Party ID="Right">33</Party>
+		<Party ID="Independent">27</Party>
+	</PartyData>
+	<ViewData Count="3">
+		<View ID="Lib">30</View>
+		<View ID="Mod">30</View>
+		<View ID="Con">40</View>
+	</ViewData>
+	<AdjacentStates Count="3">
+		<AdjState>2</AdjState>
+		<AdjState>24</AdjState>
+		<AdjState>42</AdjState>
+	</AdjacentStates>
+</StateInfo>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<StateInfo>
+	<UID>29</UID>
+	<Name>New Hampshire</Name>
+	<ShortName>NH</ShortName>
+	<StrategyDefaultLeft>1</StrategyDefaultLeft>
+	<StrategyDefaultRight>0</StrategyDefaultRight>
+	<VotingPop>708</VotingPop>
+	<Wealth>105414</Wealth>
+	<ElecVotes>4</ElecVotes>
+  <DemocratDelegates>10</DemocratDelegates>
+  <RepublicanDelegates>22</RepublicanDelegates>
+	<GenderData Count="2">
+		<Gender ID="Male">51</Gender>
+		<Gender ID="Female">49</Gender>
+	</GenderData>
+	<RaceData Count="5">
+		<Race ID="White">95</Race>
+		<Race ID="Black">1</Race>
+		<Race ID="Hispanic">1</Race>
+		<Race ID="Asian">1</Race>
+		<Race ID="Other">2</Race>
+	</RaceData>
+	<AgeData Count="4">
+		<Age ID="18to29">16</Age>
+		<Age ID="30to44">34</Age>
+		<Age ID="45to59">29</Age>
+		<Age ID="60plus">20</Age>
+	</AgeData>
+	<IncomeData Count="6">
+		<Income ID="Under15">3</Income>
+		<Income ID="15to30">11</Income>
+		<Income ID="30to50">18</Income>
+		<Income ID="50to75">23</Income>
+		<Income ID="75to100">19</Income>
+		<Income ID="100plus">25</Income>
+	</IncomeData>
+	<PartyData Count="3">
+		<Party ID="Left">31</Party>
+		<Party ID="Right">30</Party>
+		<Party ID="Independent">39</Party>
+	</PartyData>
+	<ViewData Count="3">
+		<View ID="Lib">21</View>
+		<View ID="Mod">49</View>
+		<View ID="Con">30</View>
+	</ViewData>
+	<AdjacentStates Count="3">
+		<AdjState>18</AdjState>
+		<AdjState>20</AdjState>
+		<AdjState>45</AdjState>
+	</AdjacentStates>
+</StateInfo>

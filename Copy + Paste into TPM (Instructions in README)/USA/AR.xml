@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<StateInfo>
+	<UID>2</UID>
+	<Name>Arkansas</Name>
+	<ShortName>AR</ShortName>
+	<StrategyDefaultLeft>0</StrategyDefaultLeft>
+	<StrategyDefaultRight>1</StrategyDefaultRight>
+	<VotingPop>1092</VotingPop>
+	<Wealth>165793</Wealth>
+	<ElecVotes>6</ElecVotes>
+  <DemocratDelegates>36</DemocratDelegates>
+  <RepublicanDelegates>40</RepublicanDelegates>
+	<GenderData Count="2">
+		<Gender ID="Male">44</Gender>
+		<Gender ID="Female">56</Gender>
+	</GenderData>
+	<RaceData Count="5">
+		<Race ID="White">83</Race>
+		<Race ID="Black">15</Race>
+		<Race ID="Hispanic">1</Race>
+		<Race ID="Asian">0</Race>
+		<Race ID="Other">1</Race>
+	</RaceData>
+	<AgeData Count="4">
+		<Age ID="18to29">16</Age>
+		<Age ID="30to44">29</Age>
+		<Age ID="45to59">29</Age>
+		<Age ID="60plus">26</Age>
+	</AgeData>
+	<IncomeData Count="6">
+		<Income ID="Under15">10</Income>
+		<Income ID="15to30">22</Income>
+		<Income ID="30to50">29</Income>
+		<Income ID="50to75">22</Income>
+		<Income ID="75to100">10</Income>
+		<Income ID="100plus">9</Income>
+	</IncomeData>
+	<PartyData Count="3">
+		<Party ID="Left">12</Party>
+		<Party ID="Right">30</Party>
+		<Party ID="Independent">58</Party>
+	</PartyData>
+	<ViewData Count="3">
+		<View ID="Lib">37</View>
+		<View ID="Mod">19</View>
+		<View ID="Con">44</View>
+	</ViewData>
+	<AdjacentStates Count="6">
+		<AdjState>17</AdjState>
+		<AdjState>23</AdjState>
+		<AdjState>24</AdjState>
+		<AdjState>35</AdjState>
+		<AdjState>41</AdjState>
+		<AdjState>42</AdjState>
+	</AdjacentStates>
+</StateInfo>
+	

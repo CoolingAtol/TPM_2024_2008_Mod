@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<StateInfo>
+	<UID>20</UID>
+	<Name>Maine</Name>
+	<ShortName>ME</ShortName>
+	<StrategyDefaultLeft>1</StrategyDefaultLeft>
+	<StrategyDefaultRight>0</StrategyDefaultRight>
+	<VotingPop>716</VotingPop>
+	<Wealth>84497</Wealth>
+	<ElecVotes>4</ElecVotes>
+  <DemocratDelegates>32</DemocratDelegates>
+  <RepublicanDelegates>20</RepublicanDelegates>
+	<GenderData Count="2">
+		<Gender ID="Male">48</Gender>
+		<Gender ID="Female">52</Gender>
+	</GenderData>
+	<RaceData Count="5">
+		<Race ID="White">97</Race>
+		<Race ID="Black">1</Race>
+		<Race ID="Hispanic">1</Race>
+		<Race ID="Asian">0</Race>
+		<Race ID="Other">1</Race>
+	</RaceData>
+	<AgeData Count="4">
+		<Age ID="18to29">12</Age>
+		<Age ID="30to44">23</Age>
+		<Age ID="45to59">35</Age>
+		<Age ID="60plus">29</Age>
+	</AgeData>
+	<IncomeData Count="6">
+		<Income ID="Under15">10</Income>
+		<Income ID="15to30">14</Income>
+		<Income ID="30to50">22</Income>
+		<Income ID="50to75">22</Income>
+		<Income ID="75to100">15</Income>
+		<Income ID="100plus">17</Income>
+	</IncomeData>
+	<PartyData Count="3">
+		<Party ID="Left">36</Party>
+		<Party ID="Right">28</Party>
+		<Party ID="Independent">36</Party>
+	</PartyData>
+	<ViewData Count="3">
+		<View ID="Lib">26</View>
+		<View ID="Mod">48</View>
+		<View ID="Con">27</View>
+	</ViewData>
+	<AdjacentStates Count="2">
+		<AdjState>29</AdjState>
+	</AdjacentStates>
+</StateInfo>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<StateInfo>
+	<UID>13</UID>
+	<Name>Illinois</Name>
+	<ShortName>IL</ShortName>
+	<StrategyDefaultLeft>1</StrategyDefaultLeft>
+	<StrategyDefaultRight>0</StrategyDefaultRight>
+	<VotingPop>5436</VotingPop>
+	<Wealth>1033310</Wealth>
+	<ElecVotes>19</ElecVotes>
+  <DemocratDelegates>177</DemocratDelegates>
+  <RepublicanDelegates>64</RepublicanDelegates>
+	<GenderData Count="2">
+		<Gender ID="Male">47</Gender>
+		<Gender ID="Female">53</Gender>
+	</GenderData>
+	<RaceData Count="5">
+		<Race ID="White">77</Race>
+		<Race ID="Black">10</Race>
+		<Race ID="Hispanic">10</Race>
+		<Race ID="Asian">2</Race>
+		<Race ID="Other">1</Race>
+	</RaceData>
+	<AgeData Count="4">
+		<Age ID="18to29">12</Age>
+		<Age ID="30to44">26</Age>
+		<Age ID="45to59">33</Age>
+		<Age ID="60plus">29</Age>
+	</AgeData>
+	<IncomeData Count="6">
+		<Income ID="Under15">7</Income>
+		<Income ID="15to30">11</Income>
+		<Income ID="30to50">22</Income>
+		<Income ID="50to75">21</Income>
+		<Income ID="75to100">16</Income>
+		<Income ID="100plus">24</Income>
+	</IncomeData>
+	<PartyData Count="3">
+		<Party ID="Left">49</Party>
+		<Party ID="Right">34</Party>
+		<Party ID="Independent">17</Party>
+	</PartyData>
+	<ViewData Count="3">
+		<View ID="Lib">33</View>
+		<View ID="Mod">42</View>
+		<View ID="Con">25</View>
+	</ViewData>
+	<AdjacentStates Count="5">
+		<AdjState>11</AdjState>
+		<AdjState>14</AdjState>
+		<AdjState>16</AdjState>
+		<AdjState>23</AdjState>
+		<AdjState>47</AdjState>
+	</AdjacentStates>
+</StateInfo>
