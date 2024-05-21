@@ -1,9 +1,13 @@
 v0.1: The 2008 Campaign Begins!
 -
 -19 All New 2008 Issues Including:
+
   -The 2008 Financial Crisis
+  
   -Creating "Obamacare"
+  
   -Withdrawing from Iraq
+  
   -And more!
 
 -Slight Changes to HQs
